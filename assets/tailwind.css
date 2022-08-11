@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-[16px] text-white;
+}
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+body {
+  @apply bg-primary-50;
+}
+@layer components {
+  .container-lg {
+    @apply container w-full mx-auto py-5 2xl:px-20 xl:px-[72px] lg:px-14 md:px-10 sm:px-8 xs:px-6 2xs:px-5 3xs:px-4;
+  }
+  .container-md {
+    @apply container w-full mx-auto py-5 2xl:px-[120px] xl:px-[108px] lg:px-[84px] md:px-[60px] sm:px-12 xs:px-9 2xs:px-7 3xs:px-6;
+  }
+  .container-sm {
+    @apply container w-full mx-auto py-5 2xl:px-40 xl:px-36 lg:px-28 md:px-20 sm:px-16 xs:px-12 2xs:px-10 3xs:px-8;
+  }
+  .all-center {
+    @apply flex justify-center items-center;
+  }
+  .center-row {
+    @apply flex flex-row justify-center items-center;
+  }
+  .center-col {
+    @apply flex flex-col justify-center items-center;
+  }
+}
