@@ -40,7 +40,3 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
-
-## Nuxtv3 Tailwindv3 Nuxt-Contentv2 Template
-
-This template uses yarn package manager
