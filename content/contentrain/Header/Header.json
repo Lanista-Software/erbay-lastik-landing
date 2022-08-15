@@ -1,6 +1,11 @@
 [
   {
-    "logo": {},
+    "logo": {
+      "ID": "16b4cae3-0cc3-4cd3-85c6-df69e4b4fac7",
+      "link": "/",
+      "images": [],
+      "createdAt": 1660568827340
+    },
     "navigasyon": [],
     "buton": {},
     "ustNavigasyon": [],
