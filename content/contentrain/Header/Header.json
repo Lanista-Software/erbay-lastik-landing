@@ -3,15 +3,15 @@
     "logo": {
       "ID": "16b4cae3-0cc3-4cd3-85c6-df69e4b4fac7",
       "link": "/",
-      "images": [
+      "createdAt": 1660568827340,
+      "logoFoto": [
         {
           "ID": "b3610957-4330-45ec-8afe-57f078820234",
           "alt": "Erbay Lastik Logo",
           "src": "public/images/1660568892879_erbay.png",
           "createdAt": 1660568902967
         }
-      ],
-      "createdAt": 1660568827340
+      ]
     },
     "navigasyon": [],
     "buton": {},
