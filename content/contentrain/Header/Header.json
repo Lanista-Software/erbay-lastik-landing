@@ -3,7 +3,14 @@
     "logo": {
       "ID": "96d59234-6908-4aa6-9f01-725b629ebf38",
       "link": "/",
-      "logoFoto": [],
+      "logoFoto": [
+        {
+          "ID": "1fa7f535-9b51-4090-969d-f920a790d7d4",
+          "alt": "/",
+          "src": "public/images/1660569132734_erbay.png",
+          "createdAt": 1660569134841
+        }
+      ],
       "createdAt": 1660569126337
     },
     "navigasyon": [],
