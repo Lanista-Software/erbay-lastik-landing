@@ -127,7 +127,7 @@
         </div>
       </div>
     </section>
-    <section id="products">
+    <section id="products" class="pb-24">
       <div class="all-center flex-col">
         <div id="product-title" class="all-center flex-col pb-8">
           <LuiHeading level="4" size="xl" class="text-black">{{
@@ -137,7 +137,7 @@
             urunler.aciklama
           }}</LuiText>
         </div>
-        <div>
+        <div class="pb-16">
           <div
             id="search-card-product"
             class="container rounded-2xl bg-white mx-auto w-full flex flex-row justify-between px-8 py-4"
@@ -226,9 +226,287 @@
         </div>
       </div>
     </section>
-    <section id="brands"></section>
-    <section id="about"></section>
-    <section id="faq"></section>
+    <section
+      id="banner"
+      style="
+        background-image: url('/images/mobilbanner.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="container w-full mx-auto text-center h-96 center-col">
+        <LuiHeading level="4" size="lg" class="pb-12">{{
+          banner.baslik
+        }}</LuiHeading>
+        <LuiText class="pb-8">{{ banner.aciklama }}</LuiText>
+        <LuiButton rounded size="lg" variant="secondary">
+          <nuxt-link :to="banner.buton.link">{{
+            banner.buton.label
+          }}</nuxt-link></LuiButton
+        >
+      </div>
+    </section>
+    <section id="services" class="py-24">
+      <div class="flex flex-col justify-center items-center">
+        <div class="container-lg mx-auto text-center text-black center-col">
+          <LuiHeading level="4" size="lg" class="pb-4">{{
+            hizmetler.baslik
+          }}</LuiHeading>
+          <LuiText class="text-xl">{{ hizmetler.aciklama }}</LuiText>
+        </div>
+        <div id="services-cards" class="container-sm grid grid-cols-4 gap-16">
+          <div
+            v-for="(item, i) in hizmetler.liste"
+            :key="i"
+            class="section-services-container-item"
+          >
+            <ServiceCard :bg-url="item.fotograf" :title="item.baslik">
+              {{ item.icerik }}
+            </ServiceCard>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="brands" class="pt-36">
+      <div class="container-lg flex flex-row justify-between items-start">
+        <div id="brands-text" class="flex flex-col text-start justify-center">
+          <div class="flex flex-row items-center space-x-4 pb-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="32"
+              height="32"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path fill="#22c55e" d="M5 11h14v2H5z" />
+            </svg>
+            <LuiText class="text-xl text-slate-500">{{
+              markalar.ustbaslik
+            }}</LuiText>
+          </div>
+          <LuiHeading level="4" size="lg" class="pb-8 text-black">{{
+            markalar.baslik
+          }}</LuiHeading>
+          <LuiText class="text-xl text-slate-500 pb-8">{{
+            markalar.aciklama
+          }}</LuiText>
+          <div>
+            <LuiButton variant="primary" rounded size="lg">
+              Hemen Arayın
+            </LuiButton>
+          </div>
+        </div>
+        <div id="brands-logo" class="grid grid-cols-3 gap-4">
+          <div
+            v-for="(item, index) in markalar.liste"
+            :key="index"
+            class="bg-white rounded-2xl h-44 w-44 all-center"
+          >
+            <img :src="item.src" :alt="item.alt" class="rounded-xl p-3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="about"
+      style="background-image: url('/images/banner/aboutbanner.jpg')"
+    >
+      <div class="all-center py-24" style="background: rgba(4, 31, 69, 0.8)">
+        <div class="container-lg flex flex-row justify-between">
+          <div
+            class="text-side text-white flex flex-col justify-start lg:w-3/5"
+          >
+            <LuiHeading class="text-warning pb-4" level="2"
+              >Biz Kimiz</LuiHeading
+            >
+            <LuiText class="text-lg !text-white"
+              >Erbay Lastik, 2002 yılından bu yana www.erbaylastik.com web
+              sitesi ve diğer dijital satış platformları üzerinde farklı araç
+              tipleri için, farklı markaların ürünlerini bir arada sunan lastik
+              satış merkezidir. Merkezi Van’da bulunan şirketimiz lastik, jant
+              ve mini stepne gibi lastik sektörü ürünleri üzerine alanında uzman
+              kadrosu ile hizmet vermektedir. Erbay lastik’de otomobil
+              lastikleri Michelin, Kormoran, Nokian, Tigar, Hankook, Lassa,
+              Petlas, General, başta olmak üzere 30’un üzerinde markanın
+              ürünleri, tüm markalara eşit mesafede olduğumuz objektif bir
+              yaklaşım ile sunulmaktadır. Web sitemiz, aradığınız ürüne en hızlı
+              şekilde ulaşabilmeniz için lastik sektörüne özel olarak
+              hazırlanmıştır. Böylece Erbay Lastik, üreticiler başta olmak üzere
+              güçlü bir tedarikçi ağı ve depoları ile çoğu stoklarda hazır
+              durumdaki, 10.000 üzeri farklı lastik seçeneğini tüm Türkiye’ye
+              sevkiyat imkânı ile sunmaktadır. Misyonumuz müşteririlermizin
+              memnuniyetini en üst seviyede tutmak üzerine kuruludur. Kaliteli
+              hizmet anlayışını ilke edinmek, Sektörü, rakipleri iyi tanımak,
+              gözlemlemek, İletişime açık, geri bildirimli olmak, empati
+              kurabilmek, Mevcut durumla yetinmeyen, teknolojiyi takip eden,
+              yeni yöntemler geliştirerek rekabet gücünü arttırmaya çalışan bir
+              şirket olabilmek, Hedefe/sonuca giden yolda emin ve doğru
+              adımlarla ilerlemek, Güvenilir, verimli ve karlı hizmet vermek,
+              Takım ruhuna sahip, tüm çalışanları ile birlikte Şirket ve Marka
+              değerlerini ön planda tutmak diğer prensiplerimizdir.</LuiText
+            >
+          </div>
+          <div class="img-side lg:flex justify-end items-end hidden">
+            <img
+              src="/icons/erbay.png"
+              alt="logo"
+              class="flex justify-end items-end w-16"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq" class="contentrain-lg py-20 px-0 md:px-16 lg:px-64">
+      <div class="center-col">
+        <div class="all-center flex-col">
+          <LuiText class="pb-8 text-center text-xl"
+            >Aklınıza takılabileceğini düşündüğümüz bazı sorular ve cevapları
+            sizler için listeledik. Daha fazla bilgi almak için lütfen bizimle
+            iletişime geçmekten çekinmeyin.</LuiText
+          >
+        </div>
+        <div class="center-row space-x-4">
+          <LuiButton rounded size="md" @click="activeCategory = 'odeme'"
+            >Ödeme</LuiButton
+          >
+          <LuiButton rounded size="md" @click="activeCategory = 'teknik'"
+            >Teknik</LuiButton
+          >
+          <LuiButton rounded size="md" @click="activeCategory = 'iletisim'"
+            >İletişim</LuiButton
+          >
+        </div>
+        <lui-accordion-group class="mt-16 lg:w-2/3 lg:mx-auto">
+          <lui-accordion
+            v-for="(accordion, index) in filteredFaq"
+            :key="index"
+            :title="accordion.title"
+            class="bg-white text-black"
+          >
+            <div class="text-info-600 mb-6" v-html="accordion.rawContent"></div>
+          </lui-accordion>
+        </lui-accordion-group>
+      </div>
+    </section>
+    <section id="map" class="all-center py-24 flex flex-col">
+      <div class="section-header container-lg all-center flex-col w-3/5">
+        <LuiText class="font-bold pb-4 text-4xl text-heading">iletisim</LuiText>
+        <LuiText class="pb-8 text-center">iletisim</LuiText>
+        <div class="pb-14">
+          <a href="">
+            <LuiButton rounded size="lg" class="p-2">Haritalarda Ac</LuiButton>
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-col justify-between items-center">
+        <div class="img-side hidden lg:block">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.5466315222907!2d43.36042361566709!3d38.521165776637126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40127ab989b12c95%3A0xb9911b531d5ab773!2sMichelin%20-%20Erbay%20Lastik!5e0!3m2!1str!2str!4v1606392979587!5m2!1str!2str"
+            frameborder="0"
+            allowfullscreen
+            aria-hidden="true"
+            height="447px"
+            width="840px"
+            tabindex="0"
+            title="oto deniz adresi"
+            class="rounded-2xl"
+          ></iframe>
+        </div>
+        <div class="img-side lg:hidden">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.5466315222907!2d43.36042361566709!3d38.521165776637126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40127ab989b12c95%3A0xb9911b531d5ab773!2sMichelin%20-%20Erbay%20Lastik!5e0!3m2!1str!2str!4v1606392979587!5m2!1str!2str"
+            frameborder="0"
+            allowfullscreen
+            aria-hidden="true"
+            height="447px"
+            width="420px"
+            tabindex="0"
+            title="oto deniz adresi"
+            class="rounded-2xl"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="pb-24">
+      <div class="flex flex-col justify-center items-center">
+        <div
+          id="contact-title"
+          class="container-lg mx-auto text-center text-black center-col"
+        >
+          <LuiHeading level="4" size="lg" class="pb-4"
+            >Mesajlarınızı hemen cevaplayalım</LuiHeading
+          >
+          <LuiText class="text-xl"
+            >Sormak istediğiniz her soru, almak istediğiniz bütün hizmetlerle
+            ilgili bize mesaj gönderebilirsiniz. Soru ve görüşlerinizi
+            önemsiyoruz.</LuiText
+          >
+        </div>
+        <div class="border-2 border-blue-900 rounded-2xl flex flex-row">
+          <div
+            id="contact-input-side"
+            class="grid lg:grid-cols-2 grid-cols-1 gap-8 p-8"
+          >
+            <div class="col-span-1">
+              <div>
+                <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+                <LuiInput
+                  for="item.label"
+                  size="lg"
+                  class="w-full"
+                  placeholder="placeholder"
+                ></LuiInput>
+              </div>
+            </div>
+            <div class="col-span-1">
+              <div>
+                <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+                <LuiInput
+                  for="item.label"
+                  size="lg"
+                  class="w-full"
+                  placeholder="placeholder"
+                ></LuiInput>
+              </div>
+            </div>
+            <div class="col-span-2">
+              <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+              <LuiInput
+                for="item.label"
+                size="lg"
+                class="w-full"
+                placeholder="placeholder"
+              ></LuiInput>
+            </div>
+            <div class="col-span-2">
+              <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+              <LuiInput
+                for="item.label"
+                size="lg"
+                class="w-full"
+                placeholder="placeholder"
+              ></LuiInput>
+            </div>
+            <div class="col-span-2">
+              <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+              <LuiTextarea
+                for="item.label"
+                size="lg"
+                class="w-full h-32"
+                placeholder="placeholder"
+              ></LuiTextarea>
+            </div>
+          </div>
+          <div id="contact-image-side">
+            <img
+              src="https://via.placeholder.com/574x578/"
+              alt="placeholder"
+              class="rounded-r-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 <script setup>
@@ -428,4 +706,126 @@ const urunler = {
     },
   ],
 }
+const banner = {
+  baslik:
+    'WEB SİTEMİZDE BULUNMAYAN TÜM ÜRÜN VE HİZMETLERİMİZ İÇİN BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ',
+  aciklama: 'Telefonla iletişime geçmek için tıklayın.',
+  buton: {
+    label: 'Hemen Arayın',
+    link: 'tel:0(432)2232448',
+  },
+}
+const hizmetler = {
+  baslik: 'Erbay Lastik Yerinde Hizmetler',
+  liste: [
+    {
+      baslik: 'Jant Düzeltme',
+      icerik:
+        'Lastiklerinizin çabuk yıpranmaması için gelin jant bakımlarınızı servisimizde yapalım',
+      fotograf: '/images/service2.jpg',
+    },
+    {
+      baslik: 'Lastik Sökme ve Takma',
+      icerik:
+        'Satın aldığınız lastiklerin sökme ve takma işlemlerini biz gerçekleştirelim',
+      fotograf: '/images/service3.jpg',
+    },
+    {
+      baslik: 'Lastik hastanesi',
+      icerik:
+        'Mevsimi geçen lastiklerinizi bize emanet edin, siz muhafaza etme derdinden kurtulun',
+      fotograf: '/images/service4.jpg',
+    },
+    {
+      baslik: 'Rot Balans',
+      icerik:
+        'Lastiklerinizin en hassas ayarları için bize gelin, yollarda daha güvenli sürüş keyfini yaşayın',
+      fotograf: '/images/man.png',
+    },
+  ],
+  aciklama:
+    'Lastik satışımızın yanında yerinde verdiğimiz diğer hizmetler için ofis telefonlarımızdan bize ulaşıp daha ayrıntılı bilgi talep edebilir ve ilgili hizmetler için randevu oluşturabilirsiniz.',
+}
+const markalar = {
+  ustbaslik: 'MARKALARIMIZ',
+  baslik: 'Temsilcilsi olduğumuz bazı büyük markalar',
+  aciklama: 'Daha fazla bilgi almak ve diğer hizmetleri öğrenmek için',
+  liste: [
+    {
+      src: '/icons/markalar/ako.svg',
+      alt: 'ako',
+    },
+    {
+      src: '/icons/markalar/castrol.svg',
+      alt: 'castrol',
+    },
+    {
+      src: '/icons/markalar/General.svg',
+      alt: 'General',
+    },
+    {
+      src: '/icons/markalar/Kormoran.svg',
+      alt: 'Kormoran',
+    },
+    {
+      src: '/icons/markalar/Michelin.svg',
+      alt: 'Michelin',
+    },
+    {
+      src: '/icons/markalar/Nokian.svg',
+      alt: 'Nokian',
+    },
+    {
+      src: '/icons/markalar/Petlas.svg',
+      alt: 'Petlas',
+    },
+    {
+      src: '/icons/markalar/Tigar.svg',
+      alt: 'Tigar',
+    },
+  ],
+}
+const accordion = [
+  {
+    tag: 'odeme',
+    title: 'odeme',
+    rawContent: '<p>odeme</p>',
+  },
+  {
+    tag: 'odeme',
+    title: 'odeme',
+    rawContent: '<p>odeme</p>',
+  },
+  {
+    tag: 'teknik',
+    title: 'teknik',
+    rawContent: '<p>teknik</p>',
+  },
+  {
+    tag: 'iletisim',
+    title: 'iletisim',
+    rawContent: '<p>iletisim</p>',
+  },
+]
+const activeCategory = ref('odeme')
+
+const filteredFaq = computed(() => {
+  return accordion.filter((item) => item.tag == activeCategory.value)
+})
+
+watch(filteredFaq, (to, from) => {
+  console.log(to, from)
+})
+// let filteredFaqs = accordion
+// function showFaq(tag) {
+//   let filteredFaqs = []
+//   accordion.forEach((acc) => {
+//     console.log(acc)
+//     if (tag === acc.tag) {
+//       filteredFaqs.push(acc)
+//       console.log(filteredFaqs)
+//     }
+//   })
+//   return filteredFaqs
+// }
 </script>

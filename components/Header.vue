@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col bg-gradient-to-r from-primary-400 to-primary-700 fixed top-0 w-full h-32"
+    class="flex flex-col bg-gradient-to-r from-primary-400 to-primary-700 fixed top-0 w-full h-32 z-50"
   >
     <div id="contact" class="py-2 border-b-2 border-primary-200">
       <li class="flex flex-row justify-evenly items-center">
