@@ -95,6 +95,13 @@
             "url": "#services",
             "icon": "",
             "createdAt": 1661169881474
+          },
+          {
+            "ID": "10c98903-a1f2-43d5-87d2-f99c44d1acd4",
+            "name": "Lastik hastanesi hizmeti",
+            "url": "#services",
+            "icon": "",
+            "createdAt": 1661169894561
           }
         ],
         "createdAt": 1661163959833
