@@ -67,6 +67,13 @@
             "url": "#about",
             "icon": "",
             "createdAt": 1661169761744
+          },
+          {
+            "ID": "232f8e37-202e-4670-a4cb-cd6ca123c76d",
+            "name": "Sık Sorulanlar",
+            "url": "#faqs",
+            "icon": "",
+            "createdAt": 1661169775545
           }
         ],
         "createdAt": 1661163950568
