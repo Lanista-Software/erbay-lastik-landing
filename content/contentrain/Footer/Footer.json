@@ -11,6 +11,13 @@
             "url": "tel:0(432) 223 24 48",
             "icon": "phone",
             "createdAt": 1661166990509
+          },
+          {
+            "ID": "62ed8e5d-b570-4756-a371-3c2d4c06f039",
+            "name": "Abdurrahman Gazi, Erciş Yolu 2. Km D:No:119/A, 65040 Tuşba/Van",
+            "url": "https://g.page/IstasyonTusbaMichelin",
+            "icon": "map-pin-2",
+            "createdAt": 1661167049366
           }
         ],
         "createdAt": 1661163941636
