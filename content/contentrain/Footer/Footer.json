@@ -53,6 +53,13 @@
             "url": "#products",
             "icon": "",
             "createdAt": 1661169733297
+          },
+          {
+            "ID": "7f40dd33-8aac-4759-83ac-c6c50a921306",
+            "name": "Markalar",
+            "url": "#brands",
+            "icon": "",
+            "createdAt": 1661169748074
           }
         ],
         "createdAt": 1661163950568
