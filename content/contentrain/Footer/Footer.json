@@ -60,6 +60,13 @@
             "url": "#brands",
             "icon": "",
             "createdAt": 1661169748074
+          },
+          {
+            "ID": "7155f4b8-9582-4bad-a4b4-075aab7f80c5",
+            "name": "Hakkımızda",
+            "url": "#about",
+            "icon": "",
+            "createdAt": 1661169761744
           }
         ],
         "createdAt": 1661163950568
