@@ -34,6 +34,13 @@
         "name": "Ürünler",
         "navId": "nav-products",
         "createdAt": 1661161832682
+      },
+      {
+        "ID": "94105c69-6996-44c7-a27e-710d3e80a050",
+        "link": "#brands",
+        "name": "Markalar",
+        "navId": "nav-brands",
+        "createdAt": 1661161858841
       }
     ],
     "buton": {},
