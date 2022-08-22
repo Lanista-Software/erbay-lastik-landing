@@ -81,7 +81,15 @@
       {
         "ID": "2e89119f-5fc4-4728-a14e-8b3d68136259",
         "title": "HİZMETLER",
-        "list": [],
+        "list": [
+          {
+            "ID": "ae1104d0-8d85-45b6-9032-d40b069fe727",
+            "name": "Lastik sökme ve takma",
+            "url": "#services",
+            "icon": "",
+            "createdAt": 1661169872585
+          }
+        ],
         "createdAt": 1661163959833
       }
     ],
