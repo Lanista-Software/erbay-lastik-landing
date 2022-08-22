@@ -20,6 +20,13 @@
         "name": "Anasayfa",
         "navId": "nav-main",
         "createdAt": 1661161743130
+      },
+      {
+        "ID": "e04c6231-512a-433a-81b8-b70dd461f3bd",
+        "link": "#hit",
+        "name": "Öne Çıkanlar",
+        "navId": "nav-hit",
+        "createdAt": 1661161803833
       }
     ],
     "buton": {},
