@@ -4,7 +4,15 @@
       {
         "ID": "99792d99-8e5d-41eb-afae-c5dfc3297330",
         "title": "İLETİŞİM",
-        "list": [],
+        "list": [
+          {
+            "ID": "5eea8978-f5d0-4540-9e83-ed466e6efd87",
+            "name": "0(432) 223 24 48",
+            "url": "tel:0(432) 223 24 48",
+            "icon": "phone",
+            "createdAt": 1661166990509
+          }
+        ],
         "createdAt": 1661163941636
       },
       {
