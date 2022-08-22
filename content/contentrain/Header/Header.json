@@ -27,6 +27,13 @@
         "name": "Öne Çıkanlar",
         "navId": "nav-hit",
         "createdAt": 1661161803833
+      },
+      {
+        "ID": "f1e92c07-448f-4095-b8db-536ebbff5bae",
+        "link": "#products",
+        "name": "Ürünler",
+        "navId": "nav-products",
+        "createdAt": 1661161832682
       }
     ],
     "buton": {},
