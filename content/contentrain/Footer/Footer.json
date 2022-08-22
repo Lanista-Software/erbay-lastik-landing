@@ -18,6 +18,13 @@
             "url": "https://g.page/IstasyonTusbaMichelin",
             "icon": "map-pin-2",
             "createdAt": 1661167049366
+          },
+          {
+            "ID": "2f582925-e205-4f34-9d51-c2ec536ccb8a",
+            "name": "bilgi@erbaylastik.com",
+            "url": "mailto:bilgi@erbaylastik.com",
+            "icon": "mail",
+            "createdAt": 1661167096248
           }
         ],
         "createdAt": 1661163941636
