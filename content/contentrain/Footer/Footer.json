@@ -32,7 +32,15 @@
       {
         "ID": "94af3464-1aef-49ca-a4b6-2a119c9d53c9",
         "title": "SİTE HARİTASI",
-        "list": [],
+        "list": [
+          {
+            "ID": "99567b95-55e9-44c3-b2e3-b4bd3074e389",
+            "name": "Anasayfa",
+            "url": "/",
+            "icon": "",
+            "createdAt": 1661169689794
+          }
+        ],
         "createdAt": 1661163950568
       },
       {
