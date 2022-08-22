@@ -57,7 +57,12 @@
         "createdAt": 1661161894881
       }
     ],
-    "buton": {},
+    "buton": {
+      "ID": "b0fc1a25-6d61-4ded-9ef9-95dbb69a5e75",
+      "label": "İletişim",
+      "link": "tel:0(432) 223 24 48",
+      "createdAt": 1661162610456
+    },
     "ustNavigasyon": [],
     "createdAt": 1660569121187,
     "ID": "2f0272cf-c78a-4648-acac-92dbf776a48c"
