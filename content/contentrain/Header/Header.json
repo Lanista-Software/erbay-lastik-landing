@@ -63,7 +63,15 @@
       "link": "tel:0(432) 223 24 48",
       "createdAt": 1661162610456
     },
-    "ustNavigasyon": [],
+    "ustNavigasyon": [
+      {
+        "ID": "3e0d9a50-9ca4-4232-af53-343e7a7f1aa1",
+        "icon": "ri-phone-line",
+        "isim": "0(432) 223 24 48",
+        "link": "tel:0(432) 223 24 48",
+        "createdAt": 1661162658857
+      }
+    ],
     "createdAt": 1660569121187,
     "ID": "2f0272cf-c78a-4648-acac-92dbf776a48c"
   }
