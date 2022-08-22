@@ -66,10 +66,11 @@
     "ustNavigasyon": [
       {
         "ID": "3e0d9a50-9ca4-4232-af53-343e7a7f1aa1",
-        "icon": "ri-phone-line",
+        "icon": "phone",
         "isim": "0(432) 223 24 48",
         "link": "tel:0(432) 223 24 48",
-        "createdAt": 1661162658857
+        "createdAt": 1661162658857,
+        "updatedAt": 1661166930100
       },
       {
         "ID": "7de870d3-f6fa-4b4f-8784-23f3a355dab8",
