@@ -77,6 +77,13 @@
         "isim": "Abdurrahman Gazi, Erciş Yolu 2. Km D:No:119/A, 65040 Tuşba/Van",
         "link": "https://g.page/IstasyonTusbaMichelin",
         "createdAt": 1661162688489
+      },
+      {
+        "ID": "342f2eef-7e59-4b00-8e65-3019e590823b",
+        "icon": "ri-mail-line",
+        "isim": "bilgi@erbaylastik.com",
+        "link": "mailto:bilgi@erbaylastik.com",
+        "createdAt": 1661162715043
       }
     ],
     "createdAt": 1660569121187,
