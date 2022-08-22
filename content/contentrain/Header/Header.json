@@ -82,10 +82,11 @@
       },
       {
         "ID": "342f2eef-7e59-4b00-8e65-3019e590823b",
-        "icon": "ri-mail-line",
+        "icon": "mail",
         "isim": "bilgi@erbaylastik.com",
         "link": "mailto:bilgi@erbaylastik.com",
-        "createdAt": 1661162715043
+        "createdAt": 1661162715043,
+        "updatedAt": 1661166947665
       }
     ],
     "createdAt": 1660569121187,
