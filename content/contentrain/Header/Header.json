@@ -41,6 +41,13 @@
         "name": "Markalar",
         "navId": "nav-brands",
         "createdAt": 1661161858841
+      },
+      {
+        "ID": "2c7b5d44-a761-4cd7-9f81-c50cddff27df",
+        "link": "#about",
+        "name": "Hakkımızda",
+        "navId": "nav-about",
+        "createdAt": 1661161877516
       }
     ],
     "buton": {},
