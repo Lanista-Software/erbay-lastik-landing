@@ -1,6 +1,13 @@
 [
   {
-    "links": [],
+    "links": [
+      {
+        "ID": "99792d99-8e5d-41eb-afae-c5dfc3297330",
+        "title": "İLETİŞİM",
+        "list": [],
+        "createdAt": 1661163941636
+      }
+    ],
     "footerAlt": {},
     "createdAt": 1661163922880,
     "ID": "6e3c46a4-0e8f-4a2c-97c7-c5d2238dbf25"
