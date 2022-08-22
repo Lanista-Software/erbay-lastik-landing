@@ -46,6 +46,13 @@
             "url": "#hit",
             "icon": "",
             "createdAt": 1661169706969
+          },
+          {
+            "ID": "dcafce70-7dba-49b4-bdd2-dfb259ed8699",
+            "name": "Ürünler",
+            "url": "#products",
+            "icon": "",
+            "createdAt": 1661169733297
           }
         ],
         "createdAt": 1661163950568
