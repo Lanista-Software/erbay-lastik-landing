@@ -23,6 +23,12 @@
             "adi": "Mevsim",
             "liste": [],
             "createdAt": 1661247944664
+          },
+          {
+            "ID": "d8a131d6-7c85-4ff7-9dba-8e57cdab0c67",
+            "adi": "Yıl",
+            "liste": [],
+            "createdAt": 1661247951452
           }
         ],
         "foto": {},
