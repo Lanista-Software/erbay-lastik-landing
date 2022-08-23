@@ -121,6 +121,12 @@
           "src": "public/images/1661234468608_erbay.png",
           "alt": "Erbay Logo",
           "createdAt": 1661234476524
+        },
+        {
+          "ID": "8b1325c5-092b-45a6-a917-c535a57cb166",
+          "src": "public/images/1661234483712_lanista.svg",
+          "alt": "Lanista Logo",
+          "createdAt": 1661234489882
         }
       ],
       "info": {},
