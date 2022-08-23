@@ -17,6 +17,12 @@
             "adi": "Motor",
             "liste": [],
             "createdAt": 1661247932864
+          },
+          {
+            "ID": "8a4bd9b5-ee79-4229-95a8-c14035941338",
+            "adi": "Mevsim",
+            "liste": [],
+            "createdAt": 1661247944664
           }
         ],
         "foto": {},
