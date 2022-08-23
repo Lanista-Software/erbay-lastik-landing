@@ -41,6 +41,12 @@
             "adi": "Kesit Oranı",
             "liste": [],
             "createdAt": 1661248104290
+          },
+          {
+            "ID": "5508ef96-8b6f-44d0-bd55-4a2e2f83d972",
+            "adi": "Jant Çapı",
+            "liste": [],
+            "createdAt": 1661248187041
           }
         ],
         "foto": {},
