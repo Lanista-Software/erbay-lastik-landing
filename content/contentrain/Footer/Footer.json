@@ -115,7 +115,14 @@
       }
     ],
     "footerAlt": {
-      "logo": [],
+      "logo": [
+        {
+          "ID": "ed959bad-61d7-48a6-a3da-9086fd252efa",
+          "src": "public/images/1661234468608_erbay.png",
+          "alt": "Erbay Logo",
+          "createdAt": 1661234476524
+        }
+      ],
       "info": {},
       "createdAt": 1661234449848,
       "ID": "29ab6126-fd67-4596-a14c-f8d85e1681ff"
