@@ -14,9 +14,10 @@
         "secenekler": [
           {
             "ID": "e84f1482-0971-41e1-98ed-ac29bdeae75c",
-            "adi": "Motor",
+            "adi": "Marka",
             "liste": [],
-            "createdAt": 1661247932864
+            "createdAt": 1661247932864,
+            "updatedAt": 1661248195415
           },
           {
             "ID": "8a4bd9b5-ee79-4229-95a8-c14035941338",
