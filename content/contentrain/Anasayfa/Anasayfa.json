@@ -10,7 +10,13 @@
         "link": "tel:0(432) 223 24 48",
         "createdAt": 1661247638440
       },
-      "aramakarti": [],
+      "aramakarti": {
+        "secenekler": [],
+        "foto": {},
+        "buton": {},
+        "createdAt": 1661247922920,
+        "ID": "891ab0ac-c620-4397-b419-60321a30fdbe"
+      },
       "createdAt": 1661247603294
     },
     "populer": {},
