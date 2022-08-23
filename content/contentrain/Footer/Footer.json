@@ -129,7 +129,12 @@
           "createdAt": 1661234489882
         }
       ],
-      "info": {},
+      "info": {
+        "ID": "e7d43c97-a268-4f86-b2e3-d877a5e2b9d9",
+        "yazi": "Copyright",
+        "yil": "2022",
+        "createdAt": 1661234516215
+      },
       "createdAt": 1661234449848,
       "ID": "29ab6126-fd67-4596-a14c-f8d85e1681ff"
     },
