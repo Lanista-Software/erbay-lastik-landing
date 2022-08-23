@@ -114,7 +114,12 @@
         "createdAt": 1661163959833
       }
     ],
-    "footerAlt": {},
+    "footerAlt": {
+      "logo": [],
+      "info": {},
+      "createdAt": 1661234449848,
+      "ID": "29ab6126-fd67-4596-a14c-f8d85e1681ff"
+    },
     "createdAt": 1661163922880,
     "ID": "6e3c46a4-0e8f-4a2c-97c7-c5d2238dbf25"
   }
