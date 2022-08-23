@@ -1,6 +1,13 @@
 [
   {
-    "hero": {},
+    "hero": {
+      "ID": "4d1d2f0b-e9b6-4ba3-9dda-176b4b9a24da",
+      "baslik": "Erbay Lastik her mevsim yol güvenceniz",
+      "aciklama": "Yılların sağladığı tecrübe ve uzman kadromuzla garantili hizmet anlayışı Erbay Lastik’te. Aradığınız tipteki bütün lastiklere Van’daki satış ofisimizde veya internet mağazalarımız üzerinden ulaşabilirsiniz.",
+      "buton": [],
+      "aramakarti": [],
+      "createdAt": 1661247603294
+    },
     "populer": {},
     "urunler": {},
     "banner": {},
