@@ -11,7 +11,14 @@
         "createdAt": 1661247638440
       },
       "aramakarti": {
-        "secenekler": [],
+        "secenekler": [
+          {
+            "ID": "e84f1482-0971-41e1-98ed-ac29bdeae75c",
+            "adi": "Motor",
+            "liste": [],
+            "createdAt": 1661247932864
+          }
+        ],
         "foto": {},
         "buton": {},
         "createdAt": 1661247922920,
