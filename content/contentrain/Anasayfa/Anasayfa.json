@@ -276,7 +276,13 @@
           {
             "ID": "0ab4a1ec-ed9c-43dd-abdd-605bc9957c92",
             "adi": "Kesit Oranı",
-            "liste": [],
+            "liste": [
+              {
+                "ID": "4be9f77f-f63a-43af-adac-681f054a9141",
+                "secenek": "40",
+                "createdAt": 1661327849445
+              }
+            ],
             "createdAt": 1661326965294
           },
           {
