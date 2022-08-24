@@ -1264,6 +1264,12 @@
           "src": "public/images/1661331121765_Michelin.svg",
           "alt": "mıchelın",
           "createdAt": 1661331125116
+        },
+        {
+          "ID": "cc1e0c7d-53cb-4316-9d24-7900e0b69043",
+          "src": "public/images/1661331131479_Nokian.svg",
+          "alt": "nokian",
+          "createdAt": 1661331134177
         }
       ],
       "createdAt": 1661331042083
