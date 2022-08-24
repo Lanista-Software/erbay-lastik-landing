@@ -178,6 +178,16 @@
           "yildiz": 5,
           "buton": [],
           "createdAt": 1661322815436
+        },
+        {
+          "ID": "bef0e319-0b3e-491e-b0f9-a70c70889a03",
+          "foto": [],
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 245/40R18 97Y XL  PRIMACY3 MOE ZP(Run Flat) 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": [],
+          "createdAt": 1661322853924
         }
       ],
       "createdAt": 1661322447956
