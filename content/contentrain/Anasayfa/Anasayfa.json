@@ -1155,6 +1155,14 @@
           "aciklama": "Lastiklerinizin çabuk yıpranmaması için gelin jant bakımlarınızı servisimizde yapalım",
           "buton": [],
           "createdAt": 1661330324548
+        },
+        {
+          "ID": "506d5b57-d55e-43b6-97e7-5b6733a141ca",
+          "foto": [],
+          "baslik": "Lastik Sökme ve Takma",
+          "aciklama": "Satın aldığınız lastiklerin sökme ve takma işlemlerini biz gerçekleştirelim",
+          "buton": [],
+          "createdAt": 1661330341204
         }
       ],
       "createdAt": 1661329739300
