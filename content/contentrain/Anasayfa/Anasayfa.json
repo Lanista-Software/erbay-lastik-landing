@@ -551,7 +551,12 @@
         },
         {
           "ID": "d1a17c84-84b7-4f0c-95e4-b7d6df1cc54a",
-          "foto": [],
+          "foto": {
+            "ID": "37f52122-7f3f-4371-9a64-97880cfd9cae",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/e347ebc7-7a12-4de1-8876-0955328ba4bb/2255517.jpeg",
+            "alt": "MICHELİN 225/55R17 97Y PRIMACY 4 YAZ LASTİĞİ  2021 ÜRETİM",
+            "createdAt": 1661325138475
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELİN 225/55R17 97Y PRIMACY 4 YAZ LASTİĞİ  2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
