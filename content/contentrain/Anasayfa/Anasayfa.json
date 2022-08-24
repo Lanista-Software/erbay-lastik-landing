@@ -1309,6 +1309,13 @@
           "cevap": "Ödemelerinizi sadece kredi kartı ve banka kartı ile sipariş oluşturma aşamasında yapabilirsiniz",
           "tag": "odeme",
           "createdAt": 1661331873622
+        },
+        {
+          "ID": "92571de4-7bb4-4204-ac24-75d594643c58",
+          "soru": "Kredi kartına taksit yapılıyor mu?",
+          "cevap": "Sepetinize World, Bonus, Axess, Maximum, CardFinans ve Paraf kredi kartlarına taksit imkanı bulunmaktadır.",
+          "tag": "odeme",
+          "createdAt": 1661331893430
         }
       ],
       "createdAt": 1661331259925,
