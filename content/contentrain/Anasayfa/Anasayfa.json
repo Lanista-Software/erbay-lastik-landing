@@ -191,7 +191,12 @@
         },
         {
           "ID": "bef0e319-0b3e-491e-b0f9-a70c70889a03",
-          "foto": [],
+          "foto": {
+            "ID": "7f2e1343-bf78-4933-b71c-3b0f5f7273f9",
+            "src": "https://app.sopyo.com/public/products/48ab1a1125c3698930dac616210db21d.jpg",
+            "alt": "MICHELIN 245/40R18 97Y XL  PRIMACY3 MOE ZP(Run Flat) 2021 ÜRETİM",
+            "createdAt": 1661323125756
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 245/40R18 97Y XL  PRIMACY3 MOE ZP(Run Flat) 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
