@@ -1379,7 +1379,13 @@
         }
       ]
     },
-    "harita": {},
+    "harita": {
+      "ID": "915a7c84-3d94-46ee-a892-ae105c3397bf",
+      "baslik": "Ofisimizi ziyaret edin",
+      "aciklama": "Almak istediğiniz her türlü bilgi ve hizmet için sizleri ofisimize bekliyoruz, ikramlarımız eşliğinde sorunlarınızı dinleyelim ve hemen çözüm üretelim. Yol bilgilerini almak için adresimizi haritalarda görüntüleyebilirsiniz.",
+      "buton": [],
+      "createdAt": 1661332072991
+    },
     "mesaj": {},
     "createdAt": 1661247577078,
     "ID": "e83152d5-247b-4851-ad39-04e49b9cb188"
