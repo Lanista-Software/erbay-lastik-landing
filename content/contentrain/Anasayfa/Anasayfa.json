@@ -652,7 +652,12 @@
         },
         {
           "ID": "95f1a2cd-97f9-4a6f-b3bc-cd3b4ba58770",
-          "foto": [],
+          "foto": {
+            "ID": "64010eca-e4ad-4833-800d-362d41a75ea4",
+            "src": "https://cdn.dsmcdn.com/ty56/product/media/images/20210120/14/55502810/132295897/0/0_org_zoom.jpg",
+            "alt": "Mıchelın 215/60/17 96v Prımcy 4",
+            "createdAt": 1661325709933
+          },
           "mevsim": "YAZ",
           "lastikAdi": "Mıchelın 215/60/17 96v Prımcy 4",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
