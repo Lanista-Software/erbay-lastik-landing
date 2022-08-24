@@ -558,6 +558,16 @@
           "yildiz": 5,
           "buton": [],
           "createdAt": 1661324956564
+        },
+        {
+          "ID": "5b96d23a-b2be-4b44-9ce1-4c43db34b1e2",
+          "foto": [],
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 195/65R15 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": [],
+          "createdAt": 1661324981596
         }
       ],
       "createdAt": 1661322447956
