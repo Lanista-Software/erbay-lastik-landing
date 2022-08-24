@@ -1135,7 +1135,12 @@
       "ID": "674f25ed-5900-478b-9c84-abb51eda89f7",
       "baslik": "WEB SİTEMİZDE BULUNMAYAN TÜM ÜRÜN VE HİZMETLERİMİZ İÇİN BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ",
       "aciklama": "Telefonla iletişime geçmek için tıklayın.",
-      "buton": [],
+      "buton": {
+        "ID": "bd716501-1cd6-497a-9c66-47b335d5f711",
+        "label": "Hemen Arayın",
+        "link": "tel:0(432) 223 24 48",
+        "createdAt": 1661328038116
+      },
       "createdAt": 1661328015238
     },
     "hizmetler": {},
