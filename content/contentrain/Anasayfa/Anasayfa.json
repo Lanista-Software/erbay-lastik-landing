@@ -1147,7 +1147,16 @@
       "ID": "add6f6d3-13c5-4940-b352-80b61a990acd",
       "baslik": "Erbay Lastik Yerinde Hizmetler",
       "aciklama": "Lastik satışımızın yanında yerinde verdiğimiz diğer hizmetler için ofis telefonlarımızdan bize ulaşıp daha ayrıntılı bilgi talep edebilir ve ilgili hizmetler için randevu oluşturabilirsiniz.",
-      "hizmetKartlari": [],
+      "hizmetKartlari": [
+        {
+          "ID": "c95666a2-793c-42b7-8554-f99b26763cc3",
+          "foto": [],
+          "baslik": "Jant Düzeltme",
+          "aciklama": "Lastiklerinizin çabuk yıpranmaması için gelin jant bakımlarınızı servisimizde yapalım",
+          "buton": [],
+          "createdAt": 1661330324548
+        }
+      ],
       "createdAt": 1661329739300
     },
     "markalar": {},
