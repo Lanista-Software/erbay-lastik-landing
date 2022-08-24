@@ -892,7 +892,12 @@
           "lastikAdi": "MICHELIN 235/45R18 XL 98Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "618862c6-15fd-4f85-ab95-c50647f10d1e",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326782340
+          },
           "createdAt": 1661326696516
         },
         {
