@@ -1299,7 +1299,12 @@
       },
       "createdAt": 1661331190077
     },
-    "cokSorulanlar": {},
+    "cokSorulanlar": {
+      "ID": "377647d4-8f6d-41b0-a57b-9fef889de135",
+      "baslik": "Aklınıza takılabileceğini düşündüğümüz bazı sorular ve cevapları sizler için listeledik. Daha fazla bilgi almak için lütfen bizimle iletişime geçmekten çekinmeyin.",
+      "soruKartlari": [],
+      "createdAt": 1661331259925
+    },
     "harita": {},
     "mesaj": {},
     "createdAt": 1661247577078,
