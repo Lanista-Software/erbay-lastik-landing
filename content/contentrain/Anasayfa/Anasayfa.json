@@ -1234,7 +1234,14 @@
         "link": "tel:0(432) 223 24 48",
         "createdAt": 1661331060764
       },
-      "markaLogolari": [],
+      "markaLogolari": [
+        {
+          "ID": "19a9249c-14cd-4674-afd3-fb723070c1f5",
+          "src": "public/images/1661331080850_ako.svg",
+          "alt": "ako",
+          "createdAt": 1661331083427
+        }
+      ],
       "createdAt": 1661331042083
     },
     "hakkimizda": {},
