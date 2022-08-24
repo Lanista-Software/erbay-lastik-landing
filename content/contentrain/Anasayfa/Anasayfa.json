@@ -872,7 +872,12 @@
         },
         {
           "ID": "f39418fe-5a64-4f18-9441-5db5213a4746",
-          "foto": [],
+          "foto": {
+            "ID": "b60f64af-fb92-4329-99d7-4fe4017ee727",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/de25f002-2fad-4857-b927-edad5e5378eb/1856015PRMCY4S1.jpeg",
+            "alt": "Michelin 185/60R15 84T Primacy4 S1 Yaz Lastiği 2021 Üretim",
+            "createdAt": 1661326831926
+          },
           "mevsim": "YAZ",
           "lastikAdi": "Michelin 185/60R15 84T Primacy4 S1 Yaz Lastiği 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
