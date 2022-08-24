@@ -521,7 +521,12 @@
           "lastikAdi": "Tigar 225/55R18 98V Suv Summer Yaz Lastiği 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "f01cb964-eb23-4723-850c-451f476e87a9",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324712316
+          },
           "createdAt": 1661324631931
         }
       ],
