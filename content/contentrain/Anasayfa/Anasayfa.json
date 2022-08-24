@@ -772,7 +772,12 @@
         },
         {
           "ID": "69ac9c34-aeca-4b17-9243-9b976934f711",
-          "foto": [],
+          "foto": {
+            "ID": "0f141169-3bf5-4fa4-a54f-d5490960b0a9",
+            "src": "https://app.sopyo.com/public/products/b68e1b80eeb02be2c16bc627e1c8fd74.jpg",
+            "alt": "KORMORAN 215/55R16 97H ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326173396
+          },
           "mevsim": "YAZ",
           "lastikAdi": "KORMORAN 215/55R16 97H ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
