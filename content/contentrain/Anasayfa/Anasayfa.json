@@ -157,6 +157,11 @@
                 "ID": "0019ea95-d9ca-415d-bb66-fd315b3120b2",
                 "secenek": "Michelin",
                 "createdAt": 1661327540038
+              },
+              {
+                "ID": "66969848-544c-46cf-9488-2b82bab6ce48",
+                "secenek": "Kormoran",
+                "createdAt": 1661327545187
               }
             ],
             "createdAt": 1661326917995,
