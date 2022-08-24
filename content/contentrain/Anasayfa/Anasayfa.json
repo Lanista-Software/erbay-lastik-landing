@@ -271,7 +271,12 @@
         },
         {
           "ID": "4522f91e-6dad-4d77-8565-8aa19aafd8ce",
-          "foto": [],
+          "foto": {
+            "ID": "10040384-7c7a-463a-8bcd-76295835a416",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/2db0b8b6-52cb-498f-b8cc-6330fd2110f2/9841631854642.jpg",
+            "alt": "MICHELIN 225/50R17 98Y XL PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
+            "createdAt": 1661323445853
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 225/50R17 98Y XL PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
