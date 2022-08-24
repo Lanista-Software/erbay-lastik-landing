@@ -712,7 +712,12 @@
         },
         {
           "ID": "74616b1c-818f-42bb-880d-5d7bfb3e709b",
-          "foto": [],
+          "foto": {
+            "ID": "6850c91b-8879-4261-80da-c51c77132056",
+            "src": "https://app.sopyo.com/public/products/b68e1b80eeb02be2c16bc627e1c8fd74.jpg",
+            "alt": "KORMORAN 195/65R15 95H XL ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326092396
+          },
           "mevsim": "YAZ",
           "lastikAdi": "KORMORAN 195/65R15 95H XL ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
