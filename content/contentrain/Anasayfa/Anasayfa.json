@@ -1,0 +1,1447 @@
+[
+  {
+    "hero": {
+      "ID": "4d1d2f0b-e9b6-4ba3-9dda-176b4b9a24da",
+      "baslik": "Erbay Lastik her mevsim yol güvenceniz",
+      "aciklama": "Yılların sağladığı tecrübe ve uzman kadromuzla garantili hizmet anlayışı Erbay Lastik’te. Aradığınız tipteki bütün lastiklere Van’daki satış ofisimizde veya internet mağazalarımız üzerinden ulaşabilirsiniz.",
+      "buton": {
+        "ID": "e54638fa-52f6-4d55-85d9-bfe534e30c57",
+        "label": "İletişime Geçin",
+        "link": "tel:0(432) 223 24 48",
+        "createdAt": 1661247638440
+      },
+      "aramakarti": {
+        "secenekler": [
+          {
+            "ID": "e84f1482-0971-41e1-98ed-ac29bdeae75c",
+            "adi": "Marka",
+            "liste": [],
+            "createdAt": 1661247932864,
+            "updatedAt": 1661248195415
+          },
+          {
+            "ID": "8a4bd9b5-ee79-4229-95a8-c14035941338",
+            "adi": "Mevsim",
+            "liste": [],
+            "createdAt": 1661247944664
+          },
+          {
+            "ID": "d8a131d6-7c85-4ff7-9dba-8e57cdab0c67",
+            "adi": "Yıl",
+            "liste": [],
+            "createdAt": 1661247951452
+          },
+          {
+            "ID": "2d205ab9-f600-4e7d-9d2a-d98ad308430d",
+            "adi": "Taban Genişliği",
+            "liste": [],
+            "createdAt": 1661248094490
+          },
+          {
+            "ID": "b99ba2ab-0cb6-4000-95b8-81b8c891dd1c",
+            "adi": "Kesit Oranı",
+            "liste": [],
+            "createdAt": 1661248104290
+          },
+          {
+            "ID": "5508ef96-8b6f-44d0-bd55-4a2e2f83d972",
+            "adi": "Jant Çapı",
+            "liste": [],
+            "createdAt": 1661248187041
+          }
+        ],
+        "foto": {},
+        "buton": {},
+        "createdAt": 1661247922920,
+        "ID": "891ab0ac-c620-4397-b419-60321a30fdbe"
+      },
+      "createdAt": 1661247603294
+    },
+    "populer": {
+      "urunKartlari": [
+        {
+          "ID": "572f2066-7a86-4987-a81a-58f65cb0e986",
+          "foto": {
+            "ID": "69a74f5e-7fd7-4270-ab44-aeb186124fe8",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/01b17170-92d3-4886-adcb-ef437a5d2096/1956515nokianwrd5.jpg",
+            "alt": "Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi",
+            "createdAt": 1661321924232
+          },
+          "mevsim": "KIŞ",
+          "lastikAdi": "Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "4bd66b63-7e11-461e-a7c9-0d6f42e9f10a",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661321608260
+          },
+          "createdAt": 1661321400444
+        },
+        {
+          "ID": "40af4eec-33b9-4a35-85d8-fa2b1c73bb7d",
+          "foto": {
+            "ID": "b87111b3-cb6d-4d76-bc93-934f2c9e222c",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/cc31ee1f-e09e-4dce-8383-879491903fc3/1856515.jpeg",
+            "alt": "Nokian 185/65R15 88T WR Snowproof (D5) Kış Lastiği 2021 Üretim",
+            "createdAt": 1661321983861
+          },
+          "mevsim": "KIŞ",
+          "lastikAdi": "Nokian 185/65R15 88T WR Snowproof (D5) Kış Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "8c6d614a-f71e-4b4d-9cd4-03f9773bd2b8",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661321620340
+          },
+          "createdAt": 1661321448471
+        },
+        {
+          "ID": "7bb1f8d5-9634-4fc7-b2d4-c770d9eaa46a",
+          "foto": {
+            "ID": "69b57c16-206f-42e8-af66-d1424062345d",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/edfc66c9-079a-4dd9-b9d8-0674b3e07a28/2055516alp6.jpeg",
+            "alt": "Michelin 205/55R16 91T Alpin6 Kış Lastiği 2021 Üretim",
+            "createdAt": 1661322032956
+          },
+          "mevsim": "KIŞ",
+          "lastikAdi": "Michelin 205/55R16 91T Alpin6 Kış Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "cfe37273-c4dc-494e-b1a0-aa0ef7e7323d",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661321700597
+          },
+          "createdAt": 1661321493810
+        },
+        {
+          "ID": "42f0d997-61ac-4311-915f-fe5cd0a349e4",
+          "foto": {
+            "ID": "527f45a7-ae4c-4215-ae9d-ebe971152cba",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/a11f2f5b-7d08-4106-8cad-a9419eb2abdc/2255518TİGAR.jpeg",
+            "alt": "Tigar 225/55R18 98V Suv Summer Yaz Lastiği 2021 Üretim",
+            "createdAt": 1661322061316
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "Tigar 225/55R18 98V Suv Summer Yaz Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "27802074-9da7-471c-aac5-a00ae5f4632c",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661321710484
+          },
+          "createdAt": 1661321522484
+        }
+      ],
+      "createdAt": 1661321318406,
+      "ID": "04da6276-9b75-40fa-998e-76d2fe40779d"
+    },
+    "urunler": {
+      "ID": "51c0c4b3-1d5e-467e-b2bd-be40acf37a50",
+      "baslik": "Bayimizdeki ürünleri keşfedin",
+      "aciklama": "Bayilerimizde sizler için sunduğumuz ürünler",
+      "aramaKarti": {
+        "secenekler": [
+          {
+            "ID": "f44f5ac7-eadd-4583-95ec-d10cf9e8292e",
+            "adi": "Marka",
+            "liste": [
+              {
+                "ID": "0019ea95-d9ca-415d-bb66-fd315b3120b2",
+                "secenek": "Michelin",
+                "createdAt": 1661327540038
+              },
+              {
+                "ID": "66969848-544c-46cf-9488-2b82bab6ce48",
+                "secenek": "Kormoran",
+                "createdAt": 1661327545187
+              },
+              {
+                "ID": "45033245-34f0-4480-9347-ad676f957ef1",
+                "secenek": "Nokian",
+                "createdAt": 1661327549901
+              },
+              {
+                "ID": "24922544-3ee0-492d-90c6-35a574f59c44",
+                "secenek": "Tigar",
+                "createdAt": 1661327554371
+              }
+            ],
+            "createdAt": 1661326917995,
+            "updatedAt": 1661326983825
+          },
+          {
+            "ID": "10f34629-22af-4311-8201-b2240c53d88f",
+            "adi": "Mevsim",
+            "liste": [
+              {
+                "ID": "f9bdf544-7e49-4e28-aad6-71256e483d9f",
+                "secenek": "Yaz",
+                "createdAt": 1661327627014
+              },
+              {
+                "ID": "50a4a658-87ab-416b-aa2a-982ec395a675",
+                "secenek": "Kış",
+                "createdAt": 1661327632261
+              },
+              {
+                "ID": "651a744a-bf23-4fd1-b7ea-0efd369c9a8c",
+                "secenek": "4 Mevsim",
+                "createdAt": 1661327639646
+              }
+            ],
+            "createdAt": 1661326936298
+          },
+          {
+            "ID": "9d633d9e-c3c6-45aa-96c6-d77142aae9eb",
+            "adi": "Yıl",
+            "liste": [
+              {
+                "ID": "184a23b4-509e-4124-aef5-d933a323ebcb",
+                "secenek": "2017",
+                "createdAt": 1661327672780
+              },
+              {
+                "ID": "e0520e31-f62f-4d47-877d-c71c2a291a9c",
+                "secenek": "2019",
+                "createdAt": 1661327677476
+              },
+              {
+                "ID": "2b913c59-1408-4c96-bcff-85efb394236f",
+                "secenek": "2020",
+                "createdAt": 1661327681908
+              },
+              {
+                "ID": "3a8e2c63-aec4-4f00-ab54-6872622da9fe",
+                "secenek": "2021",
+                "createdAt": 1661327688892
+              }
+            ],
+            "createdAt": 1661326942248
+          },
+          {
+            "ID": "fe41cb70-5fc5-47c1-a45c-f13e774d86f1",
+            "adi": "Taban Genişliği",
+            "liste": [
+              {
+                "ID": "6db785d4-4bc9-42e3-9c89-2a80c8f78da9",
+                "secenek": "185",
+                "createdAt": 1661327735602
+              },
+              {
+                "ID": "7e9cca41-073f-46cc-abb5-5a4ca39fdc47",
+                "secenek": "195",
+                "createdAt": 1661327740377
+              },
+              {
+                "ID": "dd5bf4e1-3319-4cf0-8af3-65323e770dff",
+                "secenek": "205",
+                "createdAt": 1661327744777
+              },
+              {
+                "ID": "285a76e1-e700-4032-992e-9bd67ae0d312",
+                "secenek": "215",
+                "createdAt": 1661327748647
+              },
+              {
+                "ID": "4047e7dd-eda3-4d44-a8ad-f1f522286acd",
+                "secenek": "225",
+                "createdAt": 1661327752435
+              },
+              {
+                "ID": "8c784c0a-1985-4565-939b-ef40c71a89b6",
+                "secenek": "235",
+                "createdAt": 1661327756859
+              },
+              {
+                "ID": "3c205dd3-35d0-4b40-a186-1e603ec0a4d6",
+                "secenek": "245",
+                "createdAt": 1661327760435
+              },
+              {
+                "ID": "644da673-66c0-4bf6-8631-2d20b5d86700",
+                "secenek": "255",
+                "createdAt": 1661327764943
+              }
+            ],
+            "createdAt": 1661326956235
+          },
+          {
+            "ID": "0ab4a1ec-ed9c-43dd-abdd-605bc9957c92",
+            "adi": "Kesit Oranı",
+            "liste": [
+              {
+                "ID": "4be9f77f-f63a-43af-adac-681f054a9141",
+                "secenek": "40",
+                "createdAt": 1661327849445
+              },
+              {
+                "ID": "5d02631f-70ff-4c33-a323-f38fc8138e28",
+                "secenek": "45",
+                "createdAt": 1661327854440
+              },
+              {
+                "ID": "fe78dca1-19f2-4387-a1bb-474e9ed2ba9b",
+                "secenek": "50",
+                "createdAt": 1661327858353
+              },
+              {
+                "ID": "2104880e-0543-44e6-8c75-1b617297c8fa",
+                "secenek": "55",
+                "createdAt": 1661327861965
+              },
+              {
+                "ID": "603d2c60-867f-4906-83a2-d69518e109f0",
+                "secenek": "60",
+                "createdAt": 1661327865552
+              },
+              {
+                "ID": "3e476649-9649-40cc-85c4-c2dca41c867d",
+                "secenek": "65",
+                "createdAt": 1661327870164
+              }
+            ],
+            "createdAt": 1661326965294
+          },
+          {
+            "ID": "ada65ad4-5139-465e-984a-d66f4f8b4633",
+            "adi": "Jant Çapı",
+            "liste": [
+              {
+                "ID": "d51961b0-9b1c-484f-a421-cb4c61315f11",
+                "secenek": "15",
+                "createdAt": 1661327914837
+              },
+              {
+                "ID": "c3b764e8-e7c0-4e2f-a46a-9ff1cc67eba9",
+                "secenek": "16",
+                "createdAt": 1661327918726
+              },
+              {
+                "ID": "c6db773e-d773-4fd1-8339-a1438a2be31e",
+                "secenek": "17",
+                "createdAt": 1661327922884
+              },
+              {
+                "ID": "2f321720-f7b0-4d75-9f43-90982ca57833",
+                "secenek": "18",
+                "createdAt": 1661327927996
+              },
+              {
+                "ID": "0c1bb824-fa74-442a-8a48-878cbbef713b",
+                "secenek": "19",
+                "createdAt": 1661327932076
+              }
+            ],
+            "createdAt": 1661326974028
+          }
+        ],
+        "createdAt": 1661326898963,
+        "ID": "2bc499e5-28b6-476d-bb10-52f91b1e9a80"
+      },
+      "urunKartlari": [
+        {
+          "ID": "b0441f9a-df25-46d6-bc0d-b9e29ddf69d9",
+          "foto": {
+            "ID": "7638f49e-03cb-41fd-8b95-ebf8ab22d82f",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/b937eada-a68c-4d29-91c1-0a75f3cf2838/2454519PLTOSPORT4.jpeg",
+            "alt": "Michelin 245/45R19 102Y XL Pilot Sport4 Yaz Lastiği 2020 Üretim",
+            "createdAt": 1661322573404
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "Michelin 245/45R19 102Y XL Pilot Sport4 Yaz Lastiği 2020 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "858b92d9-a7e7-4438-8727-6cbe9348d17b",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661322652684
+          },
+          "createdAt": 1661322511526
+        },
+        {
+          "ID": "ef999ced-de15-4360-b207-1e39fa736677",
+          "foto": {
+            "ID": "30297695-e158-4589-a5d9-ff9dc3d1fa3c",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/edfc66c9-079a-4dd9-b9d8-0674b3e07a28/2055516alp6.jpeg",
+            "alt": "Michelin 205/55R16 91T Alpin6 Kış Lastiği 2021 Üretim",
+            "createdAt": 1661323088957
+          },
+          "mevsim": "KIŞ",
+          "lastikAdi": "Michelin 205/55R16 91T Alpin6 Kış Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "a19b8a3a-3e83-4557-bffc-63895e5f1b9c",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661322911596
+          },
+          "createdAt": 1661322815436
+        },
+        {
+          "ID": "bef0e319-0b3e-491e-b0f9-a70c70889a03",
+          "foto": {
+            "ID": "7f2e1343-bf78-4933-b71c-3b0f5f7273f9",
+            "src": "https://app.sopyo.com/public/products/48ab1a1125c3698930dac616210db21d.jpg",
+            "alt": "MICHELIN 245/40R18 97Y XL  PRIMACY3 MOE ZP(Run Flat) 2021 ÜRETİM",
+            "createdAt": 1661323125756
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 245/40R18 97Y XL  PRIMACY3 MOE ZP(Run Flat) 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "15539864-2d57-4d1f-b1ff-fdfe11bb2639",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661322932363
+          },
+          "createdAt": 1661322853924
+        },
+        {
+          "ID": "b14a9f3b-c6da-47f8-9913-9081fbbb2000",
+          "foto": {
+            "ID": "133b31ab-28ce-4755-9431-8917db07bcb5",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/c5503168-2208-4af3-84d6-00633d0bd646/2255518SUVSUMMER.jpeg",
+            "alt": "Kormoran 225/55R18 98V Suv Summer Yaz Lastiği 2021 Üretim",
+            "createdAt": 1661323158764
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "Kormoran 225/55R18 98V Suv Summer Yaz Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "0b706cfd-19d8-4827-b417-82a5351745dd",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323064492
+          },
+          "createdAt": 1661322893508
+        },
+        {
+          "ID": "8d084730-8da1-4745-9491-e9b30fb6d7a4",
+          "foto": {
+            "ID": "ef14bea3-8c77-4ff1-8ae6-ef0e77f58c6d",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/01b17170-92d3-4886-adcb-ef437a5d2096/1956515nokianwrd5.jpg",
+            "alt": "Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi",
+            "createdAt": 1661323392701
+          },
+          "mevsim": "KIŞ",
+          "lastikAdi": "Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "759e34d6-b445-4973-a705-62a4f65aef86",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323322796
+          },
+          "createdAt": 1661323225852
+        },
+        {
+          "ID": "a3f0beab-3811-40bf-846e-1e5c2dcd7fa9",
+          "foto": {
+            "ID": "ba0279b0-f938-4692-9c63-0b535d852d26",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/c65aca87-0f93-423c-8677-2a0af92b33e8/9841631854642.jpg",
+            "alt": "MICHELIN 205/55R16 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661323416068
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 205/55R16 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "392186c7-aff7-48dc-b806-f9f5f7a93aa1",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323332788
+          },
+          "createdAt": 1661323253308
+        },
+        {
+          "ID": "4522f91e-6dad-4d77-8565-8aa19aafd8ce",
+          "foto": {
+            "ID": "10040384-7c7a-463a-8bcd-76295835a416",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/2db0b8b6-52cb-498f-b8cc-6330fd2110f2/9841631854642.jpg",
+            "alt": "MICHELIN 225/50R17 98Y XL PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
+            "createdAt": 1661323445853
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 225/50R17 98Y XL PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "1f55dc60-5424-4cf8-a749-fecb5336f56f",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323345004
+          },
+          "createdAt": 1661323276364
+        },
+        {
+          "ID": "82977f85-0544-48b8-99c9-09435d41551b",
+          "foto": {
+            "ID": "70affa53-ccb2-41ae-9f8d-a659ab6fdbd5",
+            "src": "https://app.sopyo.com/public/products/4d61c395928d54823d1fe1f9886fa2d8.jpg",
+            "alt": "MICHELIN 245/40R19 98H XL X-ICE XI3 2019 ÜRETİM",
+            "createdAt": 1661323479715
+          },
+          "mevsim": "KIŞ",
+          "lastikAdi": "MICHELIN 245/40R19 98H XL X-ICE XI3 2019 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "2a8cf6f9-37a0-45b7-89b9-0e5c9e385edd",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323355644
+          },
+          "createdAt": 1661323307156
+        },
+        {
+          "ID": "cfb65238-010b-460c-8160-41a082c2f82c",
+          "foto": {
+            "ID": "7fa71559-e5f2-428e-8c07-526179d2ff9e",
+            "src": "https://app.sopyo.com/public/products/3845bee23f5f3e38d5dc263b3cbfedc8.jpg",
+            "alt": "MICHELIN 195/65R15 91H PRIMACY4 S2 YAZ LASTİĞİ 2020 ÜRETİM YOL TUTUŞ:A-YAKIT:A SES:68",
+            "createdAt": 1661323855060
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 195/65R15 91H PRIMACY4 S2 YAZ LASTİĞİ 2020 ÜRETİM YOL TUTUŞ:A-YAKIT:A SES:68",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "de13fc05-c418-4e5e-bee1-fd9fafc0bce0",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323785837
+          },
+          "createdAt": 1661323585140
+        },
+        {
+          "ID": "cbcf8212-cc74-4a62-8c08-ef7760d70142",
+          "foto": {
+            "ID": "696bc2a2-187a-4170-861d-296713bc0278",
+            "src": "https://app.sopyo.com/public/products/eb1ee8983c97f7c821aa119c3a6b5af9.jpg",
+            "alt": "MICHELIN 215/55R17 98W PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661323891988
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 215/55R17 98W PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "2773e3ab-9866-4265-bfc7-2c73f1392227",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323796990
+          },
+          "createdAt": 1661323614829
+        },
+        {
+          "ID": "49a83ab1-90b9-41c4-93b0-641c31cbee2f",
+          "foto": {
+            "ID": "60204867-0fb6-4495-aec6-2f1f75c030fb",
+            "src": "https://app.sopyo.com/public/products/b68e1b80eeb02be2c16bc627e1c8fd74.jpg",
+            "alt": "KORMORAN 205/55R16 91H ROAD PERFORMANCE YAZ LASTİĞİ ARALIK 2020 ÜRETİM",
+            "createdAt": 1661323913707
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "KORMORAN 205/55R16 91H ROAD PERFORMANCE YAZ LASTİĞİ ARALIK 2020 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "a41e3a08-0e5a-41a8-81a2-88f35057cf85",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323806798
+          },
+          "createdAt": 1661323648404
+        },
+        {
+          "ID": "677b0b87-6d83-42ad-807a-35fe99a9df4a",
+          "foto": {
+            "ID": "fd8add89-cbbb-45a8-b773-efb1ca4fc78a",
+            "src": "https://app.sopyo.com/public/products/4e3127d8210a2c9e29b2f253969e762a.jpg",
+            "alt": "MICHELIN 185/60R15 84H ENERGY XM2 YAZ LASTİĞİ 2017 ÜRETİM",
+            "createdAt": 1661323936381
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 185/60R15 84H ENERGY XM2 YAZ LASTİĞİ 2017 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "a44d3d41-6564-4439-8190-8b64cec4bf6a",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323821555
+          },
+          "createdAt": 1661323707996
+        },
+        {
+          "ID": "324bc80c-5425-4ceb-85e3-c9d17027b08b",
+          "foto": {
+            "ID": "7aee8be9-78d9-47ba-b1c6-eae95485e26d",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/cc31ee1f-e09e-4dce-8383-879491903fc3/1856515.jpeg",
+            "alt": "Nokian 185/65R15 88T WR Snowproof (D5) Kış Lastiği 2021 Üretim",
+            "createdAt": 1661324397500
+          },
+          "mevsim": "KIŞ",
+          "lastikAdi": "Nokian 185/65R15 88T WR Snowproof (D5) Kış Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "9498ea71-0d50-4620-868c-8342ba4768ac",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324341611
+          },
+          "createdAt": 1661324106101
+        },
+        {
+          "ID": "dad925bd-4647-4007-84cb-707a34e43c72",
+          "foto": {
+            "ID": "6a8aa116-352c-416e-91c4-927210346d66",
+            "src": "https://app.sopyo.com/public/products/eb1ee8983c97f7c821aa119c3a6b5af9.jpg",
+            "alt": "MICHELIN 215/55R17 94V PRIMACY4 S1 YAZ LASTİĞİ 2020 ÜRETİM",
+            "createdAt": 1661324421220
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 215/55R17 94V PRIMACY4 S1 YAZ LASTİĞİ 2020 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "fad86013-5e09-4695-b221-129efc1721e6",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324352819
+          },
+          "createdAt": 1661324128373
+        },
+        {
+          "ID": "9759c25a-d551-4591-8dee-93192c8f9a8d",
+          "foto": {
+            "ID": "f6beeffe-9f59-48d0-9d3d-d907b226d0cd",
+            "src": "https://app.sopyo.com/public/products/e0c4f1a5003de923e30eb6ad943ba5ca.jpg",
+            "alt": "MICHELIN 245/40R18 97Y XL PİLOT SPORT4 2021 ÜRETİM",
+            "createdAt": 1661324444180
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 245/40R18 97Y XL PİLOT SPORT4 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "9c9d039d-6c8d-4219-a710-262c19667afc",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324364277
+          },
+          "createdAt": 1661324161924
+        },
+        {
+          "ID": "f5aaf985-5e2c-4243-b081-18d26ee99e45",
+          "foto": {
+            "ID": "7cd0ffbe-f22b-4cac-b44d-12af5eafa3de",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/2eb85fec-21ba-4980-9523-bd17da5954eb/2255518DÖRTMEVSİM KORMORAN.jpeg",
+            "alt": "Kormoran 225/55R18 102V XL All Season Suv Dört Mevsim M+S 2021 Üretim",
+            "createdAt": 1661324466332
+          },
+          "mevsim": "4 MEVSİM",
+          "lastikAdi": "Kormoran 225/55R18 102V XL All Season Suv Dört Mevsim M+S 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "4a266599-599d-429f-a2ed-5a8cd9a35506",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324373533
+          },
+          "createdAt": 1661324233996
+        },
+        {
+          "ID": "69ca048d-6030-4210-9231-dccacbc02be6",
+          "foto": {
+            "ID": "67ab96ce-27c6-467f-b5ef-8f91dd32d1d0",
+            "src": "https://app.sopyo.com/public/products/b68e1b80eeb02be2c16bc627e1c8fd74.jpg",
+            "alt": "KORMORAN 185/65R15 88H XL ROAD PERFORMANCE YAZ LASTİĞİ 2020 ÜRETİM",
+            "createdAt": 1661324740996
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "KORMORAN 185/65R15 88H XL ROAD PERFORMANCE YAZ LASTİĞİ 2020 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "ba077178-5ac3-4520-bcde-a0eb764d32a9",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324677860
+          },
+          "createdAt": 1661324518764
+        },
+        {
+          "ID": "b86db8f7-cff6-44c4-a41a-297bf143d6ed",
+          "foto": {
+            "ID": "1eb36870-1b12-4eaf-8784-75165eb6c718",
+            "src": "https://app.sopyo.com/public/products/e697c4a9199b6f509c7fb035ea119d4c.jpg",
+            "alt": "MICHELIN 225/45R17 91V  PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661324772004
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 225/45R17 91V  PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "1a57eb7e-75e7-4c38-9634-ada37b89661b",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324691292
+          },
+          "createdAt": 1661324544764
+        },
+        {
+          "ID": "6872b00e-ae5f-4d36-8156-2eadc3b6afcf",
+          "foto": {
+            "ID": "43dc6710-835a-4385-ab2b-4fb69b8d74e3",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/b3e9d830-3564-4e6c-ba0d-bfdc1fe02b1b/21550R17SNOWPROOF.jpeg",
+            "alt": "Nokian 215/50R17 95V WR Snowproof P Kış Lastiği 2020 Üretim",
+            "createdAt": 1661324807604
+          },
+          "mevsim": "KIŞ",
+          "lastikAdi": "Nokian 215/50R17 95V WR Snowproof P Kış Lastiği 2020 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "48aca1c9-445a-4216-bc8a-7bc021ee1fba",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324701340
+          },
+          "createdAt": 1661324588100
+        },
+        {
+          "ID": "9571212a-839b-4d63-a246-48a18a48fbdb",
+          "foto": {
+            "ID": "2f778e3c-f7ea-4cfe-b323-e1b297cf0d44",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/a11f2f5b-7d08-4106-8cad-a9419eb2abdc/2255518TİGAR.jpeg",
+            "alt": "Tigar 225/55R18 98V Suv Summer Yaz Lastiği 2021 Üretim",
+            "createdAt": 1661324830939
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "Tigar 225/55R18 98V Suv Summer Yaz Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "f01cb964-eb23-4723-850c-451f476e87a9",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324712316
+          },
+          "createdAt": 1661324631931
+        },
+        {
+          "ID": "d1a17c84-84b7-4f0c-95e4-b7d6df1cc54a",
+          "foto": {
+            "ID": "37f52122-7f3f-4371-9a64-97880cfd9cae",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/e347ebc7-7a12-4de1-8876-0955328ba4bb/2255517.jpeg",
+            "alt": "MICHELİN 225/55R17 97Y PRIMACY 4 YAZ LASTİĞİ  2021 ÜRETİM",
+            "createdAt": 1661325138475
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELİN 225/55R17 97Y PRIMACY 4 YAZ LASTİĞİ  2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "52bd8cd9-522b-4961-baf1-8bb94646ec05",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325081980
+          },
+          "createdAt": 1661324956564
+        },
+        {
+          "ID": "5b96d23a-b2be-4b44-9ce1-4c43db34b1e2",
+          "foto": {
+            "ID": "da8ad05a-e159-4e37-b79b-b45c1a5f0b55",
+            "src": "https://app.sopyo.com/public/products/afccf3f141b85ff28982099ea7035e69.jpg",
+            "alt": "MICHELIN 195/65R15 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661325161317
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 195/65R15 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "de15b3be-19b8-4faa-b42c-725c0e00ebc2",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325093108
+          },
+          "createdAt": 1661324981596
+        },
+        {
+          "ID": "677a029a-462e-40af-b116-e53dcbba61ec",
+          "foto": {
+            "ID": "c63d2bae-3ea2-4830-ba93-20305304630d",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/09c1f8ca-967d-452a-873b-b1369b6d493a/2055516NOKİAN.jpeg",
+            "alt": "Nokian 205/55R16 91V Wetproof Yaz Lastiği Üretim 2021",
+            "createdAt": 1661325183979
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "Nokian 205/55R16 91V Wetproof Yaz Lastiği Üretim 2021",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "6be44e70-61ec-424e-a0ea-6eb4bb6d739d",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325105844
+          },
+          "createdAt": 1661325005223
+        },
+        {
+          "ID": "d8e4c961-c068-484b-ab3e-a2f94a24b760",
+          "foto": {
+            "ID": "5505b269-bb1f-4467-8577-af996a93dc85",
+            "src": "https://app.sopyo.com/public/products/075d0f85f16cad818a867d91e0436160.jpg",
+            "alt": "MICHELIN 225/45R17 91W PRIMACY4 S2 2021 ÜRETİM",
+            "createdAt": 1661325248204
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 225/45R17 91W PRIMACY4 S2 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "ffa92edd-e7ce-4057-8f24-3692cbdd47be",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325116156
+          },
+          "createdAt": 1661325037140,
+          "updatedAt": 1661325220812
+        },
+        {
+          "ID": "00692ad8-34ca-4b23-b272-0844fe82998b",
+          "foto": {
+            "ID": "4cfe2a7f-4aff-44c2-b204-0fecef2ff43c",
+            "src": "https://app.sopyo.com/public/products/08d97a6dd94bbcc470bf2861cbd6cf71.jpg",
+            "alt": "MICHELIN 225/55R17 97W PRIMACY3 ZP (RFT) YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661325678243
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 225/55R17 97W PRIMACY3 ZP (RFT) YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "8058aa63-2b7b-41b9-bcd1-e75630ee6707",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325567548
+          },
+          "createdAt": 1661325318013
+        },
+        {
+          "ID": "95f1a2cd-97f9-4a6f-b3bc-cd3b4ba58770",
+          "foto": {
+            "ID": "64010eca-e4ad-4833-800d-362d41a75ea4",
+            "src": "https://cdn.dsmcdn.com/ty56/product/media/images/20210120/14/55502810/132295897/0/0_org_zoom.jpg",
+            "alt": "Mıchelın 215/60/17 96v Prımcy 4",
+            "createdAt": 1661325709933
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "Mıchelın 215/60/17 96v Prımcy 4",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "5071bdcf-9eb4-4d93-8417-2dd6e1bb17fc",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325582165
+          },
+          "createdAt": 1661325346356
+        },
+        {
+          "ID": "6f10b946-021a-4cba-a8f6-ee2350c0cda9",
+          "foto": {
+            "ID": "cd069669-0be0-42e3-92b5-974c579a0afc",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/69f1a962-baf0-4294-80f2-edb1c89dd206/2254018PRMCY4.jpg",
+            "alt": "MICHELİN 225/40R18 92Y XL PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661325737860
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELİN 225/40R18 92Y XL PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "640ed859-c9f9-45ab-8c53-0676607a7b9f",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325598925
+          },
+          "createdAt": 1661325412452
+        },
+        {
+          "ID": "4ae6d74b-9165-4472-b759-e00267fd5a41",
+          "foto": {
+            "ID": "4f78e0ce-8dd1-44e9-8a22-cde73c00a997",
+            "src": "https://app.sopyo.com/public/products/c40c6ba2902cc4f2186d4240b71f23d1.jpg",
+            "alt": "KORMORAN 205/60R16 92H ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661325796915
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "KORMORAN 205/60R16 92H ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "4567f679-b52c-4b73-9eec-3c95b2491b07",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325610190
+          },
+          "createdAt": 1661325434077
+        },
+        {
+          "ID": "74616b1c-818f-42bb-880d-5d7bfb3e709b",
+          "foto": {
+            "ID": "6850c91b-8879-4261-80da-c51c77132056",
+            "src": "https://app.sopyo.com/public/products/b68e1b80eeb02be2c16bc627e1c8fd74.jpg",
+            "alt": "KORMORAN 195/65R15 95H XL ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326092396
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "KORMORAN 195/65R15 95H XL ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "a802d896-c4f5-4c30-beb5-f0018e5c013b",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325997587
+          },
+          "createdAt": 1661325868164
+        },
+        {
+          "ID": "26762c08-385b-47c4-8a44-9065f23453f4",
+          "foto": {
+            "ID": "ac9024d0-b85d-4144-9f8a-6ba479996192",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/9bf54d37-e67a-42af-8ca3-48de5ac76e02/21555R17WETPROOF.jpeg",
+            "alt": "Nokian 215/55R17 94V Wetproof Yaz Lastiği 2021 Üretim",
+            "createdAt": 1661326119092
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "Nokian 215/55R17 94V Wetproof Yaz Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "ab947aff-e02c-43a6-a6a7-ee74430b3714",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326020692
+          },
+          "createdAt": 1661325897100
+        },
+        {
+          "ID": "b48807f4-f502-420d-9e38-8e50e8acb8c9",
+          "foto": {
+            "ID": "65b0e7ae-d107-4dea-a2e4-442c4f5eb922",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/edd1b685-101d-42e4-99af-833d486f343f/2156017PR4.jpeg",
+            "alt": "MICHELIN 215/60R17 96V PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326142852
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 215/60R17 96V PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "3e7db9c6-5714-463f-b2ae-b50d5f61998b",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326032156
+          },
+          "createdAt": 1661325939204
+        },
+        {
+          "ID": "69ac9c34-aeca-4b17-9243-9b976934f711",
+          "foto": {
+            "ID": "0f141169-3bf5-4fa4-a54f-d5490960b0a9",
+            "src": "https://app.sopyo.com/public/products/b68e1b80eeb02be2c16bc627e1c8fd74.jpg",
+            "alt": "KORMORAN 215/55R16 97H ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326173396
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "KORMORAN 215/55R16 97H ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "27e54c89-1ba6-4e73-a1b6-35fcda640c5f",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326044301
+          },
+          "createdAt": 1661325980900
+        },
+        {
+          "ID": "a91131c2-e7ce-46e9-a4b1-e705a4993d14",
+          "foto": {
+            "ID": "8b7f6c9e-1089-46bc-a922-73db04b45e9e",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/3dbaa17a-5ada-4f3c-b625-2a1dcfb0918b/2254018S1.jpeg",
+            "alt": "MICHELİN 225/40R18 92Y XL S1 PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326555211
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELİN 225/40R18 92Y XL S1 PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "cb5476fb-e28d-4cc1-820a-0d5c4507c481",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326487827
+          },
+          "createdAt": 1661326337630
+        },
+        {
+          "ID": "201c4c32-0bac-4c00-883a-1bb375245678",
+          "foto": {
+            "ID": "5ea6d841-351e-4db3-ba08-bd0b9b1d1b24",
+            "src": "https://app.sopyo.com/public/products/e697c4a9199b6f509c7fb035ea119d4c.jpg",
+            "alt": "MICHELIN 215/55R17 94V PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
+            "createdAt": 1661326580315
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 215/55R17 94V PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "c27297a2-822a-44d1-8a55-b66c185fd84e",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326498963
+          },
+          "createdAt": 1661326357636
+        },
+        {
+          "ID": "a2c16e3e-2152-4cfb-8467-7104c82f8107",
+          "foto": {
+            "ID": "ea5735db-3a72-4faa-ad2f-3e4af69f8c18",
+            "src": "https://app.sopyo.com/public/products/5b21de0b4690e9e8f8abedb5b4d210b5.jpg",
+            "alt": "MICHELIN 245/45R17 XL 99Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326601292
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 245/45R17 XL 99Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "3fccbf36-f72a-45f8-9887-9011e89c5eb9",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326512547
+          },
+          "createdAt": 1661326385436
+        },
+        {
+          "ID": "c483f49c-d09d-4d20-8e7f-10593cd61092",
+          "foto": {
+            "ID": "8a88d307-fe91-474a-b611-0e4710bbf7f2",
+            "src": "https://app.sopyo.com/public/products/08d97a6dd94bbcc470bf2861cbd6cf71.jpg",
+            "alt": "MICHELIN 245/45 R18 100Y XL Primacy 3 MOE ZP (Run Flat)Yaz Lastiği 2021 Üretim",
+            "createdAt": 1661326626244
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 245/45 R18 100Y XL Primacy 3 MOE ZP (Run Flat)Yaz Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "306d584b-7e95-4e65-ab94-af4d87e2c3a3",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326527565
+          },
+          "createdAt": 1661326410932
+        },
+        {
+          "ID": "f39418fe-5a64-4f18-9441-5db5213a4746",
+          "foto": {
+            "ID": "b60f64af-fb92-4329-99d7-4fe4017ee727",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/de25f002-2fad-4857-b927-edad5e5378eb/1856015PRMCY4S1.jpeg",
+            "alt": "Michelin 185/60R15 84T Primacy4 S1 Yaz Lastiği 2021 Üretim",
+            "createdAt": 1661326831926
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "Michelin 185/60R15 84T Primacy4 S1 Yaz Lastiği 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "b3180d12-37c7-4f92-ae1c-4b2bff0c889b",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326768900
+          },
+          "createdAt": 1661326667244
+        },
+        {
+          "ID": "a4b879e8-9d0e-4d27-9113-54adb17d84f3",
+          "foto": {
+            "ID": "65887f1f-0751-49a1-a6d0-ebce0e63afb0",
+            "src": "https://app.sopyo.com/public/products/5b21de0b4690e9e8f8abedb5b4d210b5.jpg",
+            "alt": "MICHELIN 235/45R18 XL 98Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326855020
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 235/45R18 XL 98Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "618862c6-15fd-4f85-ab95-c50647f10d1e",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326782340
+          },
+          "createdAt": 1661326696516
+        },
+        {
+          "ID": "a5e011aa-9794-46b7-8661-36cd2bf1af31",
+          "foto": {
+            "ID": "5bd99eef-cc37-49f0-941e-a3c8f7dd112c",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/ca81cfcc-9ccd-4b18-92a5-6c4fd3fc36d1/TİGAR2156017.jpeg",
+            "alt": "TİGAR 215/60R17 96H Ultra High Performance Yaz Lastigi 2021 Üretim",
+            "createdAt": 1661326878324
+          },
+          "mevsim": "YAZ",
+          "lastikAdi": "TİGAR 215/60R17 96H Ultra High Performance Yaz Lastigi 2021 Üretim",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": {
+            "ID": "16543a7a-126c-4be7-8499-22e2cc7601ac",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326793172
+          },
+          "createdAt": 1661326721094
+        }
+      ],
+      "createdAt": 1661322447956
+    },
+    "banner": {
+      "ID": "674f25ed-5900-478b-9c84-abb51eda89f7",
+      "baslik": "WEB SİTEMİZDE BULUNMAYAN TÜM ÜRÜN VE HİZMETLERİMİZ İÇİN BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ",
+      "aciklama": "Telefonla iletişime geçmek için tıklayın.",
+      "buton": {
+        "ID": "bd716501-1cd6-497a-9c66-47b335d5f711",
+        "label": "Hemen Arayın",
+        "link": "tel:0(432) 223 24 48",
+        "createdAt": 1661328038116
+      },
+      "createdAt": 1661328015238
+    },
+    "hizmetler": {
+      "ID": "add6f6d3-13c5-4940-b352-80b61a990acd",
+      "baslik": "Erbay Lastik Yerinde Hizmetler",
+      "aciklama": "Lastik satışımızın yanında yerinde verdiğimiz diğer hizmetler için ofis telefonlarımızdan bize ulaşıp daha ayrıntılı bilgi talep edebilir ve ilgili hizmetler için randevu oluşturabilirsiniz.",
+      "hizmetKartlari": [
+        {
+          "ID": "c95666a2-793c-42b7-8554-f99b26763cc3",
+          "foto": {
+            "ID": "3eaea51c-43cf-463d-83b5-f4e873256c56",
+            "src": "public/images/1661330889782_service2.jpg",
+            "alt": "jant düzeltme",
+            "createdAt": 1661330899388
+          },
+          "baslik": "Jant Düzeltme",
+          "aciklama": "Lastiklerinizin çabuk yıpranmaması için gelin jant bakımlarınızı servisimizde yapalım",
+          "buton": {
+            "ID": "f365c801-227a-4a3f-bc37-59651e25345c",
+            "label": "İletişime geçin",
+            "link": "tel:0(432) 223 24 48",
+            "createdAt": 1661330730805
+          },
+          "createdAt": 1661330324548
+        },
+        {
+          "ID": "506d5b57-d55e-43b6-97e7-5b6733a141ca",
+          "foto": {
+            "ID": "867bba32-5b1f-4e41-890d-7c586c3a42a5",
+            "src": "public/images/1661330944413_service3.jpg",
+            "alt": "lastik sökme takma",
+            "createdAt": 1661330951228
+          },
+          "baslik": "Lastik Sökme ve Takma",
+          "aciklama": "Satın aldığınız lastiklerin sökme ve takma işlemlerini biz gerçekleştirelim",
+          "buton": {
+            "ID": "05401ce8-5bbe-4b70-a52f-a463570164fd",
+            "label": "İletişime geçin",
+            "link": "tel:0(432) 223 24 48",
+            "createdAt": 1661330747187
+          },
+          "createdAt": 1661330341204
+        },
+        {
+          "ID": "7f0bbcb1-9381-4897-b230-ef09264a46ae",
+          "foto": {
+            "ID": "ca2ff1c8-1eaa-40eb-ae95-7f5b1a181322",
+            "src": "public/images/1661330975680_service4.jpg",
+            "alt": "lastik hastanesi",
+            "createdAt": 1661330983716
+          },
+          "baslik": "Lastik hastanesi",
+          "aciklama": "Mevsimi geçen lastiklerinizi bize emanet edin, siz muhafaza etme derdinden kurtulun",
+          "buton": {
+            "ID": "01ada972-0170-4a90-bfc5-eb914cee2415",
+            "label": "İletişime geçin",
+            "link": "tel:0(432) 223 24 48",
+            "createdAt": 1661330781947
+          },
+          "createdAt": 1661330357397
+        },
+        {
+          "ID": "ef4ee7a2-60e8-488f-bc6c-d4f40aed9878",
+          "foto": {
+            "ID": "4f2981e8-08db-4ec4-9c26-83014773ef05",
+            "src": "public/images/1661330999197_man.png",
+            "alt": "rot balans",
+            "createdAt": 1661331007748
+          },
+          "baslik": "Rot Balans",
+          "aciklama": "Lastiklerinizin en hassas ayarları için bize gelin, yollarda daha güvenli sürüş keyfini yaşayın",
+          "buton": {
+            "ID": "c1d8e8d9-8c68-48b2-a8fb-4de992a8a10d",
+            "label": "İletişime geçin",
+            "link": "tel:0(432) 223 24 48",
+            "createdAt": 1661330853404
+          },
+          "createdAt": 1661330370324
+        }
+      ],
+      "createdAt": 1661329739300
+    },
+    "markalar": {
+      "ID": "49fcc244-e525-4697-9c50-c682580bf032",
+      "ustYazi": "MARKALARIMIZ",
+      "baslik": "Temsilcilsi olduğumuz bazı büyük markalar",
+      "aciklama": "Daha fazla bilgi almak ve diğer hizmetleri öğrenmek için",
+      "buton": {
+        "ID": "12abc1ab-88c5-4867-bc78-f5014ad071a0",
+        "label": "Hemen Arayın",
+        "link": "tel:0(432) 223 24 48",
+        "createdAt": 1661331060764
+      },
+      "markaLogolari": [
+        {
+          "ID": "19a9249c-14cd-4674-afd3-fb723070c1f5",
+          "src": "public/images/1661331080850_ako.svg",
+          "alt": "ako",
+          "createdAt": 1661331083427
+        },
+        {
+          "ID": "50dce6ec-94ea-4891-9c58-74d2c1e2aa33",
+          "src": "public/images/1661331089306_castrol.svg",
+          "alt": "castrol",
+          "createdAt": 1661331093040
+        },
+        {
+          "ID": "f51619ba-6661-43d1-b6e2-e8bf03bf1516",
+          "src": "public/images/1661331101545_General.svg",
+          "alt": "general",
+          "createdAt": 1661331105465
+        },
+        {
+          "ID": "ebffb1c2-d1c5-48de-a707-23dfb81bb83c",
+          "src": "public/images/1661331113055_Kormoran.svg",
+          "alt": "kormoran",
+          "createdAt": 1661331115540
+        },
+        {
+          "ID": "4da8c661-5bcb-4a06-8c43-0e525af714f3",
+          "src": "public/images/1661331121765_Michelin.svg",
+          "alt": "michelin",
+          "createdAt": 1661331125116,
+          "updatedAt": 1661331163753
+        },
+        {
+          "ID": "cc1e0c7d-53cb-4316-9d24-7900e0b69043",
+          "src": "public/images/1661331131479_Nokian.svg",
+          "alt": "nokian",
+          "createdAt": 1661331134177
+        },
+        {
+          "ID": "5575e6ce-f920-4f3e-a109-b851798316e2",
+          "src": "public/images/1661331140845_Petlas.svg",
+          "alt": "petlas",
+          "createdAt": 1661331143290
+        },
+        {
+          "ID": "d781d67e-cbf7-44c1-b6fb-c8ae81c916e5",
+          "src": "public/images/1661331149097_Tigar.svg",
+          "alt": "tigar",
+          "createdAt": 1661331151565
+        }
+      ],
+      "createdAt": 1661331042083
+    },
+    "hakkimizda": {
+      "ID": "9dc70f50-a7d9-4fcb-aaaf-a6750d22c63e",
+      "baslik": "Biz Kimiz",
+      "aciklama": "Erbay Lastik, 2002 yılından bu yana www.erbaylastik.com web sitesi ve diğer dijital satış platformları üzerinde farklı araç tipleri için, farklı markaların ürünlerini bir arada sunan lastik satış merkezidir. Merkezi Van’da bulunan şirketimiz lastik, jant ve mini stepne gibi lastik sektörü ürünleri üzerine alanında uzman kadrosu ile hizmet vermektedir. Erbay lastik’de otomobil lastikleri Michelin, Kormoran, Nokian, Tigar, Hankook, Lassa, Petlas, General, başta olmak üzere 30’un üzerinde markanın ürünleri, tüm markalara eşit mesafede olduğumuz objektif bir yaklaşım ile sunulmaktadır. Web sitemiz, aradığınız ürüne en hızlı şekilde ulaşabilmeniz için lastik sektörüne özel olarak hazırlanmıştır. Böylece Erbay Lastik, üreticiler başta olmak üzere güçlü bir tedarikçi ağı ve depoları ile çoğu stoklarda hazır durumdaki, 10.000 üzeri farklı lastik seçeneğini tüm Türkiye’ye sevkiyat imkânı ile sunmaktadır. Misyonumuz müşteririlermizin memnuniyetini en üst seviyede tutmak üzerine kuruludur. Kaliteli hizmet anlayışını ilke edinmek, Sektörü, rakipleri iyi tanımak, gözlemlemek, İletişime açık, geri bildirimli olmak, empati kurabilmek, Mevcut durumla yetinmeyen, teknolojiyi takip eden, yeni yöntemler geliştirerek rekabet gücünü arttırmaya çalışan bir şirket olabilmek, Hedefe/sonuca giden yolda emin ve doğru adımlarla ilerlemek, Güvenilir, verimli ve karlı hizmet vermek, Takım ruhuna sahip, tüm çalışanları ile birlikte Şirket ve Marka değerlerini ön planda tutmak diğer prensiplerimizdir.",
+      "logo": {
+        "ID": "59afdc9e-ad71-4ac4-852a-d1d32dff0008",
+        "src": "public/images/1661331235931_erbay.png",
+        "alt": "erbay logo",
+        "createdAt": 1661331240876
+      },
+      "createdAt": 1661331190077
+    },
+    "cokSorulanlar": {
+      "ID": "377647d4-8f6d-41b0-a57b-9fef889de135",
+      "baslik": "Aklınıza takılabileceğini düşündüğümüz bazı sorular ve cevapları sizler için listeledik. Daha fazla bilgi almak için lütfen bizimle iletişime geçmekten çekinmeyin.",
+      "soruKartlari": [
+        {
+          "ID": "e518f9d8-dae5-4fbb-8dca-6f007e37a1d7",
+          "soru": "Ödeme Koşullarınız ne ?",
+          "cevap": "Ödemelerinizi sadece kredi kartı ve banka kartı ile sipariş oluşturma aşamasında yapabilirsiniz",
+          "tag": "odeme",
+          "createdAt": 1661331873622
+        },
+        {
+          "ID": "92571de4-7bb4-4204-ac24-75d594643c58",
+          "soru": "Kredi kartına taksit yapılıyor mu?",
+          "cevap": "Sepetinize World, Bonus, Axess, Maximum, CardFinans ve Paraf kredi kartlarına taksit imkanı bulunmaktadır.",
+          "tag": "odeme",
+          "createdAt": 1661331893430
+        },
+        {
+          "ID": "a9b55411-3d62-4899-87f9-f06036e9380a",
+          "soru": "Kredi kartıyla alışveriş yaparken güvende miyim ?",
+          "cevap": "Banka kartı ile yaptığınız işlemlerde 3D Secure sistemi kullanılır. 3D Secure, online alışverişlerin güvenliğini sağlamak amacıyla kart kuruluşları tarafından geliştirilmiş bir kimlik doğrulama sistemidir.",
+          "tag": "odeme",
+          "createdAt": 1661331919368
+        },
+        {
+          "ID": "cf34d4ab-d260-4cd7-bb73-966cf7c4a810",
+          "soru": "Aracıma uygun olan lastikleri nasıl bulabilirim ?",
+          "cevap": "Yukarıda lastiklerinizin yan yüzeyinde görebildiğiniz \"205/55R16 91V\" ve benzeri lastik ölçülerini filtreleyerek arama yapabilirsiniz. Lastik ölçüleri \"Taban\" / \"Yanak\" R \"Jant Çapı\" şeklinde yazılmaktadır. Ayrıca aradığınız lastiğin hangi mevsime ve hangi markaya ait olduğunu, RUNFLAT veya SEAL özellikleri bulunup bulunmadığını da seçerek, arama sonuçlarını filtreleyebilir, en doğru ürüne, en hızlı şekilde ulaşabilirsiniz.",
+          "tag": "teknik",
+          "createdAt": 1661331953593
+        },
+        {
+          "ID": "ed711749-3f40-4c5c-a621-2c2bf40134cf",
+          "soru": "Aracımdaki RunFlat lastikler yerine, standart lastik takabilir miyim ?",
+          "cevap": "Güçlü spor otomobiller ve lüks sedanlarda tercih edilmekte olan teknolojilerden birisi olan RFT, lastiklerinizin patlaması durumunda, sizi 80 km/s hızı geçmeden, ortalama 80 km. kadar daha taşıyabilmek üzere geliştirilmiştir. Mekanik açıdan RFT lastikler yerine, standart lastikler ebatları aynı olmak kaydı ile araçlara takılabilmektedir. Ancak gerek güvenli sürüş kriterleri, gerek araç üreticileri tarafından bu uygulama önerilmemektedir. Özellikle uzun seyahatlerde bagajında stepne lastik haznesi bulunmayan bu araçlarla yolda kalabilir, yüksek hızda lastiğin patlaması durumunda direksiyon hakimiyeti olumsuz yönde etkilenebilmektedir. Lastik ve araç üreticileri, kullanıcıların daha fazla konfor beklentisi veya modifiye süreçlerinde tercih ettiği bu yöntemi önermemektedir.",
+          "tag": "teknik",
+          "createdAt": 1661331969418
+        },
+        {
+          "ID": "dbbe1fdf-6fd3-4707-8b2b-3b970c8686d7",
+          "soru": "Kış lastiği 4 adet mi 2 adet mi kullanılır?",
+          "cevap": "Kış lastiği 4 adet kullanılmalıdır. 2 adet kullanıldığı zaman yüksek hızda ve dönüşlerde aracın hakimiyeti kaybolur. Örneğin; önden çekişli bir araca, önlere 2 adet kış lastiği takalım, arka lastikler yazlık olsun. Durmak için frene bastığımız zaman aracın önü sabit kalır kaymaz, aracın arkası kendini sağa sola atar. Kazaya sebebiyet verir.",
+          "tag": "teknik",
+          "createdAt": 1661332011894
+        },
+        {
+          "ID": "be0df208-2b92-425c-a997-53be980d364e",
+          "soru": "Kış lastiği hangi aylarda kullanılmalıdır?",
+          "cevap": "Kış lastiği kullanımı Türkiye’de hava şartlarında Ekim ayının başında başlar, Nisan ayının ortalarında biter. Kış lastiğinin mali olarak yükümlüdür. Ortalama yaz lastiği kullananlar 2 senede bir yaz lastiği değiştirirler. Kış lastiği ve yaz lastiği kullanan araç sahiplerinin ortalama 4 sene sonra lastik ihtiyacı olmayacaktır. Kış lastiğinin kullanımının uzun vadede, araç sahiplerine hiçbir mali yükü yoktur.",
+          "tag": "teknik",
+          "createdAt": 1661332026318
+        },
+        {
+          "ID": "814444d2-e2c0-45b7-b672-7e815eefaeb3",
+          "soru": "Erbay lastik iletişim bilgilerine nasıl ulaşabilirim?",
+          "cevap": "Erbay lastik iletişim bilgileri burada yer almaktadır: Adres: Abdurrahman Gazi, Erciş Yolu 2. Km D:No:119/A, 65040 Tuşba/Van Tel: (0432) 223 24 48 mail:info@erbaylastik.com.tr",
+          "tag": "iletisim",
+          "createdAt": 1661332051994
+        }
+      ],
+      "createdAt": 1661331259925,
+      "tagButon": [
+        {
+          "ID": "caf4965f-9e3f-417f-a436-69e72cced579",
+          "label": "Ödeme",
+          "createdAt": 1661331797718
+        },
+        {
+          "ID": "dc5e437c-8798-46e9-b833-18d61375bcbf",
+          "label": "Teknik",
+          "createdAt": 1661331803380
+        },
+        {
+          "ID": "dee6dd89-2b37-43f1-9e8a-7dae1b600c23",
+          "label": "İletişim",
+          "createdAt": 1661331809905
+        }
+      ]
+    },
+    "harita": {
+      "ID": "915a7c84-3d94-46ee-a892-ae105c3397bf",
+      "baslik": "Ofisimizi ziyaret edin",
+      "aciklama": "Almak istediğiniz her türlü bilgi ve hizmet için sizleri ofisimize bekliyoruz, ikramlarımız eşliğinde sorunlarınızı dinleyelim ve hemen çözüm üretelim. Yol bilgilerini almak için adresimizi haritalarda görüntüleyebilirsiniz.",
+      "buton": {
+        "ID": "65a090af-9ffc-44a3-9f8c-bf5ffb8417a3",
+        "label": "Haritalarda Açın",
+        "link": "https://g.page/IstasyonTusbaMichelin",
+        "createdAt": 1661332100282
+      },
+      "createdAt": 1661332072991
+    },
+    "mesaj": {
+      "bilgiler": [
+        {
+          "ID": "bde439ed-ddcb-4198-acbc-ca30e882ea5d",
+          "label": "İsim",
+          "placeholder": "İsim",
+          "buton": [],
+          "foto": [],
+          "createdAt": 1661332272720
+        },
+        {
+          "ID": "eef20f7d-fd14-4779-92d1-dfb34787597e",
+          "label": "Soyisim",
+          "placeholder": "Soyisim",
+          "buton": [],
+          "foto": [],
+          "createdAt": 1661332281532
+        },
+        {
+          "ID": "0c70ad30-9fe7-4504-bec3-d00d617d00a7",
+          "label": "Telefon",
+          "placeholder": "Telefon",
+          "buton": [],
+          "foto": [],
+          "createdAt": 1661332291207
+        },
+        {
+          "ID": "b35a227d-03d2-4b8d-92d1-1a89fdeed1b5",
+          "label": "Email",
+          "placeholder": "Email",
+          "buton": [],
+          "foto": [],
+          "createdAt": 1661332297494
+        },
+        {
+          "ID": "199f481e-9b5e-405a-b913-321c9441ec47",
+          "label": "Mesaj",
+          "placeholder": "Mesaj",
+          "buton": [],
+          "foto": [],
+          "createdAt": 1661332305582
+        }
+      ],
+      "createdAt": 1661332108591,
+      "ID": "be5215ea-6441-4643-a4a7-8c05d1be03e7",
+      "baslik": "Mesajlarınızı hemen cevaplayalım",
+      "aciklama": "Sormak istediğiniz her soru, almak istediğiniz bütün hizmetlerle ilgili bize mesaj gönderebilirsiniz. Soru ve görüşlerinizi önemsiyoruz.",
+      "updatedAt": 1661332393548,
+      "buton": "Gönder"
+    },
+    "createdAt": 1661247577078,
+    "ID": "e83152d5-247b-4851-ad39-04e49b9cb188"
+  }
+]

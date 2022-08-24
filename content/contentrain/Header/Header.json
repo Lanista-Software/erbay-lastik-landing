@@ -1,0 +1,95 @@
+[
+  {
+    "logo": {
+      "ID": "96d59234-6908-4aa6-9f01-725b629ebf38",
+      "link": "/",
+      "logoFoto": [
+        {
+          "ID": "1fa7f535-9b51-4090-969d-f920a790d7d4",
+          "alt": "/",
+          "src": "public/images/1660569132734_erbay.png",
+          "createdAt": 1660569134841
+        }
+      ],
+      "createdAt": 1660569126337
+    },
+    "navigasyon": [
+      {
+        "ID": "fbea2a2e-1de1-4026-a194-b7eb5a977fca",
+        "link": "/",
+        "name": "Anasayfa",
+        "navId": "nav-main",
+        "createdAt": 1661161743130
+      },
+      {
+        "ID": "e04c6231-512a-433a-81b8-b70dd461f3bd",
+        "link": "#hit",
+        "name": "Öne Çıkanlar",
+        "navId": "nav-hit",
+        "createdAt": 1661161803833
+      },
+      {
+        "ID": "f1e92c07-448f-4095-b8db-536ebbff5bae",
+        "link": "#products",
+        "name": "Ürünler",
+        "navId": "nav-products",
+        "createdAt": 1661161832682
+      },
+      {
+        "ID": "94105c69-6996-44c7-a27e-710d3e80a050",
+        "link": "#brands",
+        "name": "Markalar",
+        "navId": "nav-brands",
+        "createdAt": 1661161858841
+      },
+      {
+        "ID": "2c7b5d44-a761-4cd7-9f81-c50cddff27df",
+        "link": "#about",
+        "name": "Hakkımızda",
+        "navId": "nav-about",
+        "createdAt": 1661161877516
+      },
+      {
+        "ID": "21208780-6ae3-4780-8d3e-61946f23721c",
+        "link": "#faq",
+        "name": "Sık Sorulanlar",
+        "navId": "nav-faq",
+        "createdAt": 1661161894881
+      }
+    ],
+    "buton": {
+      "ID": "b0fc1a25-6d61-4ded-9ef9-95dbb69a5e75",
+      "label": "İletişim",
+      "link": "tel:0(432) 223 24 48",
+      "createdAt": 1661162610456
+    },
+    "ustNavigasyon": [
+      {
+        "ID": "3e0d9a50-9ca4-4232-af53-343e7a7f1aa1",
+        "icon": "phone",
+        "isim": "0(432) 223 24 48",
+        "link": "tel:0(432) 223 24 48",
+        "createdAt": 1661162658857,
+        "updatedAt": 1661166930100
+      },
+      {
+        "ID": "7de870d3-f6fa-4b4f-8784-23f3a355dab8",
+        "icon": "map-pin-2",
+        "isim": "Abdurrahman Gazi, Erciş Yolu 2. Km D:No:119/A, 65040 Tuşba/Van",
+        "link": "https://g.page/IstasyonTusbaMichelin",
+        "createdAt": 1661162688489,
+        "updatedAt": 1661166939569
+      },
+      {
+        "ID": "342f2eef-7e59-4b00-8e65-3019e590823b",
+        "icon": "mail",
+        "isim": "bilgi@erbaylastik.com",
+        "link": "mailto:bilgi@erbaylastik.com",
+        "createdAt": 1661162715043,
+        "updatedAt": 1661166947665
+      }
+    ],
+    "createdAt": 1660569121187,
+    "ID": "2f0272cf-c78a-4648-acac-92dbf776a48c"
+  }
+]

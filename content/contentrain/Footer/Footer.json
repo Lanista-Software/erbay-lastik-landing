@@ -1,0 +1,144 @@
+[
+  {
+    "links": [
+      {
+        "ID": "99792d99-8e5d-41eb-afae-c5dfc3297330",
+        "title": "İLETİŞİM",
+        "list": [
+          {
+            "ID": "5eea8978-f5d0-4540-9e83-ed466e6efd87",
+            "name": "0(432) 223 24 48",
+            "url": "tel:0(432) 223 24 48",
+            "icon": "phone",
+            "createdAt": 1661166990509
+          },
+          {
+            "ID": "62ed8e5d-b570-4756-a371-3c2d4c06f039",
+            "name": "Abdurrahman Gazi, Erciş Yolu 2. Km D:No:119/A, 65040 Tuşba/Van",
+            "url": "https://g.page/IstasyonTusbaMichelin",
+            "icon": "map-pin-2",
+            "createdAt": 1661167049366
+          },
+          {
+            "ID": "2f582925-e205-4f34-9d51-c2ec536ccb8a",
+            "name": "bilgi@erbaylastik.com",
+            "url": "mailto:bilgi@erbaylastik.com",
+            "icon": "mail",
+            "createdAt": 1661167096248
+          }
+        ],
+        "createdAt": 1661163941636
+      },
+      {
+        "ID": "94af3464-1aef-49ca-a4b6-2a119c9d53c9",
+        "title": "SİTE HARİTASI",
+        "list": [
+          {
+            "ID": "99567b95-55e9-44c3-b2e3-b4bd3074e389",
+            "name": "Anasayfa",
+            "url": "/",
+            "icon": "",
+            "createdAt": 1661169689794
+          },
+          {
+            "ID": "4d5cba14-c57a-4808-912c-e6d004ce8cb0",
+            "name": "Öne Çıkanlar",
+            "url": "#hit",
+            "icon": "",
+            "createdAt": 1661169706969
+          },
+          {
+            "ID": "dcafce70-7dba-49b4-bdd2-dfb259ed8699",
+            "name": "Ürünler",
+            "url": "#products",
+            "icon": "",
+            "createdAt": 1661169733297
+          },
+          {
+            "ID": "7f40dd33-8aac-4759-83ac-c6c50a921306",
+            "name": "Markalar",
+            "url": "#brands",
+            "icon": "",
+            "createdAt": 1661169748074
+          },
+          {
+            "ID": "7155f4b8-9582-4bad-a4b4-075aab7f80c5",
+            "name": "Hakkımızda",
+            "url": "#about",
+            "icon": "",
+            "createdAt": 1661169761744
+          },
+          {
+            "ID": "232f8e37-202e-4670-a4cb-cd6ca123c76d",
+            "name": "Sık Sorulanlar",
+            "url": "#faqs",
+            "icon": "",
+            "createdAt": 1661169775545
+          }
+        ],
+        "createdAt": 1661163950568
+      },
+      {
+        "ID": "2e89119f-5fc4-4728-a14e-8b3d68136259",
+        "title": "HİZMETLER",
+        "list": [
+          {
+            "ID": "ae1104d0-8d85-45b6-9032-d40b069fe727",
+            "name": "Lastik sökme ve takma",
+            "url": "#services",
+            "icon": "",
+            "createdAt": 1661169872585
+          },
+          {
+            "ID": "6bf88638-b02d-48a3-b4b2-a572ce8e0b19",
+            "name": "Rot Balans hizmeti",
+            "url": "#services",
+            "icon": "",
+            "createdAt": 1661169881474
+          },
+          {
+            "ID": "10c98903-a1f2-43d5-87d2-f99c44d1acd4",
+            "name": "Lastik hastanesi hizmeti",
+            "url": "#services",
+            "icon": "",
+            "createdAt": 1661169894561
+          },
+          {
+            "ID": "fbe8e431-345a-4480-8d8d-91da806e8fca",
+            "name": "Jant düzeltme hizmeti",
+            "url": "#services",
+            "icon": "",
+            "createdAt": 1661169904034
+          }
+        ],
+        "createdAt": 1661163959833
+      }
+    ],
+    "footerAlt": {
+      "logo": [
+        {
+          "ID": "ed959bad-61d7-48a6-a3da-9086fd252efa",
+          "src": "public/images/1661234468608_erbay.png",
+          "alt": "Erbay Logo",
+          "createdAt": 1661234476524
+        },
+        {
+          "ID": "8b1325c5-092b-45a6-a917-c535a57cb166",
+          "src": "public/images/1661234483712_lanista.svg",
+          "alt": "Lanista Logo",
+          "createdAt": 1661234489882
+        }
+      ],
+      "info": {
+        "ID": "e7d43c97-a268-4f86-b2e3-d877a5e2b9d9",
+        "yazi": "Copyright",
+        "yil": "2022",
+        "createdAt": 1661234516215
+      },
+      "createdAt": 1661234449848,
+      "ID": "29ab6126-fd67-4596-a14c-f8d85e1681ff"
+    },
+    "createdAt": 1661163922880,
+    "ID": "6e3c46a4-0e8f-4a2c-97c7-c5d2238dbf25"
+  }
+]
