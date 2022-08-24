@@ -586,7 +586,12 @@
           "lastikAdi": "Nokian 205/55R16 91V Wetproof Yaz Lastiği Üretim 2021",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "6be44e70-61ec-424e-a0ea-6eb4bb6d739d",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325105844
+          },
           "createdAt": 1661325005223
         },
         {
