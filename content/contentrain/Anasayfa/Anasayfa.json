@@ -476,7 +476,12 @@
           "lastikAdi": "KORMORAN 185/65R15 88H XL ROAD PERFORMANCE YAZ LASTİĞİ 2020 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "ba077178-5ac3-4520-bcde-a0eb764d32a9",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661324677860
+          },
           "createdAt": 1661324518764
         },
         {
