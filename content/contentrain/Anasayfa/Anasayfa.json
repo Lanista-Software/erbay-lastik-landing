@@ -1246,6 +1246,12 @@
           "src": "public/images/1661331089306_castrol.svg",
           "alt": "castrol",
           "createdAt": 1661331093040
+        },
+        {
+          "ID": "f51619ba-6661-43d1-b6e2-e8bf03bf1516",
+          "src": "public/images/1661331101545_General.svg",
+          "alt": "general",
+          "createdAt": 1661331105465
         }
       ],
       "createdAt": 1661331042083
