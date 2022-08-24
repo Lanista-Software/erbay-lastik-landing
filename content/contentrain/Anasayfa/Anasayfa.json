@@ -1309,6 +1309,11 @@
           "ID": "caf4965f-9e3f-417f-a436-69e72cced579",
           "label": "Ödeme",
           "createdAt": 1661331797718
+        },
+        {
+          "ID": "dc5e437c-8798-46e9-b833-18d61375bcbf",
+          "label": "Teknik",
+          "createdAt": 1661331803380
         }
       ]
     },
