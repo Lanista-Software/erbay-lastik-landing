@@ -1228,7 +1228,12 @@
       "ustYazi": "MARKALARIMIZ",
       "baslik": "Temsilcilsi olduğumuz bazı büyük markalar",
       "aciklama": "Daha fazla bilgi almak ve diğer hizmetleri öğrenmek için",
-      "buton": [],
+      "buton": {
+        "ID": "12abc1ab-88c5-4867-bc78-f5014ad071a0",
+        "label": "Hemen Arayın",
+        "link": "tel:0(432) 223 24 48",
+        "createdAt": 1661331060764
+      },
       "markaLogolari": [],
       "createdAt": 1661331042083
     },
