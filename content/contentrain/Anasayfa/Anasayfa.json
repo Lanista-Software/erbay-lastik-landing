@@ -1163,6 +1163,14 @@
           "aciklama": "Satın aldığınız lastiklerin sökme ve takma işlemlerini biz gerçekleştirelim",
           "buton": [],
           "createdAt": 1661330341204
+        },
+        {
+          "ID": "7f0bbcb1-9381-4897-b230-ef09264a46ae",
+          "foto": [],
+          "baslik": "Lastik hastanesi",
+          "aciklama": "Mevsimi geçen lastiklerinizi bize emanet edin, siz muhafaza etme derdinden kurtulun",
+          "buton": [],
+          "createdAt": 1661330357397
         }
       ],
       "createdAt": 1661329739300
