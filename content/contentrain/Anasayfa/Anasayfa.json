@@ -185,6 +185,11 @@
                 "ID": "f9bdf544-7e49-4e28-aad6-71256e483d9f",
                 "secenek": "Yaz",
                 "createdAt": 1661327627014
+              },
+              {
+                "ID": "50a4a658-87ab-416b-aa2a-982ec395a675",
+                "secenek": "Kış",
+                "createdAt": 1661327632261
               }
             ],
             "createdAt": 1661326936298
