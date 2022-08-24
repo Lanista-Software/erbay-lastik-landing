@@ -682,7 +682,12 @@
           "lastikAdi": "KORMORAN 205/60R16 92H ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "4567f679-b52c-4b73-9eec-3c95b2491b07",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325610190
+          },
           "createdAt": 1661325434077
         }
       ],
