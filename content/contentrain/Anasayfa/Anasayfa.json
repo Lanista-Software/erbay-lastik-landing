@@ -152,7 +152,13 @@
           {
             "ID": "f44f5ac7-eadd-4583-95ec-d10cf9e8292e",
             "adi": "Marka",
-            "liste": [],
+            "liste": [
+              {
+                "ID": "0019ea95-d9ca-415d-bb66-fd315b3120b2",
+                "secenek": "Michelin",
+                "createdAt": 1661327540038
+              }
+            ],
             "createdAt": 1661326917995,
             "updatedAt": 1661326983825
           },
