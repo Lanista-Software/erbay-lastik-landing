@@ -6,9 +6,10 @@
       "logoFoto": [
         {
           "ID": "1fa7f535-9b51-4090-969d-f920a790d7d4",
-          "alt": "/",
+          "alt": "erbay logo",
           "src": "public/images/1660569132734_erbay.png",
-          "createdAt": 1660569134841
+          "createdAt": 1660569134841,
+          "updatedAt": 1661333065765
         }
       ],
       "createdAt": 1660569126337
