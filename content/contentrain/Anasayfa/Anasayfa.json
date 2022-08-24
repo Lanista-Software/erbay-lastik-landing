@@ -1330,6 +1330,13 @@
           "cevap": "Yukarıda lastiklerinizin yan yüzeyinde görebildiğiniz \"205/55R16 91V\" ve benzeri lastik ölçülerini filtreleyerek arama yapabilirsiniz. Lastik ölçüleri \"Taban\" / \"Yanak\" R \"Jant Çapı\" şeklinde yazılmaktadır. Ayrıca aradığınız lastiğin hangi mevsime ve hangi markaya ait olduğunu, RUNFLAT veya SEAL özellikleri bulunup bulunmadığını da seçerek, arama sonuçlarını filtreleyebilir, en doğru ürüne, en hızlı şekilde ulaşabilirsiniz.",
           "tag": "teknik",
           "createdAt": 1661331953593
+        },
+        {
+          "ID": "ed711749-3f40-4c5c-a621-2c2bf40134cf",
+          "soru": "Aracımdaki RunFlat lastikler yerine, standart lastik takabilir miyim ?",
+          "cevap": "Güçlü spor otomobiller ve lüks sedanlarda tercih edilmekte olan teknolojilerden birisi olan RFT, lastiklerinizin patlaması durumunda, sizi 80 km/s hızı geçmeden, ortalama 80 km. kadar daha taşıyabilmek üzere geliştirilmiştir. Mekanik açıdan RFT lastikler yerine, standart lastikler ebatları aynı olmak kaydı ile araçlara takılabilmektedir. Ancak gerek güvenli sürüş kriterleri, gerek araç üreticileri tarafından bu uygulama önerilmemektedir. Özellikle uzun seyahatlerde bagajında stepne lastik haznesi bulunmayan bu araçlarla yolda kalabilir, yüksek hızda lastiğin patlaması durumunda direksiyon hakimiyeti olumsuz yönde etkilenebilmektedir. Lastik ve araç üreticileri, kullanıcıların daha fazla konfor beklentisi veya modifiye süreçlerinde tercih ettiği bu yöntemi önermemektedir.",
+          "tag": "teknik",
+          "createdAt": 1661331969418
         }
       ],
       "createdAt": 1661331259925,
