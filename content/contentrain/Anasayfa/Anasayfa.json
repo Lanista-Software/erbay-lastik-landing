@@ -1408,6 +1408,14 @@
           "buton": [],
           "foto": [],
           "createdAt": 1661332281532
+        },
+        {
+          "ID": "0c70ad30-9fe7-4504-bec3-d00d617d00a7",
+          "label": "Telefon",
+          "placeholder": "Telefon",
+          "buton": [],
+          "foto": [],
+          "createdAt": 1661332291207
         }
       ],
       "createdAt": 1661332108591,
