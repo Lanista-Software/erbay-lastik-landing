@@ -601,7 +601,12 @@
           "lastikAdi": "https://app.sopyo.com/public/products/075d0f85f16cad818a867d91e0436160.jpg",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "ffa92edd-e7ce-4057-8f24-3692cbdd47be",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325116156
+          },
           "createdAt": 1661325037140
         }
       ],
