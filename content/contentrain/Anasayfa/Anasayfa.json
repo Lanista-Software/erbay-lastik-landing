@@ -451,7 +451,12 @@
         },
         {
           "ID": "f5aaf985-5e2c-4243-b081-18d26ee99e45",
-          "foto": [],
+          "foto": {
+            "ID": "7cd0ffbe-f22b-4cac-b44d-12af5eafa3de",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/2eb85fec-21ba-4980-9523-bd17da5954eb/2255518DÖRTMEVSİM KORMORAN.jpeg",
+            "alt": "Kormoran 225/55R18 102V XL All Season Suv Dört Mevsim M+S 2021 Üretim",
+            "createdAt": 1661324466332
+          },
           "mevsim": "4 MEVSİM",
           "lastikAdi": "Kormoran 225/55R18 102V XL All Season Suv Dört Mevsim M+S 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
