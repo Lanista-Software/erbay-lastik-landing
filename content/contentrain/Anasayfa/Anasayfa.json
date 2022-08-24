@@ -1168,7 +1168,12 @@
         },
         {
           "ID": "506d5b57-d55e-43b6-97e7-5b6733a141ca",
-          "foto": [],
+          "foto": {
+            "ID": "867bba32-5b1f-4e41-890d-7c586c3a42a5",
+            "src": "public/images/1661330944413_service3.jpg",
+            "alt": "lastik sökme takma",
+            "createdAt": 1661330951228
+          },
           "baslik": "Lastik Sökme ve Takma",
           "aciklama": "Satın aldığınız lastiklerin sökme ve takma işlemlerini biz gerçekleştirelim",
           "buton": {
