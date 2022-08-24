@@ -57,7 +57,11 @@
       },
       "createdAt": 1661247603294
     },
-    "populer": {},
+    "populer": {
+      "urunKartlari": [],
+      "createdAt": 1661321318406,
+      "ID": "04da6276-9b75-40fa-998e-76d2fe40779d"
+    },
     "urunler": {},
     "banner": {},
     "hizmetler": {},
