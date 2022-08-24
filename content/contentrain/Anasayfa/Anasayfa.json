@@ -832,7 +832,12 @@
         },
         {
           "ID": "a2c16e3e-2152-4cfb-8467-7104c82f8107",
-          "foto": [],
+          "foto": {
+            "ID": "ea5735db-3a72-4faa-ad2f-3e4af69f8c18",
+            "src": "https://app.sopyo.com/public/products/5b21de0b4690e9e8f8abedb5b4d210b5.jpg",
+            "alt": "MICHELIN 245/45R17 XL 99Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326601292
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 245/45R17 XL 99Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
