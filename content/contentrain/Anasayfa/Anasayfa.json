@@ -611,7 +611,12 @@
         },
         {
           "ID": "d8e4c961-c068-484b-ab3e-a2f94a24b760",
-          "foto": [],
+          "foto": {
+            "ID": "5505b269-bb1f-4467-8577-af996a93dc85",
+            "src": "https://app.sopyo.com/public/products/075d0f85f16cad818a867d91e0436160.jpg",
+            "alt": "MICHELIN 225/45R17 91W PRIMACY4 S2 2021 ÜRETİM",
+            "createdAt": 1661325248204
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 225/45R17 91W PRIMACY4 S2 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
