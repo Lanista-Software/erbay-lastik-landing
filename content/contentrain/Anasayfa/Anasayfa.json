@@ -717,7 +717,12 @@
           "lastikAdi": "KORMORAN 195/65R15 95H XL ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "a802d896-c4f5-4c30-beb5-f0018e5c013b",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661325997587
+          },
           "createdAt": 1661325868164
         },
         {
