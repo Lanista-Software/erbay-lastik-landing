@@ -190,6 +190,11 @@
                 "ID": "50a4a658-87ab-416b-aa2a-982ec395a675",
                 "secenek": "Kış",
                 "createdAt": 1661327632261
+              },
+              {
+                "ID": "651a744a-bf23-4fd1-b7ea-0efd369c9a8c",
+                "secenek": "4 Mevsim",
+                "createdAt": 1661327639646
               }
             ],
             "createdAt": 1661326936298
