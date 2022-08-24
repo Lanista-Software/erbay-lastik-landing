@@ -1270,6 +1270,12 @@
           "src": "public/images/1661331131479_Nokian.svg",
           "alt": "nokian",
           "createdAt": 1661331134177
+        },
+        {
+          "ID": "5575e6ce-f920-4f3e-a109-b851798316e2",
+          "src": "public/images/1661331140845_Petlas.svg",
+          "alt": "petlas",
+          "createdAt": 1661331143290
         }
       ],
       "createdAt": 1661331042083
