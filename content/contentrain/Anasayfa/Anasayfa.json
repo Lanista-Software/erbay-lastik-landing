@@ -1314,6 +1314,11 @@
           "ID": "dc5e437c-8798-46e9-b833-18d61375bcbf",
           "label": "Teknik",
           "createdAt": 1661331803380
+        },
+        {
+          "ID": "dee6dd89-2b37-43f1-9e8a-7dae1b600c23",
+          "label": "İletişim",
+          "createdAt": 1661331809905
         }
       ]
     },
