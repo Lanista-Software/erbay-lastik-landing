@@ -752,7 +752,12 @@
         },
         {
           "ID": "b48807f4-f502-420d-9e38-8e50e8acb8c9",
-          "foto": [],
+          "foto": {
+            "ID": "65b0e7ae-d107-4dea-a2e4-442c4f5eb922",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/edd1b685-101d-42e4-99af-833d486f343f/2156017PR4.jpeg",
+            "alt": "MICHELIN 215/60R17 96V PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326142852
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 215/60R17 96V PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
