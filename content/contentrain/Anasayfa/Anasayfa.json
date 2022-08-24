@@ -148,7 +148,14 @@
       "baslik": "Bayimizdeki ürünleri keşfedin",
       "aciklama": "Bayilerimizde sizler için sunduğumuz ürünler",
       "aramaKarti": {
-        "secenekler": [],
+        "secenekler": [
+          {
+            "ID": "f44f5ac7-eadd-4583-95ec-d10cf9e8292e",
+            "adi": "MARKA",
+            "liste": [],
+            "createdAt": 1661326917995
+          }
+        ],
         "createdAt": 1661326898963,
         "ID": "2bc499e5-28b6-476d-bb10-52f91b1e9a80"
       },
