@@ -892,7 +892,12 @@
         },
         {
           "ID": "a4b879e8-9d0e-4d27-9113-54adb17d84f3",
-          "foto": [],
+          "foto": {
+            "ID": "65887f1f-0751-49a1-a6d0-ebce0e63afb0",
+            "src": "https://app.sopyo.com/public/products/5b21de0b4690e9e8f8abedb5b4d210b5.jpg",
+            "alt": "MICHELIN 235/45R18 XL 98Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661326855020
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 235/45R18 XL 98Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
