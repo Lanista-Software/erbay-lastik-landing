@@ -351,7 +351,12 @@
         },
         {
           "ID": "49a83ab1-90b9-41c4-93b0-641c31cbee2f",
-          "foto": [],
+          "foto": {
+            "ID": "60204867-0fb6-4495-aec6-2f1f75c030fb",
+            "src": "https://app.sopyo.com/public/products/b68e1b80eeb02be2c16bc627e1c8fd74.jpg",
+            "alt": "KORMORAN 205/55R16 91H ROAD PERFORMANCE YAZ LASTİĞİ ARALIK 2020 ÜRETİM",
+            "createdAt": 1661323913707
+          },
           "mevsim": "YAZ",
           "lastikAdi": "KORMORAN 205/55R16 91H ROAD PERFORMANCE YAZ LASTİĞİ ARALIK 2020 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
