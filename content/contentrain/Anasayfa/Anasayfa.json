@@ -1394,7 +1394,10 @@
     "mesaj": {
       "bilgiler": [],
       "createdAt": 1661332108591,
-      "ID": "be5215ea-6441-4643-a4a7-8c05d1be03e7"
+      "ID": "be5215ea-6441-4643-a4a7-8c05d1be03e7",
+      "baslik": "Mesajlarınızı hemen cevaplayalım",
+      "aciklama": "Sormak istediğiniz her soru, almak istediğiniz bütün hizmetlerle ilgili bize mesaj gönderebilirsiniz. Soru ve görüşlerinizi önemsiyoruz.",
+      "updatedAt": 1661332254141
     },
     "createdAt": 1661247577078,
     "ID": "e83152d5-247b-4851-ad39-04e49b9cb188"
