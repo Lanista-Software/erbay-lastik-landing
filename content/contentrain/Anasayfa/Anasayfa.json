@@ -1392,7 +1392,16 @@
       "createdAt": 1661332072991
     },
     "mesaj": {
-      "bilgiler": [],
+      "bilgiler": [
+        {
+          "ID": "bde439ed-ddcb-4198-acbc-ca30e882ea5d",
+          "label": "İsim",
+          "placeholder": "İsim",
+          "buton": [],
+          "foto": [],
+          "createdAt": 1661332272720
+        }
+      ],
       "createdAt": 1661332108591,
       "ID": "be5215ea-6441-4643-a4a7-8c05d1be03e7",
       "baslik": "Mesajlarınızı hemen cevaplayalım",
