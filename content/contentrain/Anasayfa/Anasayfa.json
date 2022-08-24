@@ -1204,7 +1204,12 @@
         },
         {
           "ID": "ef4ee7a2-60e8-488f-bc6c-d4f40aed9878",
-          "foto": [],
+          "foto": {
+            "ID": "4f2981e8-08db-4ec4-9c26-83014773ef05",
+            "src": "public/images/1661330999197_man.png",
+            "alt": "rot balans",
+            "createdAt": 1661331007748
+          },
           "baslik": "Rot Balans",
           "aciklama": "Lastiklerinizin en hassas ayarları için bize gelin, yollarda daha güvenli sürüş keyfini yaşayın",
           "buton": {
