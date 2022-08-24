@@ -1337,6 +1337,13 @@
           "cevap": "Güçlü spor otomobiller ve lüks sedanlarda tercih edilmekte olan teknolojilerden birisi olan RFT, lastiklerinizin patlaması durumunda, sizi 80 km/s hızı geçmeden, ortalama 80 km. kadar daha taşıyabilmek üzere geliştirilmiştir. Mekanik açıdan RFT lastikler yerine, standart lastikler ebatları aynı olmak kaydı ile araçlara takılabilmektedir. Ancak gerek güvenli sürüş kriterleri, gerek araç üreticileri tarafından bu uygulama önerilmemektedir. Özellikle uzun seyahatlerde bagajında stepne lastik haznesi bulunmayan bu araçlarla yolda kalabilir, yüksek hızda lastiğin patlaması durumunda direksiyon hakimiyeti olumsuz yönde etkilenebilmektedir. Lastik ve araç üreticileri, kullanıcıların daha fazla konfor beklentisi veya modifiye süreçlerinde tercih ettiği bu yöntemi önermemektedir.",
           "tag": "teknik",
           "createdAt": 1661331969418
+        },
+        {
+          "ID": "dbbe1fdf-6fd3-4707-8b2b-3b970c8686d7",
+          "soru": "Kış lastiği 4 adet mi 2 adet mi kullanılır?",
+          "cevap": "Kış lastiği 4 adet kullanılmalıdır. 2 adet kullanıldığı zaman yüksek hızda ve dönüşlerde aracın hakimiyeti kaybolur. Örneğin; önden çekişli bir araca, önlere 2 adet kış lastiği takalım, arka lastikler yazlık olsun. Durmak için frene bastığımız zaman aracın önü sabit kalır kaymaz, aracın arkası kendini sağa sola atar. Kazaya sebebiyet verir.",
+          "tag": "teknik",
+          "createdAt": 1661332011894
         }
       ],
       "createdAt": 1661331259925,
