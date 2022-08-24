@@ -166,6 +166,12 @@
             "adi": "Yıl",
             "liste": [],
             "createdAt": 1661326942248
+          },
+          {
+            "ID": "fe41cb70-5fc5-47c1-a45c-f13e774d86f1",
+            "adi": "Taban Genişliği",
+            "liste": [],
+            "createdAt": 1661326956235
           }
         ],
         "createdAt": 1661326898963,
