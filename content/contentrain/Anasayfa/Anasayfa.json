@@ -151,9 +151,10 @@
         "secenekler": [
           {
             "ID": "f44f5ac7-eadd-4583-95ec-d10cf9e8292e",
-            "adi": "MARKA",
+            "adi": "Marka",
             "liste": [],
-            "createdAt": 1661326917995
+            "createdAt": 1661326917995,
+            "updatedAt": 1661326983825
           },
           {
             "ID": "10f34629-22af-4311-8201-b2240c53d88f",
