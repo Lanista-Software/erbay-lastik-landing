@@ -1383,7 +1383,12 @@
       "ID": "915a7c84-3d94-46ee-a892-ae105c3397bf",
       "baslik": "Ofisimizi ziyaret edin",
       "aciklama": "Almak istediğiniz her türlü bilgi ve hizmet için sizleri ofisimize bekliyoruz, ikramlarımız eşliğinde sorunlarınızı dinleyelim ve hemen çözüm üretelim. Yol bilgilerini almak için adresimizi haritalarda görüntüleyebilirsiniz.",
-      "buton": [],
+      "buton": {
+        "ID": "65a090af-9ffc-44a3-9f8c-bf5ffb8417a3",
+        "label": "Haritalarda Açın",
+        "link": "https://g.page/IstasyonTusbaMichelin",
+        "createdAt": 1661332100282
+      },
       "createdAt": 1661332072991
     },
     "mesaj": {},
