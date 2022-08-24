@@ -202,7 +202,13 @@
           {
             "ID": "9d633d9e-c3c6-45aa-96c6-d77142aae9eb",
             "adi": "Yıl",
-            "liste": [],
+            "liste": [
+              {
+                "ID": "184a23b4-509e-4124-aef5-d933a323ebcb",
+                "secenek": "2017",
+                "createdAt": 1661327672780
+              }
+            ],
             "createdAt": 1661326942248
           },
           {
