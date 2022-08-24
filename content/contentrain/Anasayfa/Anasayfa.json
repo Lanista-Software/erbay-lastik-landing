@@ -81,7 +81,12 @@
           "lastikAdi": "Nokian 185/65R15 88T WR Snowproof (D5) Kış Lastiği 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "8c6d614a-f71e-4b4d-9cd4-03f9773bd2b8",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661321620340
+          },
           "createdAt": 1661321448471
         },
         {
