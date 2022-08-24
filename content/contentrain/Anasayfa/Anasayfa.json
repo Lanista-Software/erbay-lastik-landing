@@ -1179,7 +1179,12 @@
           "foto": [],
           "baslik": "Lastik hastanesi",
           "aciklama": "Mevsimi geçen lastiklerinizi bize emanet edin, siz muhafaza etme derdinden kurtulun",
-          "buton": [],
+          "buton": {
+            "ID": "01ada972-0170-4a90-bfc5-eb914cee2415",
+            "label": "İletişime geçin",
+            "link": "tel:0(432) 223 24 48",
+            "createdAt": 1661330781947
+          },
           "createdAt": 1661330357397
         },
         {
