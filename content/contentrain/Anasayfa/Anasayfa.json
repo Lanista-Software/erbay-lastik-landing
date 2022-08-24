@@ -206,7 +206,12 @@
           "lastikAdi": "Kormoran 225/55R18 98V Suv Summer Yaz Lastiği 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "0b706cfd-19d8-4827-b417-82a5351745dd",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661323064492
+          },
           "createdAt": 1661322893508
         }
       ],
