@@ -5,7 +5,11 @@
     <div
       class="site-navigation flex justify-between items-start p-16 lg:flex-row flex-col xl:space-x-36 lg:space-x-10"
     >
-      <div v-for="nav in nav" :key="nav.ID" class="flex flex-col pb-8 lg:pb-0">
+      <div
+        v-for="nav in footerData.links"
+        :key="nav.ID"
+        class="flex flex-col pb-8 lg:pb-0"
+      >
         <LuiText class="pb-8 font-semibold text-xl">{{ nav.title }}</LuiText>
         <div
           v-for="item in nav.list"
@@ -13,14 +17,14 @@
           class="flex flex-row justify-start items-center space-x-2 pb-4"
         >
           <LuiIcon
-            v-if="item.iconName != ''"
-            :name="item.iconName"
+            v-if="item.icon != ''"
+            :name="item.icon"
             line
             size="xl"
             class="top-0"
           />
-          <a :href="item.link"
-            ><LuiText>{{ item.description }}</LuiText></a
+          <a :href="item.url"
+            ><LuiText>{{ item.name }}</LuiText></a
           >
         </div>
       </div>
@@ -44,7 +48,13 @@
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from 'vue'
+const { data } = await useAsyncData('footer', () =>
+  queryContent('contentrain', 'footer').findOne()
+)
+let footerData = ref(data.value.body[0])
+</script>
 <script>
 export default {
   name: 'Footer',

@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-32">
+  <div class="lg:pt-32 pt-24 overflow-hidden">
     <section
       id="home"
       class="w-full h-[793px]"
