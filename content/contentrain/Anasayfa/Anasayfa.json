@@ -311,7 +311,12 @@
         },
         {
           "ID": "cfb65238-010b-460c-8160-41a082c2f82c",
-          "foto": [],
+          "foto": {
+            "ID": "7fa71559-e5f2-428e-8c07-526179d2ff9e",
+            "src": "https://app.sopyo.com/public/products/3845bee23f5f3e38d5dc263b3cbfedc8.jpg",
+            "alt": "MICHELIN 195/65R15 91H PRIMACY4 S2 YAZ LASTİĞİ 2020 ÜRETİM YOL TUTUŞ:A-YAKIT:A SES:68",
+            "createdAt": 1661323855060
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 195/65R15 91H PRIMACY4 S2 YAZ LASTİĞİ 2020 ÜRETİM YOL TUTUŞ:A-YAKIT:A SES:68",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
