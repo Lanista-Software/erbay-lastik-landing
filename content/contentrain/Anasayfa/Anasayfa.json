@@ -1192,7 +1192,12 @@
           "foto": [],
           "baslik": "Rot Balans",
           "aciklama": "Lastiklerinizin en hassas ayarları için bize gelin, yollarda daha güvenli sürüş keyfini yaşayın",
-          "buton": [],
+          "buton": {
+            "ID": "c1d8e8d9-8c68-48b2-a8fb-4de992a8a10d",
+            "label": "İletişime geçin",
+            "link": "tel:0(432) 223 24 48",
+            "createdAt": 1661330853404
+          },
           "createdAt": 1661330370324
         }
       ],
