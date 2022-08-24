@@ -1262,8 +1262,9 @@
         {
           "ID": "4da8c661-5bcb-4a06-8c43-0e525af714f3",
           "src": "public/images/1661331121765_Michelin.svg",
-          "alt": "mıchelın",
-          "createdAt": 1661331125116
+          "alt": "michelin",
+          "createdAt": 1661331125116,
+          "updatedAt": 1661331163753
         },
         {
           "ID": "cc1e0c7d-53cb-4316-9d24-7900e0b69043",
