@@ -571,7 +571,12 @@
         },
         {
           "ID": "5b96d23a-b2be-4b44-9ce1-4c43db34b1e2",
-          "foto": [],
+          "foto": {
+            "ID": "da8ad05a-e159-4e37-b79b-b45c1a5f0b55",
+            "src": "https://app.sopyo.com/public/products/afccf3f141b85ff28982099ea7035e69.jpg",
+            "alt": "MICHELIN 195/65R15 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661325161317
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 195/65R15 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
