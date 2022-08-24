@@ -1344,6 +1344,13 @@
           "cevap": "Kış lastiği 4 adet kullanılmalıdır. 2 adet kullanıldığı zaman yüksek hızda ve dönüşlerde aracın hakimiyeti kaybolur. Örneğin; önden çekişli bir araca, önlere 2 adet kış lastiği takalım, arka lastikler yazlık olsun. Durmak için frene bastığımız zaman aracın önü sabit kalır kaymaz, aracın arkası kendini sağa sola atar. Kazaya sebebiyet verir.",
           "tag": "teknik",
           "createdAt": 1661332011894
+        },
+        {
+          "ID": "be0df208-2b92-425c-a997-53be980d364e",
+          "soru": "Kış lastiği hangi aylarda kullanılmalıdır?",
+          "cevap": "Kış lastiği kullanımı Türkiye’de hava şartlarında Ekim ayının başında başlar, Nisan ayının ortalarında biter. Kış lastiğinin mali olarak yükümlüdür. Ortalama yaz lastiği kullananlar 2 senede bir yaz lastiği değiştirirler. Kış lastiği ve yaz lastiği kullanan araç sahiplerinin ortalama 4 sene sonra lastik ihtiyacı olmayacaktır. Kış lastiğinin kullanımının uzun vadede, araç sahiplerine hiçbir mali yükü yoktur.",
+          "tag": "teknik",
+          "createdAt": 1661332026318
         }
       ],
       "createdAt": 1661331259925,
