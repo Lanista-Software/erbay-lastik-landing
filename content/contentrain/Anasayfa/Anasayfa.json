@@ -291,7 +291,12 @@
         },
         {
           "ID": "82977f85-0544-48b8-99c9-09435d41551b",
-          "foto": [],
+          "foto": {
+            "ID": "70affa53-ccb2-41ae-9f8d-a659ab6fdbd5",
+            "src": "https://app.sopyo.com/public/products/4d61c395928d54823d1fe1f9886fa2d8.jpg",
+            "alt": "MICHELIN 245/40R19 98H XL X-ICE XI3 2019 ÜRETİM",
+            "createdAt": 1661323479715
+          },
           "mevsim": "KIŞ",
           "lastikAdi": "MICHELIN 245/40R19 98H XL X-ICE XI3 2019 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
