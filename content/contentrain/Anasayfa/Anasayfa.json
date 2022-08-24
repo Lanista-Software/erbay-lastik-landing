@@ -231,7 +231,12 @@
         },
         {
           "ID": "8d084730-8da1-4745-9491-e9b30fb6d7a4",
-          "foto": [],
+          "foto": {
+            "ID": "ef14bea3-8c77-4ff1-8ae6-ef0e77f58c6d",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/01b17170-92d3-4886-adcb-ef437a5d2096/1956515nokianwrd5.jpg",
+            "alt": "Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi",
+            "createdAt": 1661323392701
+          },
           "mevsim": "KIŞ",
           "lastikAdi": "Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
