@@ -313,7 +313,13 @@
           {
             "ID": "ada65ad4-5139-465e-984a-d66f4f8b4633",
             "adi": "Jant Çapı",
-            "liste": [],
+            "liste": [
+              {
+                "ID": "d51961b0-9b1c-484f-a421-cb4c61315f11",
+                "secenek": "15",
+                "createdAt": 1661327914837
+              }
+            ],
             "createdAt": 1661326974028
           }
         ],
