@@ -591,7 +591,12 @@
         },
         {
           "ID": "677a029a-462e-40af-b116-e53dcbba61ec",
-          "foto": [],
+          "foto": {
+            "ID": "c63d2bae-3ea2-4830-ba93-20305304630d",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/09c1f8ca-967d-452a-873b-b1369b6d493a/2055516NOKİAN.jpeg",
+            "alt": "Nokian 205/55R16 91V Wetproof Yaz Lastiği Üretim 2021",
+            "createdAt": 1661325183979
+          },
           "mevsim": "YAZ",
           "lastikAdi": "Nokian 205/55R16 91V Wetproof Yaz Lastiği Üretim 2021",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
