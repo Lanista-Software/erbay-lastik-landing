@@ -13,13 +13,12 @@
         class="w-full h-[793px] pt-36"
         style="background: rgba(4, 31, 69, 0.8)"
       >
-        <div class="container-lg flex flex-row justify-between items-center">
-          <div class="text-side flex flex-col w-1/2">
-            <LuiHeading level="1" size="xs" display>{{
+        <div
+          class="container-lg mx-auto flex flex-row justify-between items-center"
+        >
+          <div class="text-side flex flex-col w-1/2 text-white">
+            <LuiHeading level="1" size="xs" display class="font-semibold">{{
               hero.title
-            }}</LuiHeading>
-            <LuiHeading level="2" size="xs" display class="pb-8">{{
-              hero.subtitle
             }}</LuiHeading>
             <LuiText class="pb-8">{{ hero.description }}</LuiText>
             <div>
@@ -28,16 +27,17 @@
               </LuiButton>
             </div>
           </div>
-          <div class="card-side flex flex-col w-1/2">
+          <div class="card-side flex flex-col items-end">
             <div id="search-card" class="rounded-2xl bg-white mx-auto">
               <div
-                class="rounded-t-2xl grid grid-cols-3 gap-3 p-6 bg-[#f3f4f6]"
+                class="rounded-t-2xl grid grid-cols-3 gap-3 p-6 bg-[#f3f4f6] justify-between"
               >
                 <LuiDropdown
                   v-for="item in arama"
                   :key="item"
                   size="lg"
                   rounded
+                  block
                   :text="item.title"
                   ><lui-dropdown-item
                     v-for="listItem in item.list"
@@ -46,7 +46,7 @@
                   >
                 </LuiDropdown>
               </div>
-              <div class="all-center">
+              <div class="all-center h-64">
                 <img src="/images/lastik.png" alt="lastik" />
               </div>
               <div class="bg-[#f3f4f6] w-full px-12 py-8 rounded-b-2xl">
@@ -62,12 +62,12 @@
     <section id="hit" class="pb-40">
       <div
         id="hit-cards"
-        class="container-sm flex flex-row justify-between items-center -mt-20"
+        class="container-cards w-full flex flex-row justify-between items-center -mt-20 space-x-8"
       >
         <div
           v-for="item in populer"
           :key="item"
-          class="rounded-2xl bg-white w-72"
+          class="rounded-2xl bg-white w-72 border"
         >
           <div id="hit-icon" class="pt-5 pb-2 left-0">
             <span
@@ -130,17 +130,19 @@
     <section id="products" class="pb-24">
       <div class="all-center flex-col">
         <div id="product-title" class="all-center flex-col pb-8">
-          <LuiHeading level="4" size="xl" class="text-black">{{
+          <LuiHeading level="4" size="xl" class="text-black font-semibold">{{
             urunler.baslik
           }}</LuiHeading>
-          <LuiText class="text-xl text-slate-700">{{
-            urunler.aciklama
-          }}</LuiText>
+          <div class="container-description">
+            <LuiText class="text-xl text-slate-700">{{
+              urunler.aciklama
+            }}</LuiText>
+          </div>
         </div>
         <div class="pb-16">
           <div
             id="search-card-product"
-            class="container rounded-2xl bg-white mx-auto w-full flex flex-row justify-between px-8 py-4"
+            class="container rounded-2xl mx-auto w-full flex flex-row justify-between px-8 py-4 border"
           >
             <div class="grid grid-cols-6 gap-3 justify-center items-center">
               <LuiDropdown
@@ -167,7 +169,7 @@
           <div
             v-for="item in urunler.liste"
             :key="item"
-            class="rounded-2xl bg-white w-72 pt-12"
+            class="rounded-2xl bg-white w-72 pt-12 border"
           >
             <div id="hit-image" class="all-center">
               <img
@@ -180,13 +182,15 @@
               id="hit-type"
               class="flex flex-row justify-between items-center px-4 py-6"
             >
-              <span class="text-primary-300">{{ item.mevsim }} Lastiği</span>
+              <span class="text-primary-300"
+                >{{ item.mevsim.toUpperCase() }} Lastiği</span
+              >
               <img
                 :src="
-                  item.mevsim === 'Kış'
+                  item.mevsim.toLowerCase() === 'kış'
                     ? '/icons/snowy.svg'
                     : [
-                        item.mevsim === 'Yaz'
+                        item.mevsim.toLowerCase() === 'yaz'
                           ? '/icons/sun.svg'
                           : '/icons/rainy.svg',
                       ]
@@ -234,27 +238,34 @@
         background-size: cover;
       "
     >
-      <div class="container w-full mx-auto text-center h-96 center-col">
-        <LuiHeading level="4" size="lg" class="pb-12">{{
+      <div
+        class="container w-full mx-auto text-center h-96 center-col text-white"
+      >
+        <LuiHeading level="4" size="lg" class="pb-12 font-medium">{{
           banner.baslik
         }}</LuiHeading>
         <LuiText class="pb-8">{{ banner.aciklama }}</LuiText>
-        <LuiButton rounded size="lg" variant="secondary">
+        <LuiButton rounded size="lg" variant="secondary" class="text-primary">
           <nuxt-link :to="banner.buton.link">{{
             banner.buton.label
           }}</nuxt-link></LuiButton
         >
       </div>
     </section>
-    <section id="services" class="py-24">
+    <section id="services" class="pt-24 pb-36">
       <div class="flex flex-col justify-center items-center">
         <div class="container-lg mx-auto text-center text-black center-col">
-          <LuiHeading level="4" size="lg" class="pb-4">{{
+          <LuiHeading level="4" size="lg" class="pb-4 font-semibold">{{
             hizmetler.baslik
           }}</LuiHeading>
-          <LuiText class="text-xl">{{ hizmetler.aciklama }}</LuiText>
+          <div class="container-description">
+            <LuiText class="text-xl">{{ hizmetler.aciklama }}</LuiText>
+          </div>
         </div>
-        <div id="services-cards" class="container-sm grid grid-cols-4 gap-16">
+        <div
+          id="services-cards"
+          class="container-cards grid grid-cols-4 justify-between"
+        >
           <div
             v-for="(item, i) in hizmetler.liste"
             :key="i"
@@ -267,7 +278,7 @@
         </div>
       </div>
     </section>
-    <section id="brands" class="pt-36">
+    <section id="brands" class="pb-24">
       <div class="container-lg flex flex-row justify-between items-start">
         <div id="brands-text" class="flex flex-col text-start justify-center">
           <div class="flex flex-row items-center space-x-4 pb-4">
@@ -284,9 +295,12 @@
               markalar.ustbaslik
             }}</LuiText>
           </div>
-          <LuiHeading level="4" size="lg" class="pb-8 text-black">{{
-            markalar.baslik
-          }}</LuiHeading>
+          <LuiHeading
+            level="4"
+            size="lg"
+            class="pb-8 text-black font-semibold"
+            >{{ markalar.baslik }}</LuiHeading
+          >
           <LuiText class="text-xl text-slate-500 pb-8">{{
             markalar.aciklama
           }}</LuiText>
@@ -300,7 +314,7 @@
           <div
             v-for="(item, index) in markalar.liste"
             :key="index"
-            class="bg-white rounded-2xl h-44 w-44 all-center"
+            class="bg-white rounded-2xl h-44 w-52 all-center border"
           >
             <img :src="item.src" :alt="item.alt" class="rounded-xl p-3" />
           </div>
@@ -316,7 +330,7 @@
           <div
             class="text-side text-white flex flex-col justify-start lg:w-3/5"
           >
-            <LuiHeading class="text-warning pb-4" level="2"
+            <LuiHeading class="pb-4 font-semibold" level="2" size="xl"
               >Biz Kimiz</LuiHeading
             >
             <LuiText class="text-lg !text-white"
@@ -356,9 +370,9 @@
         </div>
       </div>
     </section>
-    <section id="faq" class="contentrain-lg py-20 px-0 md:px-16 lg:px-64">
-      <div class="center-col">
-        <div class="all-center flex-col">
+    <section id="faq" class="py-20">
+      <div class="center-col container-lg">
+        <div class="container-description all-center flex-col">
           <LuiText class="pb-8 text-center text-xl"
             >Aklınıza takılabileceğini düşündüğümüz bazı sorular ve cevapları
             sizler için listeledik. Daha fazla bilgi almak için lütfen bizimle
@@ -389,9 +403,18 @@
       </div>
     </section>
     <section id="map" class="all-center py-24 flex flex-col">
-      <div class="section-header container-lg all-center flex-col w-3/5">
-        <LuiText class="font-bold pb-4 text-4xl text-heading">iletisim</LuiText>
-        <LuiText class="pb-8 text-center">iletisim</LuiText>
+      <div class="section-header container-lg all-center flex-col">
+        <LuiText class="font-bold pb-4 text-4xl text-heading"
+          >Ofisimizi ziyaret edin</LuiText
+        >
+        <div class="container-description">
+          <LuiText class="pb-8 text-center"
+            >Almak istediğiniz her türlü bilgi ve hizmet için sizleri ofisimize
+            bekliyoruz, ikramlarımız eşliğinde sorunlarınızı dinleyelim ve hemen
+            çözüm üretelim. Yol bilgilerini almak için adresimizi haritalarda
+            görüntüleyebilirsiniz.</LuiText
+          >
+        </div>
         <div class="pb-14">
           <a href="">
             <LuiButton rounded size="lg" class="p-2">Haritalarda Ac</LuiButton>
@@ -436,11 +459,13 @@
           <LuiHeading level="4" size="lg" class="pb-4"
             >Mesajlarınızı hemen cevaplayalım</LuiHeading
           >
-          <LuiText class="text-xl"
-            >Sormak istediğiniz her soru, almak istediğiniz bütün hizmetlerle
-            ilgili bize mesaj gönderebilirsiniz. Soru ve görüşlerinizi
-            önemsiyoruz.</LuiText
-          >
+          <div class="container-description">
+            <LuiText class="text-xl"
+              >Sormak istediğiniz her soru, almak istediğiniz bütün hizmetlerle
+              ilgili bize mesaj gönderebilirsiniz. Soru ve görüşlerinizi
+              önemsiyoruz.</LuiText
+            >
+          </div>
         </div>
         <div class="border-2 border-blue-900 rounded-2xl flex flex-row">
           <div
@@ -496,10 +521,13 @@
                 placeholder="placeholder"
               ></LuiTextarea>
             </div>
+            <div class="col-span-2 flex justify-end items-end">
+              <LuiButton size="lg" rounded>Gönder</LuiButton>
+            </div>
           </div>
           <div id="contact-image-side">
             <img
-              src="https://via.placeholder.com/574x578/"
+              src="https://via.placeholder.com/574x656/"
               alt="placeholder"
               class="rounded-r-2xl"
             />
@@ -511,8 +539,7 @@
 </template>
 <script setup>
 const hero = {
-  title: 'Erbay Lastik',
-  subtitle: 'Her mevsim yol güvenceniz',
+  title: 'Erbay Lastik her mevsim yol güvenceniz',
   description:
     'Yılların sağladığı tecrübe ve uzman kadromuzla garantili hizmet anlayışı Erbay Lastik’te. Aradığınız tipteki bütün lastiklere Van’daki satış ofisimizde veya internet mağazalarımız üzerinden ulaşabilirsiniz.',
 }
@@ -816,16 +843,4 @@ const filteredFaq = computed(() => {
 watch(filteredFaq, (to, from) => {
   console.log(to, from)
 })
-// let filteredFaqs = accordion
-// function showFaq(tag) {
-//   let filteredFaqs = []
-//   accordion.forEach((acc) => {
-//     console.log(acc)
-//     if (tag === acc.tag) {
-//       filteredFaqs.push(acc)
-//       console.log(filteredFaqs)
-//     }
-//   })
-//   return filteredFaqs
-// }
 </script>

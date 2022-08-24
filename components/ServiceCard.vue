@@ -7,7 +7,9 @@
       <p class="text-white fw-400">
         <slot />
       </p>
-      <LuiButton variant="primary" size="md">Iletişime geçin</LuiButton>
+      <LuiButton variant="primary" size="md" rounded
+        ><a href="tel:0(432)2232448">İletişime geçin</a></LuiButton
+      >
     </div>
   </div>
 </template>
@@ -36,9 +38,10 @@ export default {
 <style lang="scss" scoped>
 .service-hover-card {
   display: flex;
-  width: 275px;
-  height: 240px;
+  width: 300px;
+  height: 285px;
   border-radius: 16px;
+  background-size: cover;
   &-abs {
     align-self: flex-end;
     height: 40%;

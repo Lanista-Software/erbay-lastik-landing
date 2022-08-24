@@ -1,13 +1,11 @@
 <template>
-  <footer class="w-full bg-gradient-to-r from-primary-400 to-primary-700">
+  <footer
+    class="w-full bg-gradient-to-r from-primary-400 to-primary-700 text-white"
+  >
     <div
-      class="site-navigation flex justify-evenly items-start p-16 lg:flex-row flex-col xl:space-x-36 lg:space-x-10"
+      class="site-navigation flex justify-between items-start p-16 lg:flex-row flex-col xl:space-x-36 lg:space-x-10"
     >
-      <div
-        v-for="nav in nav"
-        :key="nav.ID"
-        class="flex flex-col lg:w-1/3 pb-8 lg:pb-0"
-      >
+      <div v-for="nav in nav" :key="nav.ID" class="flex flex-col pb-8 lg:pb-0">
         <LuiText class="pb-8 font-semibold text-xl">{{ nav.title }}</LuiText>
         <div
           v-for="item in nav.list"
@@ -27,7 +25,9 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-row justify-around items-center py-8 bg-primary-800">
+    <div
+      class="container-lg flex flex-row justify-between items-center py-8 bg-primary-800"
+    >
       <div>
         <img src="/icons/erbay.png" alt="erbay" class="w-16" />
       </div>

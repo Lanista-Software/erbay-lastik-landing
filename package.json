@@ -2,9 +2,9 @@
   "private": true,
   "scripts": {
     "build": "nuxi build",
-    "dev": "nuxi dev --port 3001",
+    "dev": "nuxi dev --port 3002",
     "generate": "nuxi generate",
-    "preview": "nuxi preview",
+    "preview": "nuxi preview --port 3111",
     "lint": "eslint .",
     "prod": "nuxi build && nuxi generate"
   },

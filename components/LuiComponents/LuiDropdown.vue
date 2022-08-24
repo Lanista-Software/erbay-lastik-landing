@@ -97,19 +97,19 @@ export default {
         const names = { prepend: 'none', append: 'none' }
         if (props.placement.startsWith('bottom')) {
           if (menuActive.value) names.append = 'arrow-down-s'
-          else names.append = 'arrow-up-s'
+          else names.append = 'arrow-down-s'
         }
         if (props.placement.startsWith('top')) {
           if (!menuActive.value) names.append = 'arrow-down-s'
-          else names.append = 'arrow-up-s'
+          else names.append = 'arrow-down-s'
         }
         if (props.placement.startsWith('right')) {
           if (!menuActive.value) names.append = 'arrow-left-s'
-          else names.append = 'arrow-right-s'
+          else names.append = 'arrow-down-s'
         }
         if (props.placement.startsWith('left')) {
           if (!menuActive.value) names.prepend = 'arrow-right-s'
-          else names.prepend = 'arrow-left-s'
+          else names.prepend = 'arrow-down-s'
         }
         return names
       }

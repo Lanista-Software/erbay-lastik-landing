@@ -1,22 +1,27 @@
 <template>
   <div
-    class="flex flex-col bg-gradient-to-r from-primary-400 to-primary-700 fixed top-0 w-full h-32 z-50"
+    class="flex flex-col bg-gradient-to-r from-primary-400 to-primary-700 fixed top-0 w-full h-32 z-50 text-white"
   >
-    <div id="contact" class="py-2 border-b-2 border-primary-200">
-      <li class="flex flex-row justify-evenly items-center">
+    <div id="contact" class="container-sm py-2 border-b-2 border-primary-200">
+      <li class="flex flex-row justify-between items-center">
         <ul v-for="item in iletisim" :key="item">
           <a :href="item.link" class="flex flex-row justify-start items-center"
-            ><i :class="item.icon" class="pr-1"></i> {{ item.name }}
+            ><LuiIcon :name="item.icon" line size="xl" class="pr-1"></LuiIcon>
+            {{ item.name }}
           </a>
         </ul>
       </li>
     </div>
     <nav
       id="navbar"
-      class="header flex flex-row justify-evenly items-center py-3"
+      class="header container-sm flex flex-row justify-between items-center py-3"
     >
-      <div id="logo">
+      <div id="logo" class="flex flex-row space-x-2">
         <img :src="logo.src" :alt="logo.alt" class="h-16 w-16" />
+        <!-- <div class="flex flex-col justify-center items-start">
+          <LuiText class="font-semibold text-xl">ERBAY LASTİK</LuiText>
+          <LuiText class="!text-xs">Kereste İmalat İnşaat Ltd. Şti.</LuiText>
+        </div> -->
       </div>
       <div id="navigation">
         <ul class="flex flex-row justify-between items-center space-x-4">
@@ -41,17 +46,17 @@ const iletisim = [
   {
     name: '0(432) 223 24 48',
     link: 'tel:0(432) 223 24 48',
-    icon: 'ri-phone-line',
+    icon: 'phone',
   },
   {
     name: 'Abdurrahman Gazi, Erciş Yolu 2. Km D:No:119/A, 65040 Tuşba/Van',
     link: 'https://g.page/IstasyonTusbaMichelin?share',
-    icon: 'ri-map-pin-2-line',
+    icon: 'map-pin-2',
   },
   {
     name: 'bilgi@erbaylastik.com',
     link: 'mailto:bilgi@erbaylastik.com',
-    icon: 'ri-mail-line',
+    icon: 'mail',
   },
 ]
 const logo = {
