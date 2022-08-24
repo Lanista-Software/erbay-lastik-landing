@@ -238,6 +238,16 @@
           "yildiz": 5,
           "buton": [],
           "createdAt": 1661323225852
+        },
+        {
+          "ID": "a3f0beab-3811-40bf-846e-1e5c2dcd7fa9",
+          "foto": [],
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 205/55R16 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": [],
+          "createdAt": 1661323253308
         }
       ],
       "createdAt": 1661322447956
