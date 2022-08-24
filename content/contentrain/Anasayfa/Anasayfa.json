@@ -162,6 +162,11 @@
                 "ID": "66969848-544c-46cf-9488-2b82bab6ce48",
                 "secenek": "Kormoran",
                 "createdAt": 1661327545187
+              },
+              {
+                "ID": "45033245-34f0-4480-9347-ad676f957ef1",
+                "secenek": "Nokian",
+                "createdAt": 1661327549901
               }
             ],
             "createdAt": 1661326917995,
