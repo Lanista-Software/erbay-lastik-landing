@@ -147,7 +147,11 @@
       "ID": "51c0c4b3-1d5e-467e-b2bd-be40acf37a50",
       "baslik": "Bayimizdeki ürünleri keşfedin",
       "aciklama": "Bayilerimizde sizler için sunduğumuz ürünler",
-      "aramaKarti": [],
+      "aramaKarti": {
+        "secenekler": [],
+        "createdAt": 1661326898963,
+        "ID": "2bc499e5-28b6-476d-bb10-52f91b1e9a80"
+      },
       "urunKartlari": [
         {
           "ID": "b0441f9a-df25-46d6-bc0d-b9e29ddf69d9",
