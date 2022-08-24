@@ -732,7 +732,12 @@
           "lastikAdi": "Nokian 215/55R17 94V Wetproof Yaz Lastiği 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "ab947aff-e02c-43a6-a6a7-ee74430b3714",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326020692
+          },
           "createdAt": 1661325897100
         },
         {
