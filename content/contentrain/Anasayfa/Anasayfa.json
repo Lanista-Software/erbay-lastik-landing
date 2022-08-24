@@ -66,7 +66,12 @@
           "lastikAdi": "Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "4bd66b63-7e11-461e-a7c9-0d6f42e9f10a",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661321608260
+          },
           "createdAt": 1661321400444
         },
         {
