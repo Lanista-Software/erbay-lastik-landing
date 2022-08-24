@@ -151,7 +151,12 @@
       "urunKartlari": [
         {
           "ID": "b0441f9a-df25-46d6-bc0d-b9e29ddf69d9",
-          "foto": [],
+          "foto": {
+            "ID": "7638f49e-03cb-41fd-8b95-ebf8ab22d82f",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/b937eada-a68c-4d29-91c1-0a75f3cf2838/2454519PLTOSPORT4.jpeg",
+            "alt": "Michelin 245/45R19 102Y XL Pilot Sport4 Yaz Lastiği 2020 Üretim",
+            "createdAt": 1661322573404
+          },
           "mevsim": "YAZ",
           "lastikAdi": "Michelin 245/45R19 102Y XL Pilot Sport4 Yaz Lastiği 2020 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
