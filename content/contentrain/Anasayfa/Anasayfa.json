@@ -172,6 +172,12 @@
             "adi": "Taban Genişliği",
             "liste": [],
             "createdAt": 1661326956235
+          },
+          {
+            "ID": "0ab4a1ec-ed9c-43dd-abdd-605bc9957c92",
+            "adi": "Kesit Oranı",
+            "liste": [],
+            "createdAt": 1661326965294
           }
         ],
         "createdAt": 1661326898963,
