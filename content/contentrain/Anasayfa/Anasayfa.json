@@ -180,7 +180,13 @@
           {
             "ID": "10f34629-22af-4311-8201-b2240c53d88f",
             "adi": "Mevsim",
-            "liste": [],
+            "liste": [
+              {
+                "ID": "f9bdf544-7e49-4e28-aad6-71256e483d9f",
+                "secenek": "Yaz",
+                "createdAt": 1661327627014
+              }
+            ],
             "createdAt": 1661326936298
           },
           {
