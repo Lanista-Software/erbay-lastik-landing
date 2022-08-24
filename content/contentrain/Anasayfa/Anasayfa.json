@@ -178,6 +178,12 @@
             "adi": "Kesit Oranı",
             "liste": [],
             "createdAt": 1661326965294
+          },
+          {
+            "ID": "ada65ad4-5139-465e-984a-d66f4f8b4633",
+            "adi": "Jant Çapı",
+            "liste": [],
+            "createdAt": 1661326974028
           }
         ],
         "createdAt": 1661326898963,
