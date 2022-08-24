@@ -1302,7 +1302,15 @@
     "cokSorulanlar": {
       "ID": "377647d4-8f6d-41b0-a57b-9fef889de135",
       "baslik": "Aklınıza takılabileceğini düşündüğümüz bazı sorular ve cevapları sizler için listeledik. Daha fazla bilgi almak için lütfen bizimle iletişime geçmekten çekinmeyin.",
-      "soruKartlari": [],
+      "soruKartlari": [
+        {
+          "ID": "e518f9d8-dae5-4fbb-8dca-6f007e37a1d7",
+          "soru": "Ödeme Koşullarınız ne ?",
+          "cevap": "Ödemelerinizi sadece kredi kartı ve banka kartı ile sipariş oluşturma aşamasında yapabilirsiniz",
+          "tag": "odeme",
+          "createdAt": 1661331873622
+        }
+      ],
       "createdAt": 1661331259925,
       "tagButon": [
         {
