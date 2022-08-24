@@ -143,7 +143,14 @@
       "createdAt": 1661321318406,
       "ID": "04da6276-9b75-40fa-998e-76d2fe40779d"
     },
-    "urunler": {},
+    "urunler": {
+      "ID": "51c0c4b3-1d5e-467e-b2bd-be40acf37a50",
+      "baslik": "Bayimizdeki ürünleri keşfedin",
+      "aciklama": "Bayilerimizde sizler için sunduğumuz ürünler",
+      "aramaKarti": [],
+      "urunKartlari": [],
+      "createdAt": 1661322447956
+    },
     "banner": {},
     "hizmetler": {},
     "markalar": {},
