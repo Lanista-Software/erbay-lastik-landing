@@ -1150,7 +1150,12 @@
       "hizmetKartlari": [
         {
           "ID": "c95666a2-793c-42b7-8554-f99b26763cc3",
-          "foto": [],
+          "foto": {
+            "ID": "3eaea51c-43cf-463d-83b5-f4e873256c56",
+            "src": "public/images/1661330889782_service2.jpg",
+            "alt": "jant düzeltme",
+            "createdAt": 1661330899388
+          },
           "baslik": "Jant Düzeltme",
           "aciklama": "Lastiklerinizin çabuk yıpranmaması için gelin jant bakımlarınızı servisimizde yapalım",
           "buton": {
