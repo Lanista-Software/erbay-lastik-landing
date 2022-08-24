@@ -1323,6 +1323,13 @@
           "cevap": "Banka kartı ile yaptığınız işlemlerde 3D Secure sistemi kullanılır. 3D Secure, online alışverişlerin güvenliğini sağlamak amacıyla kart kuruluşları tarafından geliştirilmiş bir kimlik doğrulama sistemidir.",
           "tag": "odeme",
           "createdAt": 1661331919368
+        },
+        {
+          "ID": "cf34d4ab-d260-4cd7-bb73-966cf7c4a810",
+          "soru": "Aracıma uygun olan lastikleri nasıl bulabilirim ?",
+          "cevap": "Yukarıda lastiklerinizin yan yüzeyinde görebildiğiniz \"205/55R16 91V\" ve benzeri lastik ölçülerini filtreleyerek arama yapabilirsiniz. Lastik ölçüleri \"Taban\" / \"Yanak\" R \"Jant Çapı\" şeklinde yazılmaktadır. Ayrıca aradığınız lastiğin hangi mevsime ve hangi markaya ait olduğunu, RUNFLAT veya SEAL özellikleri bulunup bulunmadığını da seçerek, arama sonuçlarını filtreleyebilir, en doğru ürüne, en hızlı şekilde ulaşabilirsiniz.",
+          "tag": "teknik",
+          "createdAt": 1661331953593
         }
       ],
       "createdAt": 1661331259925,
