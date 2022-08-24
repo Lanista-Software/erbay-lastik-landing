@@ -907,7 +907,12 @@
           "lastikAdi": "TİGAR 215/60R17 96H Ultra High Performance Yaz Lastigi 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "16543a7a-126c-4be7-8499-22e2cc7601ac",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326793172
+          },
           "createdAt": 1661326721094
         }
       ],
