@@ -1131,7 +1131,13 @@
       ],
       "createdAt": 1661322447956
     },
-    "banner": {},
+    "banner": {
+      "ID": "674f25ed-5900-478b-9c84-abb51eda89f7",
+      "baslik": "WEB SİTEMİZDE BULUNMAYAN TÜM ÜRÜN VE HİZMETLERİMİZ İÇİN BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ",
+      "aciklama": "Telefonla iletişime geçmek için tıklayın.",
+      "buton": [],
+      "createdAt": 1661328015238
+    },
     "hizmetler": {},
     "markalar": {},
     "hakkimizda": {},
