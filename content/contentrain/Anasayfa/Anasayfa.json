@@ -229,7 +229,13 @@
           {
             "ID": "fe41cb70-5fc5-47c1-a45c-f13e774d86f1",
             "adi": "Taban Genişliği",
-            "liste": [],
+            "liste": [
+              {
+                "ID": "6db785d4-4bc9-42e3-9c89-2a80c8f78da9",
+                "secenek": "185",
+                "createdAt": 1661327735602
+              }
+            ],
             "createdAt": 1661326956235
           },
           {
