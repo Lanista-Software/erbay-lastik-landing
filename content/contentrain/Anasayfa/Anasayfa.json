@@ -1153,7 +1153,12 @@
           "foto": [],
           "baslik": "Jant Düzeltme",
           "aciklama": "Lastiklerinizin çabuk yıpranmaması için gelin jant bakımlarınızı servisimizde yapalım",
-          "buton": [],
+          "buton": {
+            "ID": "f365c801-227a-4a3f-bc37-59651e25345c",
+            "label": "İletişime geçin",
+            "link": "tel:0(432) 223 24 48",
+            "createdAt": 1661330730805
+          },
           "createdAt": 1661330324548
         },
         {
