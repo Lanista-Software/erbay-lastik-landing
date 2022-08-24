@@ -632,7 +632,12 @@
         },
         {
           "ID": "00692ad8-34ca-4b23-b272-0844fe82998b",
-          "foto": [],
+          "foto": {
+            "ID": "4cfe2a7f-4aff-44c2-b204-0fecef2ff43c",
+            "src": "https://app.sopyo.com/public/products/08d97a6dd94bbcc470bf2861cbd6cf71.jpg",
+            "alt": "MICHELIN 225/55R17 97W PRIMACY3 ZP (RFT) YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661325678243
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 225/55R17 97W PRIMACY3 ZP (RFT) YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
