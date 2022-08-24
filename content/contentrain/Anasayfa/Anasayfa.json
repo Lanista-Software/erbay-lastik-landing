@@ -912,7 +912,12 @@
         },
         {
           "ID": "a5e011aa-9794-46b7-8661-36cd2bf1af31",
-          "foto": [],
+          "foto": {
+            "ID": "5bd99eef-cc37-49f0-941e-a3c8f7dd112c",
+            "src": "https://marketplace-single-product-images.oss-eu-central-1.aliyuncs.com/prod/239750/ca81cfcc-9ccd-4b18-92a5-6c4fd3fc36d1/TİGAR2156017.jpeg",
+            "alt": "TİGAR 215/60R17 96H Ultra High Performance Yaz Lastigi 2021 Üretim",
+            "createdAt": 1661326878324
+          },
           "mevsim": "YAZ",
           "lastikAdi": "TİGAR 215/60R17 96H Ultra High Performance Yaz Lastigi 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
