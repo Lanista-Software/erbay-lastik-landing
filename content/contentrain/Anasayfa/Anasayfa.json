@@ -1223,7 +1223,15 @@
       ],
       "createdAt": 1661329739300
     },
-    "markalar": {},
+    "markalar": {
+      "ID": "49fcc244-e525-4697-9c50-c682580bf032",
+      "ustYazi": "MARKALARIMIZ",
+      "baslik": "Temsilcilsi olduğumuz bazı büyük markalar",
+      "aciklama": "Daha fazla bilgi almak ve diğer hizmetleri öğrenmek için",
+      "buton": [],
+      "markaLogolari": [],
+      "createdAt": 1661331042083
+    },
     "hakkimizda": {},
     "cokSorulanlar": {},
     "harita": {},
