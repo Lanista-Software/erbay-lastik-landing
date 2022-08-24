@@ -812,7 +812,12 @@
           "lastikAdi": "MICHELIN 215/55R17 94V PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "c27297a2-822a-44d1-8a55-b66c185fd84e",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326498963
+          },
           "createdAt": 1661326357636
         },
         {
