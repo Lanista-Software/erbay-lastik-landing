@@ -1143,7 +1143,13 @@
       },
       "createdAt": 1661328015238
     },
-    "hizmetler": {},
+    "hizmetler": {
+      "ID": "add6f6d3-13c5-4940-b352-80b61a990acd",
+      "baslik": "Erbay Lastik Yerinde Hizmetler",
+      "aciklama": "Lastik satışımızın yanında yerinde verdiğimiz diğer hizmetler için ofis telefonlarımızdan bize ulaşıp daha ayrıntılı bilgi talep edebilir ve ilgili hizmetler için randevu oluşturabilirsiniz.",
+      "hizmetKartlari": [],
+      "createdAt": 1661329739300
+    },
     "markalar": {},
     "hakkimizda": {},
     "cokSorulanlar": {},
