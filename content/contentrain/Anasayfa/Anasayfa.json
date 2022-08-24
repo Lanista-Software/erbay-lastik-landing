@@ -478,6 +478,16 @@
           "yildiz": 5,
           "buton": [],
           "createdAt": 1661324518764
+        },
+        {
+          "ID": "b86db8f7-cff6-44c4-a41a-297bf143d6ed",
+          "foto": [],
+          "mevsim": "YAZ",
+          "lastikAdi": "MICHELIN 225/45R17 91V  PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
+          "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
+          "yildiz": 5,
+          "buton": [],
+          "createdAt": 1661324544764
         }
       ],
       "createdAt": 1661322447956
