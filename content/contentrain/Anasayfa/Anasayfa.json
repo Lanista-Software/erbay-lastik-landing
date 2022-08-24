@@ -1258,6 +1258,12 @@
           "src": "public/images/1661331113055_Kormoran.svg",
           "alt": "kormoran",
           "createdAt": 1661331115540
+        },
+        {
+          "ID": "4da8c661-5bcb-4a06-8c43-0e525af714f3",
+          "src": "public/images/1661331121765_Michelin.svg",
+          "alt": "mıchelın",
+          "createdAt": 1661331125116
         }
       ],
       "createdAt": 1661331042083
