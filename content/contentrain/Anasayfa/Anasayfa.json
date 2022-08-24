@@ -1316,6 +1316,13 @@
           "cevap": "Sepetinize World, Bonus, Axess, Maximum, CardFinans ve Paraf kredi kartlarına taksit imkanı bulunmaktadır.",
           "tag": "odeme",
           "createdAt": 1661331893430
+        },
+        {
+          "ID": "a9b55411-3d62-4899-87f9-f06036e9380a",
+          "soru": "Kredi kartıyla alışveriş yaparken güvende miyim ?",
+          "cevap": "Banka kartı ile yaptığınız işlemlerde 3D Secure sistemi kullanılır. 3D Secure, online alışverişlerin güvenliğini sağlamak amacıyla kart kuruluşları tarafından geliştirilmiş bir kimlik doğrulama sistemidir.",
+          "tag": "odeme",
+          "createdAt": 1661331919368
         }
       ],
       "createdAt": 1661331259925,
