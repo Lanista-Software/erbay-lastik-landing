@@ -1291,7 +1291,12 @@
       "ID": "9dc70f50-a7d9-4fcb-aaaf-a6750d22c63e",
       "baslik": "Biz Kimiz",
       "aciklama": "Erbay Lastik, 2002 yılından bu yana www.erbaylastik.com web sitesi ve diğer dijital satış platformları üzerinde farklı araç tipleri için, farklı markaların ürünlerini bir arada sunan lastik satış merkezidir. Merkezi Van’da bulunan şirketimiz lastik, jant ve mini stepne gibi lastik sektörü ürünleri üzerine alanında uzman kadrosu ile hizmet vermektedir. Erbay lastik’de otomobil lastikleri Michelin, Kormoran, Nokian, Tigar, Hankook, Lassa, Petlas, General, başta olmak üzere 30’un üzerinde markanın ürünleri, tüm markalara eşit mesafede olduğumuz objektif bir yaklaşım ile sunulmaktadır. Web sitemiz, aradığınız ürüne en hızlı şekilde ulaşabilmeniz için lastik sektörüne özel olarak hazırlanmıştır. Böylece Erbay Lastik, üreticiler başta olmak üzere güçlü bir tedarikçi ağı ve depoları ile çoğu stoklarda hazır durumdaki, 10.000 üzeri farklı lastik seçeneğini tüm Türkiye’ye sevkiyat imkânı ile sunmaktadır. Misyonumuz müşteririlermizin memnuniyetini en üst seviyede tutmak üzerine kuruludur. Kaliteli hizmet anlayışını ilke edinmek, Sektörü, rakipleri iyi tanımak, gözlemlemek, İletişime açık, geri bildirimli olmak, empati kurabilmek, Mevcut durumla yetinmeyen, teknolojiyi takip eden, yeni yöntemler geliştirerek rekabet gücünü arttırmaya çalışan bir şirket olabilmek, Hedefe/sonuca giden yolda emin ve doğru adımlarla ilerlemek, Güvenilir, verimli ve karlı hizmet vermek, Takım ruhuna sahip, tüm çalışanları ile birlikte Şirket ve Marka değerlerini ön planda tutmak diğer prensiplerimizdir.",
-      "logo": [],
+      "logo": {
+        "ID": "59afdc9e-ad71-4ac4-852a-d1d32dff0008",
+        "src": "public/images/1661331235931_erbay.png",
+        "alt": "erbay logo",
+        "createdAt": 1661331240876
+      },
       "createdAt": 1661331190077
     },
     "cokSorulanlar": {},
