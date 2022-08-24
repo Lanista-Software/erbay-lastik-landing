@@ -762,7 +762,12 @@
           "lastikAdi": "KORMORAN 215/55R16 97H ROAD PERFORMANCE YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
-          "buton": [],
+          "buton": {
+            "ID": "27e54c89-1ba6-4e73-a1b6-35fcda640c5f",
+            "label": "İletişime Geç",
+            "link": "#contact",
+            "createdAt": 1661326044301
+          },
           "createdAt": 1661325980900
         }
       ],
