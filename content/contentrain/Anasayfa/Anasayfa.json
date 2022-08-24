@@ -331,7 +331,12 @@
         },
         {
           "ID": "cbcf8212-cc74-4a62-8c08-ef7760d70142",
-          "foto": [],
+          "foto": {
+            "ID": "696bc2a2-187a-4170-861d-296713bc0278",
+            "src": "https://app.sopyo.com/public/products/eb1ee8983c97f7c821aa119c3a6b5af9.jpg",
+            "alt": "MICHELIN 215/55R17 98W PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
+            "createdAt": 1661323891988
+          },
           "mevsim": "YAZ",
           "lastikAdi": "MICHELIN 215/55R17 98W PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
