@@ -206,7 +206,12 @@
             "createdAt": 1661326974028
           }
         ],
-        "foto": {},
+        "foto": {
+          "ID": "e92fa317-9b98-492f-a262-1311015b8be7",
+          "src": "public/images/1661411474884_lastik.png",
+          "alt": "erbay lastik arama fotografi",
+          "createdAt": 1661411493000
+        },
         "buton": {},
         "createdAt": 1661247922920,
         "ID": "891ab0ac-c620-4397-b419-60321a30fdbe"
