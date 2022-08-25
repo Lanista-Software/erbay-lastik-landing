@@ -182,7 +182,7 @@
         </div>
         <div
           id="product-cards"
-          class="container-sm grid xl:grid-cols-4 grid-cols-2 justify-items-center gap-16"
+          class="container-sm grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-items-center gap-16"
         >
           <div
             v-for="item in homePage.urunler.urunKartlari"
