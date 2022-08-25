@@ -94,18 +94,7 @@
             class="flex flex-row justify-between items-center px-4 py-6"
           >
             <span class="text-primary-300">{{ item.mevsim }} LASTİĞİ</span>
-            <img
-              :src="
-                item.mevsim === 'KIŞ'
-                  ? '/icons/snowy.svg'
-                  : [
-                      item.mevsim === 'YAZ'
-                        ? '/icons/sun.svg'
-                        : '/icons/rainy.svg',
-                    ]
-              "
-              alt="lastik tipi"
-            />
+            <img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
           </div>
           <div id="hit-name" class="overflow-hidden pb-4">
             <LuiText
@@ -201,18 +190,7 @@
               class="flex flex-row justify-between items-center px-4 py-6"
             >
               <span class="text-primary-300">{{ item.mevsim }} LASTİĞİ</span>
-              <img
-                :src="
-                  item.mevsim === 'KIŞ'
-                    ? '/icons/snowy.svg'
-                    : [
-                        item.mevsim === 'YAZ'
-                          ? '/icons/sun.svg'
-                          : '/icons/rainy.svg',
-                      ]
-                "
-                alt="lastik tipi"
-              />
+              <img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
             </div>
             <div id="hit-name" class="overflow-hidden pb-4">
               <LuiText
@@ -477,7 +455,7 @@
             id="contact-input-side"
             class="grid lg:grid-cols-2 grid-cols-1 gap-8 p-8"
           >
-            <div class="col-span-1">
+            <div class="md:col-span-1 col-span-2">
               <div>
                 <LuiLabel size="lg" class="pb-2">{{
                   homePage.mesaj.bilgiler[0].label
@@ -490,7 +468,7 @@
                 ></LuiInput>
               </div>
             </div>
-            <div class="col-span-1">
+            <div class="md:col-span-1 col-span-2">
               <div>
                 <LuiLabel size="lg" class="pb-2">{{
                   homePage.mesaj.bilgiler[1].label
@@ -565,6 +543,16 @@ const newAcc = homePage.cokSorulanlar.soruKartlari
 const filteredFaq = computed(() => {
   return newAcc.filter((item) => item.tag == activeCategory.value)
 })
+
+function choseSeason(season) {
+  if (season === 'KIŞ') {
+    return '/icons/snowy.svg'
+  } else if (season === 'YAZ') {
+    return '/icons/sun.svg'
+  } else {
+    return '/icons/rainy.svg'
+  }
+}
 
 watch(filteredFaq, (to, from) => {
   console.log(to, from)
