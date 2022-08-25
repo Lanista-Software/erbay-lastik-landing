@@ -84,7 +84,7 @@
           </div>
           <div id="hit-image" class="all-center">
             <img
-              :src="item.foto.src.split('public')[1]"
+              :src="item.foto.src"
               :alt="item.foto.alt"
               class="max-h-40 max-w-40"
             />
@@ -188,7 +188,7 @@
           >
             <div id="hit-image" class="all-center">
               <img
-                :src="item.foto.src.split('public')[1]"
+                :src="item.foto.src"
                 :alt="item.foto.alt"
                 class="max-h-40 max-w-40"
               />
