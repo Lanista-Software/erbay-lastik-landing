@@ -1595,7 +1595,13 @@
       "baslik": "Mesajlarınızı hemen cevaplayalım",
       "aciklama": "Sormak istediğiniz her soru, almak istediğiniz bütün hizmetlerle ilgili bize mesaj gönderebilirsiniz. Soru ve görüşlerinizi önemsiyoruz.",
       "updatedAt": 1661332393548,
-      "buton": "Gönder"
+      "buton": "Gönder",
+      "foto": {
+        "ID": "042931f0-2d31-4227-92d9-38d7463c0be8",
+        "src": "public/images/1661406939610_indir.png",
+        "alt": "placeholder",
+        "createdAt": 1661406943638
+      }
     },
     "createdAt": 1661247577078,
     "ID": "e83152d5-247b-4851-ad39-04e49b9cb188"
