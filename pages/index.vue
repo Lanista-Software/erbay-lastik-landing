@@ -411,7 +411,7 @@
       </div>
     </section>
     <section id="map" class="all-center pb-24 flex flex-col">
-      <div class="section-header container-lg all-center flex-col">
+      <div class="section-header container-lg all-center text-center flex-col">
         <LuiText class="font-bold pb-4 text-4xl text-heading">{{
           homePage.harita.baslik
         }}</LuiText>
@@ -463,15 +463,11 @@
           id="contact-title"
           class="container-lg mx-auto text-center text-black center-col"
         >
-          <LuiHeading level="4" size="lg" class="pb-4"
-            >Mesajlarınızı hemen cevaplayalım</LuiHeading
-          >
+          <LuiHeading level="4" size="lg" class="pb-4 font-semibold">{{
+            homePage.mesaj.baslik
+          }}</LuiHeading>
           <div class="container-description">
-            <LuiText class="text-xl"
-              >Sormak istediğiniz her soru, almak istediğiniz bütün hizmetlerle
-              ilgili bize mesaj gönderebilirsiniz. Soru ve görüşlerinizi
-              önemsiyoruz.</LuiText
-            >
+            <LuiText class="text-xl">{{ homePage.mesaj.aciklama }}</LuiText>
           </div>
         </div>
         <div
