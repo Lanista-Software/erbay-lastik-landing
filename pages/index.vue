@@ -180,7 +180,10 @@
             </div>
           </div>
         </div>
-        <div id="product-cards" class="container-sm grid grid-cols-4 gap-16">
+        <div
+          id="product-cards"
+          class="container-sm grid xl:grid-cols-4 grid-cols-2 justify-items-center gap-16"
+        >
           <div
             v-for="item in homePage.urunler.urunKartlari"
             :key="item"
