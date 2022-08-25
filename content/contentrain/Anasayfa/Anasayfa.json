@@ -212,7 +212,12 @@
           "alt": "erbay lastik arama fotografi",
           "createdAt": 1661411493000
         },
-        "buton": {},
+        "buton": {
+          "ID": "04e454d7-7943-4a24-94fe-9b7a0d1cfa11",
+          "label": "Lastik araması yap",
+          "link": "#products",
+          "createdAt": 1661411544789
+        },
         "createdAt": 1661247922920,
         "ID": "891ab0ac-c620-4397-b419-60321a30fdbe"
       },
