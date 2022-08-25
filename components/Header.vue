@@ -23,7 +23,7 @@
       <div id="logo" class="flex flex-row space-x-2">
         <a :href="headerData.logo.link">
           <img
-            :src="headerData.logo.logoFoto[0].src"
+            :src="headerData.logo.logoFoto[0].src.split('public')[1]"
             :alt="headerData.logo.logoFoto[0].alt"
             class="h-16 w-16"
           />

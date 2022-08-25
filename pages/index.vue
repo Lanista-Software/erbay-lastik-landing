@@ -50,14 +50,16 @@
               </div>
               <div class="all-center h-64">
                 <img
-                  :src="homePage.hero.aramakarti.foto.src"
+                  :src="homePage.hero.aramakarti.foto.src.split('public')[1]"
                   :alt="homePage.hero.aramakarti.foto.alt"
                 />
               </div>
               <div class="bg-[#f3f4f6] w-full px-12 py-8 rounded-b-2xl">
-                <LuiButton variant="primary" size="lg" block rounded>{{
-                  homePage.hero.aramakarti.buton.label
-                }}</LuiButton>
+                <LuiButton variant="primary" size="lg" block rounded
+                  ><a :href="homePage.hero.aramakarti.buton.link">{{
+                    homePage.hero.aramakarti.buton.label
+                  }}</a></LuiButton
+                >
               </div>
             </div>
           </div>
@@ -82,7 +84,7 @@
           </div>
           <div id="hit-image" class="all-center">
             <img
-              :src="item.foto.src"
+              :src="item.foto.src.split('public')[1]"
               :alt="item.foto.alt"
               class="max-h-40 max-w-40"
             />
@@ -186,7 +188,7 @@
           >
             <div id="hit-image" class="all-center">
               <img
-                :src="item.foto.src"
+                :src="item.foto.src.split('public')[1]"
                 :alt="item.foto.alt"
                 class="max-h-40 max-w-40"
               />
@@ -285,7 +287,7 @@
             class="section-services-container-item"
           >
             <ServiceCard
-              :bg-url="item.foto.src"
+              :bg-url="item.foto.src.split('public')[1]"
               :title="item.baslik"
               :description="item.aciklama"
               :button="item.buton"
@@ -340,7 +342,11 @@
             :key="index"
             class="bg-white rounded-2xl md:h-44 md:w-52 h-[88px] w-[104px] all-center border"
           >
-            <img :src="item.src" :alt="item.alt" class="rounded-xl p-3" />
+            <img
+              :src="item.src.split('public')[1]"
+              :alt="item.alt"
+              class="rounded-xl p-3"
+            />
           </div>
         </div>
       </div>
@@ -363,7 +369,7 @@
           </div>
           <div class="img-side lg:flex justify-end items-end hidden">
             <img
-              :src="homePage.hakkimizda.logo.src"
+              :src="homePage.hakkimizda.logo.src.split('public')[1]"
               :alt="homePage.hakkimizda.logo.alt"
               class="flex justify-end items-end w-16"
             />
@@ -539,7 +545,7 @@
           </div>
           <div id="contact-image-side">
             <img
-              :src="homePage.mesaj.foto.src"
+              :src="homePage.mesaj.foto.src.split('public')[1]"
               :alt="homePage.mesaj.foto.alt"
               class="rounded-b-2xl lg:rounded-b-none lg:rounded-r-2xl"
             />
