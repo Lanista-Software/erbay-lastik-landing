@@ -538,11 +538,11 @@
             </div>
           </div>
           <div id="contact-image-side">
-            <!-- <img
+            <img
               :src="homePage.mesaj.foto.src"
               :alt="homePage.mesaj.foto.alt"
-              class="lg:rounded-r-2xl rounded-b-2xl"
-            /> -->
+              class="rounded-b-2xl lg:rounded-b-none lg:rounded-r-2xl"
+            />
           </div>
         </div>
       </div>
