@@ -27,7 +27,7 @@ body {
     @apply container w-full mx-auto py-5 2xl:px-20 xl:px-[72px] lg:px-14 md:px-10 sm:px-8 xs:px-6 2xs:px-5 3xs:px-4;
   }
   .container-description {
-    @apply container w-full mx-auto 2xl:px-80 xl:px-72 lg:px-56 md:px-40 sm:px-32 xs:px-24 2xs:px-20 3xs:px-16;
+    @apply container w-full mx-auto 2xl:px-80 xl:px-72 lg:px-56 md:px-40 px-4;
   }
   .all-center {
     @apply flex justify-center items-center;

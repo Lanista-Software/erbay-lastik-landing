@@ -5,10 +5,10 @@
         {{ title }}
       </h5>
       <p class="text-white fw-400">
-        <slot />
+        {{ description }}
       </p>
       <LuiButton variant="primary" size="md" rounded
-        ><a href="tel:0(432)2232448">İletişime geçin</a></LuiButton
+        ><a :href="button.link">{{ button.label }}</a></LuiButton
       >
     </div>
   </div>
@@ -21,6 +21,14 @@ export default {
     title: {
       type: String,
       default: null,
+    },
+    description: {
+      type: String,
+      default: null,
+    },
+    button: {
+      type: Object,
+      default: () => {},
     },
     bgUrl: {
       type: String,

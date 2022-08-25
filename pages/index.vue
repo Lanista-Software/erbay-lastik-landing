@@ -2,7 +2,7 @@
   <div class="lg:pt-32 pt-24 overflow-hidden">
     <section
       id="home"
-      class="w-full h-[793px]"
+      class="w-full lg:h-[793px] md:h-[1000px]"
       style="
         background-image: url('/images/hero.png');
         background-repeat: no-repeat;
@@ -10,62 +10,67 @@
       "
     >
       <div
-        class="w-full h-[793px] pt-36"
+        class="w-full lg:h-[793px] md:h-[1000px] md:pt-36 py-24"
         style="background: rgba(4, 31, 69, 0.8)"
       >
         <div
-          class="container-lg mx-auto flex flex-row justify-between items-center"
+          class="container-lg mx-auto flex lg:flex-row flex-col justify-between items-center"
         >
-          <div class="text-side flex flex-col w-1/2 text-white">
+          <div class="text-side flex flex-col lg:w-1/2 text-white">
             <LuiHeading level="1" size="xs" display class="font-semibold">{{
-              hero.title
+              homePage.hero.baslik
             }}</LuiHeading>
-            <LuiText class="pb-8">{{ hero.description }}</LuiText>
+            <LuiText class="pb-8">{{ homePage.hero.aciklama }}</LuiText>
             <div>
               <LuiButton variant="secondary" rounded size="lg">
-                Iletisime Gecin
+                <a :href="homePage.hero.buton.link">{{
+                  homePage.hero.buton.label
+                }}</a>
               </LuiButton>
             </div>
           </div>
-          <div class="card-side flex flex-col items-end">
+          <div class="card-side md:flex flex-col lg:items-end hidden">
             <div id="search-card" class="rounded-2xl bg-white mx-auto">
               <div
                 class="rounded-t-2xl grid grid-cols-3 gap-3 p-6 bg-[#f3f4f6] justify-between"
               >
                 <LuiDropdown
-                  v-for="item in arama"
+                  v-for="item in homePage.hero.aramakarti.secenekler"
                   :key="item"
                   size="lg"
                   rounded
                   block
-                  :text="item.title"
+                  :text="item.adi"
                   ><lui-dropdown-item
-                    v-for="listItem in item.list"
+                    v-for="listItem in item.liste"
                     :key="listItem"
-                    >{{ listItem.adi }}</lui-dropdown-item
+                    >{{ listItem.secenek }}</lui-dropdown-item
                   >
                 </LuiDropdown>
               </div>
               <div class="all-center h-64">
-                <img src="/images/lastik.png" alt="lastik" />
+                <img
+                  :src="homePage.hero.aramakarti.foto.src"
+                  :alt="homePage.hero.aramakarti.foto.alt"
+                />
               </div>
               <div class="bg-[#f3f4f6] w-full px-12 py-8 rounded-b-2xl">
-                <LuiButton variant="primary" size="lg" block rounded
-                  >Lastik aramasi Yap</LuiButton
-                >
+                <LuiButton variant="primary" size="lg" block rounded>{{
+                  homePage.hero.aramakarti.buton.label
+                }}</LuiButton>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="hit" class="pb-40">
+    <section id="hit" class="pb-24 hidden lg:block">
       <div
         id="hit-cards"
-        class="container-cards w-full flex flex-row justify-between items-center -mt-20 space-x-8"
+        class="container-cards grid xl:grid-cols-4 grid-cols-2 justify-items-center gap-8 -mt-20"
       >
         <div
-          v-for="item in populer"
+          v-for="item in homePage.populer.urunKartlari"
           :key="item"
           class="rounded-2xl bg-white w-72 border"
         >
@@ -76,19 +81,23 @@
             >
           </div>
           <div id="hit-image" class="all-center">
-            <img :src="item.foto.src" :alt="item.foto.alt" class="h-40 w-40" />
+            <img
+              :src="item.foto.src"
+              :alt="item.foto.alt"
+              class="max-h-40 max-w-40"
+            />
           </div>
           <div
             id="hit-type"
             class="flex flex-row justify-between items-center px-4 py-6"
           >
-            <span class="text-primary-300">{{ item.mevsim }} Lastiği</span>
+            <span class="text-primary-300">{{ item.mevsim }} LASTİĞİ</span>
             <img
               :src="
-                item.mevsim === 'Kış'
+                item.mevsim === 'KIŞ'
                   ? '/icons/snowy.svg'
                   : [
-                      item.mevsim === 'Yaz'
+                      item.mevsim === 'YAZ'
                         ? '/icons/sun.svg'
                         : '/icons/rainy.svg',
                     ]
@@ -120,45 +129,49 @@
             </div>
             <div id="hit-button" class="flex">
               <LuiButton rounded size="sm" variant="primary">
-                <nuxt-link to="/">{{ item.buton }}</nuxt-link></LuiButton
+                <nuxt-link :to="item.buton.link">{{
+                  item.buton.label
+                }}</nuxt-link></LuiButton
               >
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="products" class="pb-24">
+    <section id="products" class="pb-24 pt-24 lg:pt-0">
       <div class="all-center flex-col">
-        <div id="product-title" class="all-center flex-col pb-8">
+        <div id="product-title" class="all-center flex-col pb-8 text-center">
           <LuiHeading level="4" size="xl" class="text-black font-semibold">{{
-            urunler.baslik
+            homePage.urunler.baslik
           }}</LuiHeading>
           <div class="container-description">
             <LuiText class="text-xl text-slate-700">{{
-              urunler.aciklama
+              homePage.urunler.aciklama
             }}</LuiText>
           </div>
         </div>
         <div class="pb-16">
           <div
             id="search-card-product"
-            class="container rounded-2xl mx-auto w-full flex flex-row justify-between px-8 py-4 border"
+            class="container rounded-2xl mx-auto w-full flex md:flex-row flex-col justify-between px-8 py-4 border"
           >
-            <div class="grid grid-cols-6 gap-3 justify-center items-center">
+            <div
+              class="grid xl:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-3 pb-3 md:pb-0 justify-center items-center"
+            >
               <LuiDropdown
-                v-for="item in arama"
+                v-for="item in homePage.urunler.aramaKarti.secenekler"
                 :key="item"
                 size="lg"
                 rounded
-                :text="item.title"
+                :text="item.adi"
                 ><lui-dropdown-item
-                  v-for="listItem in item.list"
+                  v-for="listItem in item.liste"
                   :key="listItem"
-                  >{{ listItem.adi }}</lui-dropdown-item
+                  >{{ listItem.secenek }}</lui-dropdown-item
                 >
               </LuiDropdown>
             </div>
-            <div>
+            <div class="all-center">
               <LuiButton variant="primary" size="lg" rounded
                 >Lastik aramasi Yap</LuiButton
               >
@@ -167,7 +180,7 @@
         </div>
         <div id="product-cards" class="container-sm grid grid-cols-4 gap-16">
           <div
-            v-for="item in urunler.liste"
+            v-for="item in homePage.urunler.urunKartlari"
             :key="item"
             class="rounded-2xl bg-white w-72 pt-12 border"
           >
@@ -175,22 +188,20 @@
               <img
                 :src="item.foto.src"
                 :alt="item.foto.alt"
-                class="h-40 w-40"
+                class="max-h-40 max-w-40"
               />
             </div>
             <div
               id="hit-type"
               class="flex flex-row justify-between items-center px-4 py-6"
             >
-              <span class="text-primary-300"
-                >{{ item.mevsim.toUpperCase() }} Lastiği</span
-              >
+              <span class="text-primary-300">{{ item.mevsim }} LASTİĞİ</span>
               <img
                 :src="
-                  item.mevsim.toLowerCase() === 'kış'
+                  item.mevsim === 'KIŞ'
                     ? '/icons/snowy.svg'
                     : [
-                        item.mevsim.toLowerCase() === 'yaz'
+                        item.mevsim === 'YAZ'
                           ? '/icons/sun.svg'
                           : '/icons/rainy.svg',
                       ]
@@ -222,7 +233,9 @@
               </div>
               <div id="hit-button" class="flex">
                 <LuiButton rounded size="sm" variant="primary">
-                  <nuxt-link to="/">{{ item.buton }}</nuxt-link></LuiButton
+                  <a :href="item.buton.link">{{
+                    item.buton.label
+                  }}</a></LuiButton
                 >
               </div>
             </div>
@@ -239,16 +252,16 @@
       "
     >
       <div
-        class="container w-full mx-auto text-center h-96 center-col text-white"
+        class="container-lg w-full mx-auto text-center h-96 center-col text-white"
       >
         <LuiHeading level="4" size="lg" class="pb-12 font-medium">{{
-          banner.baslik
+          homePage.banner.baslik
         }}</LuiHeading>
-        <LuiText class="pb-8">{{ banner.aciklama }}</LuiText>
+        <LuiText class="pb-8">{{ homePage.banner.aciklama }}</LuiText>
         <LuiButton rounded size="lg" variant="secondary" class="text-primary">
-          <nuxt-link :to="banner.buton.link">{{
-            banner.buton.label
-          }}</nuxt-link></LuiButton
+          <a :href="homePage.banner.buton.link">{{
+            homePage.banner.buton.label
+          }}</a></LuiButton
         >
       </div>
     </section>
@@ -256,30 +269,36 @@
       <div class="flex flex-col justify-center items-center">
         <div class="container-lg mx-auto text-center text-black center-col">
           <LuiHeading level="4" size="lg" class="pb-4 font-semibold">{{
-            hizmetler.baslik
+            homePage.hizmetler.baslik
           }}</LuiHeading>
           <div class="container-description">
-            <LuiText class="text-xl">{{ hizmetler.aciklama }}</LuiText>
+            <LuiText class="text-xl">{{ homePage.hizmetler.aciklama }}</LuiText>
           </div>
         </div>
         <div
           id="services-cards"
-          class="container-cards grid grid-cols-4 justify-between"
+          class="container-cards grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 justify-items-center"
         >
           <div
-            v-for="(item, i) in hizmetler.liste"
+            v-for="(item, i) in homePage.hizmetler.hizmetKartlari"
             :key="i"
             class="section-services-container-item"
           >
-            <ServiceCard :bg-url="item.fotograf" :title="item.baslik">
-              {{ item.icerik }}
+            <ServiceCard
+              :bg-url="item.foto.src"
+              :title="item.baslik"
+              :description="item.aciklama"
+              :button="item.buton"
+            >
             </ServiceCard>
           </div>
         </div>
       </div>
     </section>
     <section id="brands" class="pb-24">
-      <div class="container-lg flex flex-row justify-between items-start">
+      <div
+        class="container-lg flex lg:flex-row flex-col space-y-8 lg:space-y-0 justify-between items-start"
+      >
         <div id="brands-text" class="flex flex-col text-start justify-center">
           <div class="flex flex-row items-center space-x-4 pb-4">
             <svg
@@ -292,29 +311,34 @@
               <path fill="#22c55e" d="M5 11h14v2H5z" />
             </svg>
             <LuiText class="text-xl text-slate-500">{{
-              markalar.ustbaslik
+              homePage.markalar.ustYazi
             }}</LuiText>
           </div>
           <LuiHeading
             level="4"
             size="lg"
             class="pb-8 text-black font-semibold"
-            >{{ markalar.baslik }}</LuiHeading
+            >{{ homePage.markalar.baslik }}</LuiHeading
           >
           <LuiText class="text-xl text-slate-500 pb-8">{{
-            markalar.aciklama
+            homePage.markalar.aciklama
           }}</LuiText>
           <div>
             <LuiButton variant="primary" rounded size="lg">
-              Hemen Arayın
+              <a :href="homePage.markalar.buton.link">{{
+                homePage.markalar.buton.label
+              }}</a>
             </LuiButton>
           </div>
         </div>
-        <div id="brands-logo" class="grid grid-cols-3 gap-4">
+        <div
+          id="brands-logo"
+          class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-3 gap-4"
+        >
           <div
-            v-for="(item, index) in markalar.liste"
+            v-for="(item, index) in homePage.markalar.markaLogolari"
             :key="index"
-            class="bg-white rounded-2xl h-44 w-52 all-center border"
+            class="bg-white rounded-2xl md:h-44 md:w-52 h-[88px] w-[104px] all-center border"
           >
             <img :src="item.src" :alt="item.alt" class="rounded-xl p-3" />
           </div>
@@ -330,40 +354,17 @@
           <div
             class="text-side text-white flex flex-col justify-start lg:w-3/5"
           >
-            <LuiHeading class="pb-4 font-semibold" level="2" size="xl"
-              >Biz Kimiz</LuiHeading
-            >
-            <LuiText class="text-lg !text-white"
-              >Erbay Lastik, 2002 yılından bu yana www.erbaylastik.com web
-              sitesi ve diğer dijital satış platformları üzerinde farklı araç
-              tipleri için, farklı markaların ürünlerini bir arada sunan lastik
-              satış merkezidir. Merkezi Van’da bulunan şirketimiz lastik, jant
-              ve mini stepne gibi lastik sektörü ürünleri üzerine alanında uzman
-              kadrosu ile hizmet vermektedir. Erbay lastik’de otomobil
-              lastikleri Michelin, Kormoran, Nokian, Tigar, Hankook, Lassa,
-              Petlas, General, başta olmak üzere 30’un üzerinde markanın
-              ürünleri, tüm markalara eşit mesafede olduğumuz objektif bir
-              yaklaşım ile sunulmaktadır. Web sitemiz, aradığınız ürüne en hızlı
-              şekilde ulaşabilmeniz için lastik sektörüne özel olarak
-              hazırlanmıştır. Böylece Erbay Lastik, üreticiler başta olmak üzere
-              güçlü bir tedarikçi ağı ve depoları ile çoğu stoklarda hazır
-              durumdaki, 10.000 üzeri farklı lastik seçeneğini tüm Türkiye’ye
-              sevkiyat imkânı ile sunmaktadır. Misyonumuz müşteririlermizin
-              memnuniyetini en üst seviyede tutmak üzerine kuruludur. Kaliteli
-              hizmet anlayışını ilke edinmek, Sektörü, rakipleri iyi tanımak,
-              gözlemlemek, İletişime açık, geri bildirimli olmak, empati
-              kurabilmek, Mevcut durumla yetinmeyen, teknolojiyi takip eden,
-              yeni yöntemler geliştirerek rekabet gücünü arttırmaya çalışan bir
-              şirket olabilmek, Hedefe/sonuca giden yolda emin ve doğru
-              adımlarla ilerlemek, Güvenilir, verimli ve karlı hizmet vermek,
-              Takım ruhuna sahip, tüm çalışanları ile birlikte Şirket ve Marka
-              değerlerini ön planda tutmak diğer prensiplerimizdir.</LuiText
-            >
+            <LuiHeading class="pb-4 font-semibold" level="2" size="xl">{{
+              homePage.hakkimizda.baslik
+            }}</LuiHeading>
+            <LuiText class="text-lg !text-white">{{
+              homePage.hakkimizda.aciklama
+            }}</LuiText>
           </div>
           <div class="img-side lg:flex justify-end items-end hidden">
             <img
-              src="/icons/erbay.png"
-              alt="logo"
+              :src="homePage.hakkimizda.logo.src"
+              :alt="homePage.hakkimizda.logo.alt"
               class="flex justify-end items-end w-16"
             />
           </div>
@@ -371,54 +372,51 @@
       </div>
     </section>
     <section id="faq" class="py-20">
-      <div class="center-col container-lg">
+      <div class="flex flex-col container-lg">
         <div class="container-description all-center flex-col">
-          <LuiText class="pb-8 text-center text-xl"
-            >Aklınıza takılabileceğini düşündüğümüz bazı sorular ve cevapları
-            sizler için listeledik. Daha fazla bilgi almak için lütfen bizimle
-            iletişime geçmekten çekinmeyin.</LuiText
-          >
+          <LuiText class="pb-8 text-center text-xl">{{
+            homePage.cokSorulanlar.baslik
+          }}</LuiText>
         </div>
         <div class="center-row space-x-4">
-          <LuiButton rounded size="md" @click="activeCategory = 'odeme'"
-            >Ödeme</LuiButton
-          >
-          <LuiButton rounded size="md" @click="activeCategory = 'teknik'"
-            >Teknik</LuiButton
-          >
-          <LuiButton rounded size="md" @click="activeCategory = 'iletisim'"
-            >İletişim</LuiButton
-          >
+          <LuiButton rounded size="md" @click="activeCategory = 'odeme'">{{
+            homePage.cokSorulanlar.tagButon[0].label
+          }}</LuiButton>
+          <LuiButton rounded size="md" @click="activeCategory = 'teknik'">{{
+            homePage.cokSorulanlar.tagButon[1].label
+          }}</LuiButton>
+          <LuiButton rounded size="md" @click="activeCategory = 'iletisim'">{{
+            homePage.cokSorulanlar.tagButon[2].label
+          }}</LuiButton>
         </div>
         <lui-accordion-group class="mt-16 lg:w-2/3 lg:mx-auto">
           <lui-accordion
             v-for="(accordion, index) in filteredFaq"
             :key="index"
-            :title="accordion.title"
+            :title="accordion.soru"
             class="bg-white text-black"
           >
-            <div class="text-info-600 mb-6" v-html="accordion.rawContent"></div>
+            <div class="text-info-600 mb-6">{{ accordion.cevap }}</div>
           </lui-accordion>
         </lui-accordion-group>
       </div>
     </section>
-    <section id="map" class="all-center py-24 flex flex-col">
+    <section id="map" class="all-center pb-24 flex flex-col">
       <div class="section-header container-lg all-center flex-col">
-        <LuiText class="font-bold pb-4 text-4xl text-heading"
-          >Ofisimizi ziyaret edin</LuiText
-        >
+        <LuiText class="font-bold pb-4 text-4xl text-heading">{{
+          homePage.harita.baslik
+        }}</LuiText>
         <div class="container-description">
-          <LuiText class="pb-8 text-center"
-            >Almak istediğiniz her türlü bilgi ve hizmet için sizleri ofisimize
-            bekliyoruz, ikramlarımız eşliğinde sorunlarınızı dinleyelim ve hemen
-            çözüm üretelim. Yol bilgilerini almak için adresimizi haritalarda
-            görüntüleyebilirsiniz.</LuiText
-          >
+          <LuiText class="pb-8 text-center">{{
+            homePage.harita.aciklama
+          }}</LuiText>
         </div>
         <div class="pb-14">
-          <a href="">
-            <LuiButton rounded size="lg" class="p-2">Haritalarda Ac</LuiButton>
-          </a>
+          <LuiButton rounded size="lg" class="p-2"
+            ><a :href="homePage.harita.buton.link">{{
+              homePage.harita.buton.label
+            }}</a></LuiButton
+          >
         </div>
       </div>
       <div class="flex flex-col justify-between items-center">
@@ -431,7 +429,7 @@
             height="447px"
             width="840px"
             tabindex="0"
-            title="oto deniz adresi"
+            title="erbay lastik adresi"
             class="rounded-2xl"
           ></iframe>
         </div>
@@ -444,7 +442,7 @@
             height="447px"
             width="420px"
             tabindex="0"
-            title="oto deniz adresi"
+            title="erbay lastik adresi"
             class="rounded-2xl"
           ></iframe>
         </div>
@@ -467,70 +465,84 @@
             >
           </div>
         </div>
-        <div class="border-2 border-blue-900 rounded-2xl flex flex-row">
+        <div
+          class="border-2 border-blue-900 rounded-2xl flex lg:flex-row flex-col"
+        >
           <div
             id="contact-input-side"
             class="grid lg:grid-cols-2 grid-cols-1 gap-8 p-8"
           >
             <div class="col-span-1">
               <div>
-                <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+                <LuiLabel size="lg" class="pb-2">{{
+                  homePage.mesaj.bilgiler[0].label
+                }}</LuiLabel>
                 <LuiInput
                   for="item.label"
                   size="lg"
                   class="w-full"
-                  placeholder="placeholder"
+                  :placeholder="homePage.mesaj.bilgiler[0].placeholder"
                 ></LuiInput>
               </div>
             </div>
             <div class="col-span-1">
               <div>
-                <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+                <LuiLabel size="lg" class="pb-2">{{
+                  homePage.mesaj.bilgiler[1].label
+                }}</LuiLabel>
                 <LuiInput
                   for="item.label"
                   size="lg"
                   class="w-full"
-                  placeholder="placeholder"
+                  :placeholder="homePage.mesaj.bilgiler[1].placeholder"
                 ></LuiInput>
               </div>
             </div>
             <div class="col-span-2">
-              <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+              <LuiLabel size="lg" class="pb-2">{{
+                homePage.mesaj.bilgiler[2].label
+              }}</LuiLabel>
               <LuiInput
                 for="item.label"
                 size="lg"
                 class="w-full"
-                placeholder="placeholder"
+                :placeholder="homePage.mesaj.bilgiler[2].placeholder"
               ></LuiInput>
             </div>
             <div class="col-span-2">
-              <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+              <LuiLabel size="lg" class="pb-2">{{
+                homePage.mesaj.bilgiler[3].label
+              }}</LuiLabel>
               <LuiInput
                 for="item.label"
                 size="lg"
                 class="w-full"
-                placeholder="placeholder"
+                :placeholder="homePage.mesaj.bilgiler[3].placeholder"
               ></LuiInput>
             </div>
             <div class="col-span-2">
-              <LuiLabel size="lg" class="pb-2">A</LuiLabel>
+              <LuiLabel size="lg" class="pb-2">{{
+                homePage.mesaj.bilgiler[4].label
+              }}</LuiLabel>
               <LuiTextarea
                 for="item.label"
                 size="lg"
                 class="w-full h-32"
-                placeholder="placeholder"
+                :placeholder="homePage.mesaj.bilgiler[4].placeholder"
               ></LuiTextarea>
             </div>
             <div class="col-span-2 flex justify-end items-end">
-              <LuiButton size="lg" rounded>Gönder</LuiButton>
+              <LuiButton size="lg" rounded>{{
+                homePage.mesaj.buton
+              }}</LuiButton>
             </div>
           </div>
           <div id="contact-image-side">
-            <img
-              src="https://via.placeholder.com/574x656/"
-              alt="placeholder"
-              class="rounded-r-2xl"
-            />
+            <!-- <img
+              :src="homePage.mesaj.foto.src"
+              :alt="homePage.mesaj.foto.alt"
+              class="lg:rounded-r-2xl rounded-b-2xl"
+            /> -->
           </div>
         </div>
       </div>
@@ -538,306 +550,15 @@
   </div>
 </template>
 <script setup>
-const hero = {
-  title: 'Erbay Lastik her mevsim yol güvenceniz',
-  description:
-    'Yılların sağladığı tecrübe ve uzman kadromuzla garantili hizmet anlayışı Erbay Lastik’te. Aradığınız tipteki bütün lastiklere Van’daki satış ofisimizde veya internet mağazalarımız üzerinden ulaşabilirsiniz.',
-}
-const arama = [
-  {
-    title: 'Marka',
-    list: [
-      {
-        adi: 'Michelin',
-      },
-      {
-        adi: 'Kormoran',
-      },
-      {
-        adi: 'Nokian',
-      },
-      {
-        adi: 'Tigar',
-      },
-    ],
-  },
-  {
-    title: 'Mevsim',
-    list: [
-      {
-        adi: 'Yaz',
-      },
-      {
-        adi: 'Kış',
-      },
-      {
-        adi: 'Mevsimlik',
-      },
-    ],
-  },
-  {
-    title: 'Yıl',
-    list: [
-      {
-        adi: '2021',
-      },
-      {
-        adi: '2020',
-      },
-      {
-        adi: '2019',
-      },
-      {
-        adi: '2017',
-      },
-    ],
-  },
-  {
-    title: 'Taban Genişliği',
-    list: [
-      {
-        adi: '185',
-      },
-      {
-        adi: '195',
-      },
-      {
-        adi: '205',
-      },
-      {
-        adi: '215',
-      },
-      {
-        adi: '225',
-      },
-      {
-        adi: '235',
-      },
-      {
-        adi: '245',
-      },
-      {
-        adi: '255',
-      },
-    ],
-  },
-  {
-    title: 'Kesit Oranı',
-    list: [
-      {
-        adi: '40',
-      },
-      {
-        adi: '45',
-      },
-      {
-        adi: '50',
-      },
-      {
-        adi: '55',
-      },
-      {
-        adi: '60',
-      },
-      {
-        adi: '65',
-      },
-    ],
-  },
-  {
-    title: 'Jant Çapı',
-    list: [
-      {
-        adi: '15',
-      },
-      {
-        adi: '16',
-      },
-      {
-        adi: '17',
-      },
-      {
-        adi: '18',
-      },
-      {
-        adi: '19',
-      },
-    ],
-  },
-]
-const populer = [
-  {
-    foto: {
-      src: '/images/nokianwr.jpg',
-      alt: 'lastik',
-    },
-    mevsim: 'Kış',
-    lastikAdi:
-      'Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi',
-    kisaBilgi: 'AMBALAJLI KARGO - 2 YIL GARANTİ',
-    yildiz: 5,
-    buton: 'İletişime Geçin',
-  },
-  {
-    foto: {
-      src: '/images/nokianwr.jpg',
-      alt: 'lastik',
-    },
-    mevsim: 'Kış',
-    lastikAdi:
-      'Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi',
-    kisaBilgi: 'AMBALAJLI KARGO - 2 YIL GARANTİ',
-    yildiz: 5,
-    buton: 'İletişime Geçin',
-  },
-  {
-    foto: {
-      src: '/images/nokianwr.jpg',
-      alt: 'lastik',
-    },
-    mevsim: 'Kış',
-    lastikAdi:
-      'Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi',
-    kisaBilgi: 'AMBALAJLI KARGO - 2 YIL GARANTİ',
-    yildiz: 5,
-    buton: 'İletişime Geçin',
-  },
-  {
-    foto: {
-      src: '/images/nokianwr.jpg',
-      alt: 'lastik',
-    },
-    mevsim: 'Kış',
-    lastikAdi:
-      'Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi',
-    kisaBilgi: 'AMBALAJLI KARGO - 2 YIL GARANTİ',
-    yildiz: 5,
-    buton: 'İletişime Geçin',
-  },
-]
-const urunler = {
-  baslik: 'Bayimizdeki ürünleri keşfedin',
-  aciklama: 'Bayilerimizde sizler için sunduğumuz ürünler',
-  liste: [
-    {
-      foto: {
-        src: '/images/nokianwr.jpg',
-        alt: 'lastik',
-      },
-      mevsim: 'Kış',
-      lastikAdi:
-        'Nokian WR Snowproof 195/65 R15 91T (D5) Kış Lastiği 2021 Üretimi',
-      kisaBilgi: 'AMBALAJLI KARGO - 2 YIL GARANTİ',
-      yildiz: 5,
-      buton: 'İletişime Geçin',
-    },
-  ],
-}
-const banner = {
-  baslik:
-    'WEB SİTEMİZDE BULUNMAYAN TÜM ÜRÜN VE HİZMETLERİMİZ İÇİN BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ',
-  aciklama: 'Telefonla iletişime geçmek için tıklayın.',
-  buton: {
-    label: 'Hemen Arayın',
-    link: 'tel:0(432)2232448',
-  },
-}
-const hizmetler = {
-  baslik: 'Erbay Lastik Yerinde Hizmetler',
-  liste: [
-    {
-      baslik: 'Jant Düzeltme',
-      icerik:
-        'Lastiklerinizin çabuk yıpranmaması için gelin jant bakımlarınızı servisimizde yapalım',
-      fotograf: '/images/service2.jpg',
-    },
-    {
-      baslik: 'Lastik Sökme ve Takma',
-      icerik:
-        'Satın aldığınız lastiklerin sökme ve takma işlemlerini biz gerçekleştirelim',
-      fotograf: '/images/service3.jpg',
-    },
-    {
-      baslik: 'Lastik hastanesi',
-      icerik:
-        'Mevsimi geçen lastiklerinizi bize emanet edin, siz muhafaza etme derdinden kurtulun',
-      fotograf: '/images/service4.jpg',
-    },
-    {
-      baslik: 'Rot Balans',
-      icerik:
-        'Lastiklerinizin en hassas ayarları için bize gelin, yollarda daha güvenli sürüş keyfini yaşayın',
-      fotograf: '/images/man.png',
-    },
-  ],
-  aciklama:
-    'Lastik satışımızın yanında yerinde verdiğimiz diğer hizmetler için ofis telefonlarımızdan bize ulaşıp daha ayrıntılı bilgi talep edebilir ve ilgili hizmetler için randevu oluşturabilirsiniz.',
-}
-const markalar = {
-  ustbaslik: 'MARKALARIMIZ',
-  baslik: 'Temsilcilsi olduğumuz bazı büyük markalar',
-  aciklama: 'Daha fazla bilgi almak ve diğer hizmetleri öğrenmek için',
-  liste: [
-    {
-      src: '/icons/markalar/ako.svg',
-      alt: 'ako',
-    },
-    {
-      src: '/icons/markalar/castrol.svg',
-      alt: 'castrol',
-    },
-    {
-      src: '/icons/markalar/General.svg',
-      alt: 'General',
-    },
-    {
-      src: '/icons/markalar/Kormoran.svg',
-      alt: 'Kormoran',
-    },
-    {
-      src: '/icons/markalar/Michelin.svg',
-      alt: 'Michelin',
-    },
-    {
-      src: '/icons/markalar/Nokian.svg',
-      alt: 'Nokian',
-    },
-    {
-      src: '/icons/markalar/Petlas.svg',
-      alt: 'Petlas',
-    },
-    {
-      src: '/icons/markalar/Tigar.svg',
-      alt: 'Tigar',
-    },
-  ],
-}
-const accordion = [
-  {
-    tag: 'odeme',
-    title: 'odeme',
-    rawContent: '<p>odeme</p>',
-  },
-  {
-    tag: 'odeme',
-    title: 'odeme',
-    rawContent: '<p>odeme</p>',
-  },
-  {
-    tag: 'teknik',
-    title: 'teknik',
-    rawContent: '<p>teknik</p>',
-  },
-  {
-    tag: 'iletisim',
-    title: 'iletisim',
-    rawContent: '<p>iletisim</p>',
-  },
-]
+const { data } = await useAsyncData('anasayfa', () =>
+  queryContent('contentrain', 'anasayfa').findOne()
+)
+let homePage = data.value.body[0]
 const activeCategory = ref('odeme')
+const newAcc = homePage.cokSorulanlar.soruKartlari
 
 const filteredFaq = computed(() => {
-  return accordion.filter((item) => item.tag == activeCategory.value)
+  return newAcc.filter((item) => item.tag == activeCategory.value)
 })
 
 watch(filteredFaq, (to, from) => {

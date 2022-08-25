@@ -13,41 +13,197 @@
       "aramakarti": {
         "secenekler": [
           {
-            "ID": "e84f1482-0971-41e1-98ed-ac29bdeae75c",
+            "ID": "f44f5ac7-eadd-4583-95ec-d10cf9e8292e",
             "adi": "Marka",
-            "liste": [],
-            "createdAt": 1661247932864,
-            "updatedAt": 1661248195415
+            "liste": [
+              {
+                "ID": "0019ea95-d9ca-415d-bb66-fd315b3120b2",
+                "secenek": "Michelin",
+                "createdAt": 1661327540038
+              },
+              {
+                "ID": "66969848-544c-46cf-9488-2b82bab6ce48",
+                "secenek": "Kormoran",
+                "createdAt": 1661327545187
+              },
+              {
+                "ID": "45033245-34f0-4480-9347-ad676f957ef1",
+                "secenek": "Nokian",
+                "createdAt": 1661327549901
+              },
+              {
+                "ID": "24922544-3ee0-492d-90c6-35a574f59c44",
+                "secenek": "Tigar",
+                "createdAt": 1661327554371
+              }
+            ],
+            "createdAt": 1661326917995,
+            "updatedAt": 1661326983825
           },
           {
-            "ID": "8a4bd9b5-ee79-4229-95a8-c14035941338",
+            "ID": "10f34629-22af-4311-8201-b2240c53d88f",
             "adi": "Mevsim",
-            "liste": [],
-            "createdAt": 1661247944664
+            "liste": [
+              {
+                "ID": "f9bdf544-7e49-4e28-aad6-71256e483d9f",
+                "secenek": "Yaz",
+                "createdAt": 1661327627014
+              },
+              {
+                "ID": "50a4a658-87ab-416b-aa2a-982ec395a675",
+                "secenek": "Kış",
+                "createdAt": 1661327632261
+              },
+              {
+                "ID": "651a744a-bf23-4fd1-b7ea-0efd369c9a8c",
+                "secenek": "4 Mevsim",
+                "createdAt": 1661327639646
+              }
+            ],
+            "createdAt": 1661326936298
           },
           {
-            "ID": "d8a131d6-7c85-4ff7-9dba-8e57cdab0c67",
+            "ID": "9d633d9e-c3c6-45aa-96c6-d77142aae9eb",
             "adi": "Yıl",
-            "liste": [],
-            "createdAt": 1661247951452
+            "liste": [
+              {
+                "ID": "184a23b4-509e-4124-aef5-d933a323ebcb",
+                "secenek": "2017",
+                "createdAt": 1661327672780
+              },
+              {
+                "ID": "e0520e31-f62f-4d47-877d-c71c2a291a9c",
+                "secenek": "2019",
+                "createdAt": 1661327677476
+              },
+              {
+                "ID": "2b913c59-1408-4c96-bcff-85efb394236f",
+                "secenek": "2020",
+                "createdAt": 1661327681908
+              },
+              {
+                "ID": "3a8e2c63-aec4-4f00-ab54-6872622da9fe",
+                "secenek": "2021",
+                "createdAt": 1661327688892
+              }
+            ],
+            "createdAt": 1661326942248
           },
           {
-            "ID": "2d205ab9-f600-4e7d-9d2a-d98ad308430d",
+            "ID": "fe41cb70-5fc5-47c1-a45c-f13e774d86f1",
             "adi": "Taban Genişliği",
-            "liste": [],
-            "createdAt": 1661248094490
+            "liste": [
+              {
+                "ID": "6db785d4-4bc9-42e3-9c89-2a80c8f78da9",
+                "secenek": "185",
+                "createdAt": 1661327735602
+              },
+              {
+                "ID": "7e9cca41-073f-46cc-abb5-5a4ca39fdc47",
+                "secenek": "195",
+                "createdAt": 1661327740377
+              },
+              {
+                "ID": "dd5bf4e1-3319-4cf0-8af3-65323e770dff",
+                "secenek": "205",
+                "createdAt": 1661327744777
+              },
+              {
+                "ID": "285a76e1-e700-4032-992e-9bd67ae0d312",
+                "secenek": "215",
+                "createdAt": 1661327748647
+              },
+              {
+                "ID": "4047e7dd-eda3-4d44-a8ad-f1f522286acd",
+                "secenek": "225",
+                "createdAt": 1661327752435
+              },
+              {
+                "ID": "8c784c0a-1985-4565-939b-ef40c71a89b6",
+                "secenek": "235",
+                "createdAt": 1661327756859
+              },
+              {
+                "ID": "3c205dd3-35d0-4b40-a186-1e603ec0a4d6",
+                "secenek": "245",
+                "createdAt": 1661327760435
+              },
+              {
+                "ID": "644da673-66c0-4bf6-8631-2d20b5d86700",
+                "secenek": "255",
+                "createdAt": 1661327764943
+              }
+            ],
+            "createdAt": 1661326956235
           },
           {
-            "ID": "b99ba2ab-0cb6-4000-95b8-81b8c891dd1c",
+            "ID": "0ab4a1ec-ed9c-43dd-abdd-605bc9957c92",
             "adi": "Kesit Oranı",
-            "liste": [],
-            "createdAt": 1661248104290
+            "liste": [
+              {
+                "ID": "4be9f77f-f63a-43af-adac-681f054a9141",
+                "secenek": "40",
+                "createdAt": 1661327849445
+              },
+              {
+                "ID": "5d02631f-70ff-4c33-a323-f38fc8138e28",
+                "secenek": "45",
+                "createdAt": 1661327854440
+              },
+              {
+                "ID": "fe78dca1-19f2-4387-a1bb-474e9ed2ba9b",
+                "secenek": "50",
+                "createdAt": 1661327858353
+              },
+              {
+                "ID": "2104880e-0543-44e6-8c75-1b617297c8fa",
+                "secenek": "55",
+                "createdAt": 1661327861965
+              },
+              {
+                "ID": "603d2c60-867f-4906-83a2-d69518e109f0",
+                "secenek": "60",
+                "createdAt": 1661327865552
+              },
+              {
+                "ID": "3e476649-9649-40cc-85c4-c2dca41c867d",
+                "secenek": "65",
+                "createdAt": 1661327870164
+              }
+            ],
+            "createdAt": 1661326965294
           },
           {
-            "ID": "5508ef96-8b6f-44d0-bd55-4a2e2f83d972",
+            "ID": "ada65ad4-5139-465e-984a-d66f4f8b4633",
             "adi": "Jant Çapı",
-            "liste": [],
-            "createdAt": 1661248187041
+            "liste": [
+              {
+                "ID": "d51961b0-9b1c-484f-a421-cb4c61315f11",
+                "secenek": "15",
+                "createdAt": 1661327914837
+              },
+              {
+                "ID": "c3b764e8-e7c0-4e2f-a46a-9ff1cc67eba9",
+                "secenek": "16",
+                "createdAt": 1661327918726
+              },
+              {
+                "ID": "c6db773e-d773-4fd1-8339-a1438a2be31e",
+                "secenek": "17",
+                "createdAt": 1661327922884
+              },
+              {
+                "ID": "2f321720-f7b0-4d75-9f43-90982ca57833",
+                "secenek": "18",
+                "createdAt": 1661327927996
+              },
+              {
+                "ID": "0c1bb824-fa74-442a-8a48-878cbbef713b",
+                "secenek": "19",
+                "createdAt": 1661327932076
+              }
+            ],
+            "createdAt": 1661326974028
           }
         ],
         "foto": {},

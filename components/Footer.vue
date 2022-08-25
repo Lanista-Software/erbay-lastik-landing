@@ -29,20 +29,28 @@
         </div>
       </div>
     </div>
-    <div
-      class="container-lg flex flex-row justify-between items-center py-8 bg-primary-800"
-    >
-      <div>
-        <img src="/icons/erbay.png" alt="erbay" class="w-16" />
-      </div>
-      <div>
-        <p class="text-white hidden lg:block">
-          All rights reserved
-          <sup>2022</sup>
-        </p>
-      </div>
-      <div>
-        <img src="/icons/lanista.svg" alt="lanista" class="w-32" />
+    <div class="w-full bg-primary-800">
+      <div class="container-lg flex flex-row justify-between items-center py-8">
+        <div>
+          <img
+            :src="footerData.footerAlt.logo[0].src.split('public')[1]"
+            :alt="footerData.footerAlt.logo[0].alt"
+            class="w-16"
+          />
+        </div>
+        <div>
+          <p class="text-white hidden lg:block">
+            {{ footerData.footerAlt.info.yazi }}
+            <sup>{{ footerData.footerAlt.info.yil }}</sup>
+          </p>
+        </div>
+        <div>
+          <img
+            :src="footerData.footerAlt.logo[1].src"
+            :alt="footerData.footerAlt.logo[1].alt"
+            class="w-32"
+          />
+        </div>
       </div>
     </div>
   </footer>
