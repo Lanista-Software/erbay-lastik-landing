@@ -26,7 +26,11 @@
 import { generateClasses } from '../../mixins/methods'
 import * as prop from '../../mixins/props'
 export default {
-  mixins: [prop.size('sm', ['sm', 'md', 'lg'])],
+  mixins: [
+    prop.size('sm', ['sm', 'md', 'lg']),
+    prop.boolean('resizeX', false),
+    prop.boolean('resizeY', false),
+  ],
   props: {
     state: {
       type: [String, Boolean, null],
@@ -77,7 +81,11 @@ export default {
         lineHeight: this.size === 'sm' ? 'leading-4.5' : 'leading-6',
         fontColor: 'placeholder-info-400 text-info-600',
         width: 'w-full',
-        resize: 'resize-y',
+        resize: this.resizeX
+          ? 'resize-x'
+          : this.resizeY
+          ? 'resize-y'
+          : 'resize-none',
       }
       const stateClasses = {
         focus: {

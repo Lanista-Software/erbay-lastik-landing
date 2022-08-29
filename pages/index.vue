@@ -14,7 +14,7 @@
         style="background: rgba(4, 31, 69, 0.8)"
       >
         <div
-          class="container-lg mx-auto flex lg:flex-row flex-col justify-between items-center"
+          class="container-sm mx-auto flex lg:flex-row flex-col justify-between items-center"
         >
           <div class="text-side flex flex-col lg:w-1/2 text-white">
             <LuiHeading
@@ -238,7 +238,7 @@
       "
     >
       <div
-        class="container-lg w-full mx-auto text-center h-96 center-col text-white"
+        class="container-lg w-full mx-auto text-center lg:h-96 center-col text-white"
       >
         <div class="container-description">
           <LuiHeading level="3" size="xl" class="pb-12 font-medium">{{
