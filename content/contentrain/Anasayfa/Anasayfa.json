@@ -1467,7 +1467,7 @@
     },
     "cokSorulanlar": {
       "ID": "377647d4-8f6d-41b0-a57b-9fef889de135",
-      "baslik": "Aklınıza takılabileceğini düşündüğümüz bazı sorular ve cevapları sizler için listeledik. Daha fazla bilgi almak için lütfen bizimle iletişime geçmekten çekinmeyin.",
+      "baslik": "Sık Sorulan Sorular",
       "soruKartlari": [
         {
           "ID": "e518f9d8-dae5-4fbb-8dca-6f007e37a1d7",
@@ -1543,7 +1543,9 @@
           "label": "İletişim",
           "createdAt": 1661331809905
         }
-      ]
+      ],
+      "aciklama": "Aklınıza takılabileceğini düşündüğümüz bazı sorular ve cevapları sizler için listeledik. Daha fazla bilgi almak için lütfen bizimle iletişime geçmekten çekinmeyin.",
+      "updatedAt": 1661758979387
     },
     "harita": {
       "ID": "915a7c84-3d94-46ee-a892-ae105c3397bf",
