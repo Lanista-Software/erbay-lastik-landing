@@ -1,7 +1,7 @@
 <template>
   <div role="listbox" class="dropdown" :class="computedClasses.container">
     <lui-button
-      type="link"
+      type="text"
       v-bind="$attrs"
       :variant="variant"
       :size="size"
@@ -121,7 +121,7 @@ export default {
         container: {
           position: 'relative',
           width: props.block ? 'w-full' : 'w-max',
-          zIndex: 'z-10',
+          zIndex: 'z-50',
         },
         content: {
           position: 'absolute',

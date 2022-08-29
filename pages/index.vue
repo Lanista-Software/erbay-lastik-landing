@@ -10,7 +10,7 @@
       "
     >
       <div
-        class="w-full lg:h-[793px] md:h-[1000px] md:pt-36 py-24"
+        class="w-full lg:h-[793px] md:h-[1000px] md:pt-12 py-24"
         style="background: rgba(4, 31, 69, 0.8)"
       >
         <div
@@ -22,7 +22,7 @@
             }}</LuiHeading>
             <LuiText class="pb-8">{{ homePage.hero.aciklama }}</LuiText>
             <div>
-              <LuiButton variant="secondary" rounded size="lg">
+              <LuiButton variant="primary" rounded size="lg">
                 <a :href="homePage.hero.buton.link">{{
                   homePage.hero.buton.label
                 }}</a>
@@ -34,21 +34,17 @@
               <div
                 class="rounded-t-2xl grid grid-cols-3 gap-3 p-6 bg-[#f3f4f6] justify-between"
               >
-                <LuiDropdown
+                <LuiSelect
                   v-for="item in homePage.hero.aramakarti.secenekler"
                   :key="item"
-                  size="lg"
+                  size="md"
                   rounded
-                  block
-                  :text="item.adi"
-                  ><lui-dropdown-item
-                    v-for="listItem in item.liste"
-                    :key="listItem"
-                    >{{ listItem.secenek }}</lui-dropdown-item
-                  >
-                </LuiDropdown>
+                  :placeholder="item.adi"
+                  :options="item.liste"
+                >
+                </LuiSelect>
               </div>
-              <div class="all-center h-64">
+              <div class="all-center">
                 <img
                   :src="homePage.hero.aramakarti.foto.src.split('public')[1]"
                   :alt="homePage.hero.aramakarti.foto.alt"
@@ -69,7 +65,7 @@
     <section id="hit" class="pb-24 hidden lg:block">
       <div
         id="hit-cards"
-        class="container-cards grid xl:grid-cols-4 grid-cols-2 justify-items-center gap-8 -mt-20"
+        class="container-lg grid xl:grid-cols-4 grid-cols-2 justify-items-center gap-8 -mt-20"
       >
         <div
           v-for="item in homePage.populer.urunKartlari"
@@ -131,11 +127,17 @@
     </section>
     <section id="products" class="pb-24 pt-24 lg:pt-0">
       <div class="all-center flex-col">
-        <div id="product-title" class="all-center flex-col pb-8 text-center">
-          <LuiHeading level="4" size="xl" class="text-black font-semibold">{{
-            homePage.urunler.baslik
-          }}</LuiHeading>
-          <div class="container-description">
+        <div
+          id="product-title"
+          class="container-description all-center flex-col pb-8 text-center"
+        >
+          <LuiHeading
+            level="3"
+            size="xl"
+            class="text-black font-semibold pb-2"
+            >{{ homePage.urunler.baslik }}</LuiHeading
+          >
+          <div>
             <LuiText class="text-xl text-slate-700">{{
               homePage.urunler.aciklama
             }}</LuiText>
@@ -149,20 +151,17 @@
             <div
               class="grid xl:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-3 pb-3 md:pb-0 justify-center items-center"
             >
-              <LuiDropdown
-                v-for="item in homePage.urunler.aramaKarti.secenekler"
+              <LuiSelect
+                v-for="item in homePage.hero.aramakarti.secenekler"
                 :key="item"
-                size="lg"
+                size="md"
                 rounded
-                :text="item.adi"
-                ><lui-dropdown-item
-                  v-for="listItem in item.liste"
-                  :key="listItem"
-                  >{{ listItem.secenek }}</lui-dropdown-item
-                >
-              </LuiDropdown>
+                :placeholder="item.adi"
+                :options="item.liste"
+              >
+              </LuiSelect>
             </div>
-            <div class="all-center">
+            <div class="all-center pl-3">
               <LuiButton variant="primary" size="lg" rounded
                 >Lastik aramasi Yap</LuiButton
               >
@@ -171,7 +170,7 @@
         </div>
         <div
           id="product-cards"
-          class="container-sm grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-items-center gap-16"
+          class="container-lg grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-items-center gap-16"
         >
           <div
             v-for="item in homePage.urunler.urunKartlari"
@@ -237,30 +236,32 @@
       <div
         class="container-lg w-full mx-auto text-center h-96 center-col text-white"
       >
-        <LuiHeading level="4" size="lg" class="pb-12 font-medium">{{
-          homePage.banner.baslik
-        }}</LuiHeading>
-        <LuiText class="pb-8">{{ homePage.banner.aciklama }}</LuiText>
-        <LuiButton rounded size="lg" variant="secondary" class="text-primary">
-          <a :href="homePage.banner.buton.link">{{
-            homePage.banner.buton.label
-          }}</a></LuiButton
-        >
+        <div class="container-description">
+          <LuiHeading level="3" size="xl" class="pb-12 font-medium">{{
+            homePage.banner.baslik
+          }}</LuiHeading>
+          <LuiText class="pb-8">{{ homePage.banner.aciklama }}</LuiText>
+          <LuiButton rounded size="lg" variant="primary">
+            <a :href="homePage.banner.buton.link">{{
+              homePage.banner.buton.label
+            }}</a></LuiButton
+          >
+        </div>
       </div>
     </section>
     <section id="services" class="pt-24 pb-36">
       <div class="flex flex-col justify-center items-center">
-        <div class="container-lg mx-auto text-center text-black center-col">
-          <LuiHeading level="4" size="lg" class="pb-4 font-semibold">{{
+        <div
+          class="container-description mx-auto text-center text-black center-col pb-8"
+        >
+          <LuiHeading level="3" size="xl" class="pb-4 font-semibold">{{
             homePage.hizmetler.baslik
           }}</LuiHeading>
-          <div class="container-description">
-            <LuiText class="text-xl">{{ homePage.hizmetler.aciklama }}</LuiText>
-          </div>
+          <LuiText class="text-xl">{{ homePage.hizmetler.aciklama }}</LuiText>
         </div>
         <div
           id="services-cards"
-          class="container-cards grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 justify-items-center"
+          class="container-lg grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 justify-items-center"
         >
           <div
             v-for="(item, i) in homePage.hizmetler.hizmetKartlari"
@@ -298,8 +299,8 @@
             }}</LuiText>
           </div>
           <LuiHeading
-            level="4"
-            size="lg"
+            level="3"
+            size="xl"
             class="pb-8 text-black font-semibold"
             >{{ homePage.markalar.baslik }}</LuiHeading
           >
@@ -341,7 +342,7 @@
           <div
             class="text-side text-white flex flex-col justify-start lg:w-3/5"
           >
-            <LuiHeading class="pb-4 font-semibold" level="2" size="xl">{{
+            <LuiHeading class="pb-4 font-semibold" level="3" size="xl">{{
               homePage.hakkimizda.baslik
             }}</LuiHeading>
             <LuiText class="text-lg !text-white">{{
@@ -389,15 +390,15 @@
       </div>
     </section>
     <section id="map" class="all-center pb-24 flex flex-col">
-      <div class="section-header container-lg all-center text-center flex-col">
-        <LuiText class="font-bold pb-4 text-4xl text-heading">{{
+      <div
+        class="section-header container-description all-center text-center flex-col"
+      >
+        <LuiHeading level="3" size="xl" class="font-bold pb-4">{{
           homePage.harita.baslik
+        }}</LuiHeading>
+        <LuiText class="pb-8 text-center">{{
+          homePage.harita.aciklama
         }}</LuiText>
-        <div class="container-description">
-          <LuiText class="pb-8 text-center">{{
-            homePage.harita.aciklama
-          }}</LuiText>
-        </div>
         <div class="pb-14">
           <LuiButton rounded size="lg" class="p-2"
             ><a :href="homePage.harita.buton.link">{{
@@ -441,10 +442,10 @@
           id="contact-title"
           class="container-lg mx-auto text-center text-black center-col"
         >
-          <LuiHeading level="4" size="lg" class="pb-4 font-semibold">{{
-            homePage.mesaj.baslik
-          }}</LuiHeading>
           <div class="container-description">
+            <LuiHeading level="3" size="xl" class="pb-4 font-semibold">{{
+              homePage.mesaj.baslik
+            }}</LuiHeading>
             <LuiText class="text-xl">{{ homePage.mesaj.aciklama }}</LuiText>
           </div>
         </div>

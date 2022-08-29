@@ -3,7 +3,7 @@
     class="w-full bg-gradient-to-r from-primary-400 to-primary-700 text-white"
   >
     <div
-      class="site-navigation container-sm flex justify-between items-start p-16 lg:flex-row flex-col xl:space-x-36 lg:space-x-10"
+      class="site-navigation container-lg flex justify-between items-start p-16 lg:flex-row flex-col xl:space-x-36 lg:space-x-10"
     >
       <div
         v-for="nav in footerData.links"

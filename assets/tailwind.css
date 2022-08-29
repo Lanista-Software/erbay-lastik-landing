@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 html {
-  @apply text-[16px];
+  @apply text-[16px] scroll-smooth;
 }
 * {
   font-family: 'Work Sans', sans-serif;
@@ -15,16 +15,7 @@ body {
 }
 @layer components {
   .container-lg {
-    @apply container w-full mx-auto py-5 2xl:px-32 xl:px-24 lg:px-14 md:px-10 sm:px-8 xs:px-6 2xs:px-5 3xs:px-4;
-  }
-  .container-md {
-    @apply container w-full mx-auto py-5 2xl:px-[120px] xl:px-[108px] lg:px-[84px] md:px-[60px] sm:px-12 xs:px-9 2xs:px-7 3xs:px-6;
-  }
-  .container-sm {
-    @apply container w-full mx-auto py-5 2xl:px-40 xl:px-36 lg:px-28 md:px-20 sm:px-16 xs:px-12 2xs:px-10 3xs:px-8;
-  }
-  .container-cards {
-    @apply container w-full mx-auto py-5 2xl:px-20 xl:px-[72px] lg:px-14 md:px-10 sm:px-8 xs:px-6 2xs:px-5 3xs:px-4;
+    @apply container w-full mx-auto py-5;
   }
   .container-description {
     @apply container w-full mx-auto 2xl:px-80 xl:px-72 lg:px-56 md:px-40 px-4;
