@@ -17,10 +17,14 @@
           class="container-lg mx-auto flex lg:flex-row flex-col justify-between items-center"
         >
           <div class="text-side flex flex-col lg:w-1/2 text-white">
-            <LuiHeading level="1" size="xs" display class="font-semibold">{{
-              homePage.hero.baslik
-            }}</LuiHeading>
-            <LuiText class="pb-8">{{ homePage.hero.aciklama }}</LuiText>
+            <LuiHeading
+              level="1"
+              size="xs"
+              display
+              class="font-semibold pb-4"
+              >{{ homePage.hero.baslik }}</LuiHeading
+            >
+            <LuiText class="pb-6">{{ homePage.hero.aciklama }}</LuiText>
             <div>
               <LuiButton variant="primary" rounded size="lg">
                 <a :href="homePage.hero.buton.link">{{
@@ -138,7 +142,7 @@
             >{{ homePage.urunler.baslik }}</LuiHeading
           >
           <div>
-            <LuiText class="text-xl text-slate-700">{{
+            <LuiText class="text-slate-700">{{
               homePage.urunler.aciklama
             }}</LuiText>
           </div>
@@ -257,7 +261,7 @@
           <LuiHeading level="3" size="xl" class="pb-4 font-semibold">{{
             homePage.hizmetler.baslik
           }}</LuiHeading>
-          <LuiText class="text-xl">{{ homePage.hizmetler.aciklama }}</LuiText>
+          <LuiText class=" ">{{ homePage.hizmetler.aciklama }}</LuiText>
         </div>
         <div
           id="services-cards"
@@ -294,7 +298,7 @@
               <path fill="none" d="M0 0h24v24H0z" />
               <path fill="#22c55e" d="M5 11h14v2H5z" />
             </svg>
-            <LuiText class="text-xl text-slate-500">{{
+            <LuiText class="text-slate-500">{{
               homePage.markalar.ustYazi
             }}</LuiText>
           </div>
@@ -304,7 +308,7 @@
             class="pb-8 text-black font-semibold"
             >{{ homePage.markalar.baslik }}</LuiHeading
           >
-          <LuiText class="text-xl text-slate-500 pb-8">{{
+          <LuiText class="text-slate-500 pb-8">{{
             homePage.markalar.aciklama
           }}</LuiText>
           <div>
@@ -362,8 +366,14 @@
     <section id="faq" class="py-20">
       <div class="flex flex-col container-lg">
         <div class="container-description all-center flex-col">
-          <LuiText class="pb-8 text-center text-xl">{{
-            homePage.cokSorulanlar.baslik
+          <LuiHeading
+            level="3"
+            size="xl"
+            class="pb-8 text-black font-semibold"
+            >{{ homePage.cokSorulanlar.baslik }}</LuiHeading
+          >
+          <LuiText class="pb-8 text-center">{{
+            homePage.cokSorulanlar.aciklama
           }}</LuiText>
         </div>
         <div class="center-row space-x-4">
@@ -440,13 +450,13 @@
       <div class="flex flex-col justify-center items-center">
         <div
           id="contact-title"
-          class="container-lg mx-auto text-center text-black center-col"
+          class="container-lg mx-auto text-center text-black center-col pb-12"
         >
           <div class="container-description">
             <LuiHeading level="3" size="xl" class="pb-4 font-semibold">{{
               homePage.mesaj.baslik
             }}</LuiHeading>
-            <LuiText class="text-xl">{{ homePage.mesaj.aciklama }}</LuiText>
+            <LuiText class=" ">{{ homePage.mesaj.aciklama }}</LuiText>
           </div>
         </div>
         <div
