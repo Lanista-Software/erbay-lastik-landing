@@ -442,7 +442,9 @@
                 "createdAt": 1661327764943
               }
             ],
-            "createdAt": 1661326956235
+            "createdAt": 1661326956235,
+            "model": "taban",
+            "updatedAt": 1661930881122
           },
           {
             "ID": "0ab4a1ec-ed9c-43dd-abdd-605bc9957c92",
