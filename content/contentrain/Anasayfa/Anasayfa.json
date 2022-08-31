@@ -297,9 +297,9 @@
           "buton": {
             "ID": "cfe37273-c4dc-494e-b1a0-aa0ef7e7323d",
             "label": "İletişime Geç",
-            "link": "contact",
+            "link": "#contact",
             "createdAt": 1661321700597,
-            "updatedAt": 1661949724586
+            "updatedAt": 1661952665388
           },
           "createdAt": 1661321493810
         },
