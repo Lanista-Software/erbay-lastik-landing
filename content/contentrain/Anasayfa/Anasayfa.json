@@ -355,8 +355,9 @@
               }
             ],
             "createdAt": 1661326917995,
-            "updatedAt": 1661931422443,
-            "model": "marka"
+            "updatedAt": 1661931737193,
+            "model": "marka",
+            "modelId": "marka"
           },
           {
             "ID": "10f34629-22af-4311-8201-b2240c53d88f",
