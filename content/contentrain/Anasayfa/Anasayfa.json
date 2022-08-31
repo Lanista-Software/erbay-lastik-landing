@@ -515,7 +515,9 @@
                 "createdAt": 1661327932076
               }
             ],
-            "createdAt": 1661326974028
+            "createdAt": 1661326974028,
+            "model": "jant",
+            "updatedAt": 1661930904336
           }
         ],
         "createdAt": 1661326898963,
