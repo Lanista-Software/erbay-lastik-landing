@@ -124,13 +124,8 @@
               ></i>
             </div>
             <div id="hit-button" class="flex">
-              <LuiButton
-                rounded
-                size="sm"
-                variant="primary"
-                @click="goTo(item.buton.link)"
-              >
-                {{ item.buton.label }}</LuiButton
+              <LuiButton rounded size="sm" variant="primary">
+                <a :href="item.buton.link">{{ item.buton.label }}</a></LuiButton
               >
             </div>
           </div>
