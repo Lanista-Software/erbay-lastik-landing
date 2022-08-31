@@ -382,7 +382,8 @@
             ],
             "createdAt": 1661326936298,
             "model": "mevsim",
-            "updatedAt": 1661930864114
+            "updatedAt": 1661933406858,
+            "modelId": "mevsim"
           },
           {
             "ID": "9d633d9e-c3c6-45aa-96c6-d77142aae9eb",
