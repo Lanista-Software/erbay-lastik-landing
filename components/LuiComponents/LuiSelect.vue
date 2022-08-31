@@ -4,7 +4,7 @@
     :class="[
       $attrs.class,
       computedClasses.wrapper,
-      optionsActive ? 'z-20' : '',
+      optionsActive ? 'z-50' : 'z-10',
     ]"
     :style="$attrs.style"
   >
@@ -22,7 +22,7 @@
       <lui-icon
         :line="iconLine ? true : false"
         :fill="!iconLine ? true : false"
-        :name="optionsActive ? 'arrow-down-s' : 'arrow-down-s'"
+        name="arrow-down-s"
         :class="computedClasses.icon"
       />
     </button>
@@ -51,10 +51,10 @@
         "
         @click="selectOption(option)"
       >
-        <span>{{ option.secenek }}</span>
+        <span>{{ option }}</span>
       </lui-option>
     </ul>
-    <p v-if="description !== 'none'" :class="computedClasses.description">
+    <p v-if="description !== ''" :class="computedClasses.description">
       {{ description }}
     </p>
   </div>
@@ -74,7 +74,7 @@ export default {
     prop.boolean('iconLine', true),
     prop.string('placeholder', ''),
     prop.string('modelValue', ''),
-    prop.string('description', 'none'),
+    prop.string('description', ''),
   ],
   props: {
     state: {
@@ -141,9 +141,9 @@ export default {
     }
 
     function selectOption(option) {
-      selectedOption.value = option.secenek
-      emit('update:modelValue', option.secenek)
-      emit('change', option.secenek)
+      selectedOption.value = option
+      emit('update:modelValue', option)
+      emit('change', option)
       luiSelect.value.focus()
     }
 
@@ -221,7 +221,6 @@ export default {
         wrapper: {
           width: 'w-50',
           position: 'relative',
-          zIndex: 'z-10',
         },
         button: {
           padding: findSize({ sm: 'px-2 py-1.5', md: 'p-2', lg: 'p-3' }),

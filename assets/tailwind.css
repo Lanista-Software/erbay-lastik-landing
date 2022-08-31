@@ -15,13 +15,10 @@ body {
 }
 @layer components {
   .container-lg {
-    @apply container w-full mx-auto py-5;
-  }
-  .container-sm {
-    @apply container w-full mx-auto py-5 2xl:px-40 xl:px-36 lg:px-28 md:px-20 sm:px-16 xs:px-12 2xs:px-10 3xs:px-8;
+    @apply container mx-auto py-5 px-4 lg:px-16;
   }
   .container-description {
-    @apply container w-full mx-auto 2xl:px-80 xl:px-72 lg:px-56 md:px-40 px-4;
+    @apply container mx-auto 2xl:px-80 xl:px-72 lg:px-56 md:px-40 px-4;
   }
   .all-center {
     @apply flex justify-center items-center;

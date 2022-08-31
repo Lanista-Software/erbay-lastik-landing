@@ -1,8 +1,8 @@
 <template>
-  <div class="lg:pt-32 pt-24 overflow-hidden">
+  <div class="lg:pt-32 pt-20 overflow-hidden">
     <section
       id="home"
-      class="w-full lg:h-[793px] md:h-[1000px]"
+      class="w-full xl:h-[793px] lg:h-[1000px]"
       style="
         background-image: url('/images/hero.png');
         background-repeat: no-repeat;
@@ -10,11 +10,11 @@
       "
     >
       <div
-        class="w-full lg:h-[793px] md:h-[1000px] md:pt-12 py-24"
+        class="w-full xl:h-[793px] lg:h-[1000px] md:pt-12 py-24"
         style="background: rgba(4, 31, 69, 0.8)"
       >
         <div
-          class="container-sm mx-auto flex lg:flex-row flex-col justify-between items-center"
+          class="container-lg mx-auto flex lg:flex-row flex-col justify-between items-center"
         >
           <div class="text-side flex flex-col lg:w-1/2 text-white">
             <LuiHeading
@@ -33,20 +33,24 @@
               </LuiButton>
             </div>
           </div>
-          <div class="card-side md:flex flex-col lg:items-end hidden">
+          <div class="card-side lg:flex flex-col lg:items-end hidden">
             <div id="search-card" class="rounded-2xl bg-white mx-auto">
               <div
                 class="rounded-t-2xl grid grid-cols-3 gap-3 p-6 bg-[#f3f4f6] justify-between"
               >
                 <LuiSelect
-                  v-for="item in homePage.hero.aramakarti.secenekler"
+                  v-for="item in homePage.urunler.aramaKarti.secenekler"
                   :key="item"
                   size="md"
                   rounded
                   :placeholder="item.adi"
-                  :options="item.liste"
-                >
-                </LuiSelect>
+                  :options="
+                    item.liste.map((obj) => {
+                      return obj.secenek
+                    })
+                  "
+                  description=""
+                />
               </div>
               <div class="all-center">
                 <img
@@ -78,7 +82,7 @@
         >
           <div id="hit-icon" class="pt-5 pb-2 left-0">
             <span
-              class="bg-secondary py-2 pl-2 pr-4 rounded-r-2xl text-xs text-primary"
+              class="bg-warning py-2 pl-2 pr-4 rounded-r-2xl text-xs text-primary"
               >Popüler</span
             >
           </div>
@@ -156,12 +160,17 @@
               class="grid xl:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-3 pb-3 md:pb-0 justify-center items-center"
             >
               <LuiSelect
-                v-for="item in homePage.hero.aramakarti.secenekler"
+                v-for="item in homePage.urunler.aramaKarti.secenekler"
                 :key="item"
                 size="md"
                 rounded
                 :placeholder="item.adi"
-                :options="item.liste"
+                :options="
+                  item.liste.map((obj) => {
+                    return obj.secenek
+                  })
+                "
+                description=""
               >
               </LuiSelect>
             </div>
@@ -285,7 +294,7 @@
     </section>
     <section id="brands" class="pb-24">
       <div
-        class="container-lg flex lg:flex-row flex-col space-y-8 lg:space-y-0 justify-between items-start"
+        class="container-lg flex xl:flex-row flex-col space-y-8 xl:space-y-0 justify-between items-start"
       >
         <div id="brands-text" class="flex flex-col text-start justify-center">
           <div class="flex flex-row items-center space-x-4 pb-4">
@@ -319,10 +328,7 @@
             </LuiButton>
           </div>
         </div>
-        <div
-          id="brands-logo"
-          class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-3 gap-4"
-        >
+        <div id="brands-logo" class="grid grid-cols-3 gap-4">
           <div
             v-for="(item, index) in homePage.markalar.markaLogolari"
             :key="index"
@@ -531,11 +537,11 @@
               }}</LuiButton>
             </div>
           </div>
-          <div id="contact-image-side">
+          <div id="contact-image-side" class="hidden lg:block">
             <img
               :src="homePage.mesaj.foto.src.split('public')[1]"
               :alt="homePage.mesaj.foto.alt"
-              class="rounded-b-2xl lg:rounded-b-none lg:rounded-r-2xl"
+              class="rounded-b-2xl h-full lg:rounded-b-none lg:rounded-r-2xl"
             />
           </div>
         </div>
@@ -568,4 +574,46 @@ function choseSeason(season) {
 watch(filteredFaq, (to, from) => {
   console.log(to, from)
 })
+</script>
+<script>
+export default {
+  data() {
+    return {
+      selectform: {
+        marka: null,
+        mevsim: null,
+        taban: null,
+        kesit: null,
+        jant: null,
+        yil: null,
+      },
+    }
+  },
+  watch: {
+    items: {
+      deep: true,
+      handler(val) {
+        this.form.brand = val.brand
+        this.form.baseWidth = val.baseWidth
+        this.form.season = val.season
+        this.form.sectionRatio = val.sectionRatio
+        this.form.wheelDiameter = val.wheelDiameter
+        this.form.year = val.year
+        // component içi
+        this.selectform.brand = val.brand
+        this.selectform.season = val.season ? val.season.split(',')[2] : null
+        this.selectform.baseWidth = val.baseWidth
+          ? val.baseWidth.split(',')[2]
+          : null
+        this.selectform.sectionRatio = val.sectionRatio
+          ? val.sectionRatio.split(',')[2]
+          : null
+        this.selectform.wheelDiameter = val.wheelDiameter
+          ? val.wheelDiameter.split(',')[2]
+          : null
+        this.selectform.year = val.year ? val.year.split(',')[2] : null
+      },
+    },
+  },
+}
 </script>

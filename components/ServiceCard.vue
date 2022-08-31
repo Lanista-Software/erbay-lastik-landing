@@ -46,8 +46,8 @@ export default {
 <style lang="scss" scoped>
 .service-hover-card {
   display: flex;
-  width: 350px;
-  height: 325px;
+  width: 300px;
+  height: 285px;
   border-radius: 16px;
   background-size: cover;
   &-abs {

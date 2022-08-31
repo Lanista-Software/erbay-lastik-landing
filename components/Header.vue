@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col bg-gradient-to-r from-primary-400 to-primary-700 fixed top-0 w-full lg:h-32 h-24 z-50 text-white"
+    class="flex flex-col bg-gradient-to-r from-primary-400 to-primary-700 fixed top-0 w-full z-50 text-white"
   >
     <!-- {{ headerData.ustNavigasyon }} -->
     <div
