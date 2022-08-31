@@ -481,7 +481,9 @@
                 "createdAt": 1661327870164
               }
             ],
-            "createdAt": 1661326965294
+            "createdAt": 1661326965294,
+            "model": "kesit",
+            "updatedAt": 1661930896694
           },
           {
             "ID": "ada65ad4-5139-465e-984a-d66f4f8b4633",
