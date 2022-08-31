@@ -26,11 +26,11 @@
             >
             <LuiText class="pb-6">{{ homePage.hero.aciklama }}</LuiText>
             <div>
-              <LuiButton variant="primary" rounded size="lg">
-                <a :href="homePage.hero.buton.link">{{
-                  homePage.hero.buton.label
-                }}</a>
-              </LuiButton>
+              <a :href="homePage.hero.buton.link">
+                <LuiButton variant="primary" rounded size="lg">
+                  {{ homePage.hero.buton.label }}
+                </LuiButton></a
+              >
             </div>
           </div>
           <div class="card-side lg:flex flex-col lg:items-end hidden">
@@ -124,8 +124,10 @@
               ></i>
             </div>
             <div id="hit-button" class="flex">
-              <LuiButton rounded size="sm" variant="primary">
-                <a :href="item.buton.link">{{ item.buton.label }}</a></LuiButton
+              <a :href="item.buton.link">
+                <LuiButton size="sm" variant="primary" rounded>
+                  {{ item.buton.label }}</LuiButton
+                ></a
               >
             </div>
           </div>

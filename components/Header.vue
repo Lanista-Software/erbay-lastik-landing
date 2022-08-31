@@ -37,7 +37,7 @@
       <div id="navigation" class="hidden lg:block">
         <ul class="flex flex-row justify-between items-center space-x-4">
           <li v-for="nav in headerData.navigasyon" :key="nav.ID">
-            <a :id="nav.id" @click="goTo(nav.link)">
+            <a :href="nav.link" :id="nav.id">
               {{ nav.name }}
             </a>
           </li>
