@@ -10,7 +10,8 @@
         "link": "tel:0(432) 223 24 48",
         "createdAt": 1661247638440
       },
-      "aramakarti": {
+      "createdAt": 1661247603294,
+      "aramaKarti": {
         "secenekler": [
           {
             "ID": "f44f5ac7-eadd-4583-95ec-d10cf9e8292e",
@@ -220,8 +221,7 @@
         },
         "createdAt": 1661247922920,
         "ID": "891ab0ac-c620-4397-b419-60321a30fdbe"
-      },
-      "createdAt": 1661247603294
+      }
     },
     "populer": {
       "urunKartlari": [
