@@ -525,6 +525,13 @@
             "createdAt": 1661326974028,
             "model": "jant",
             "updatedAt": 1661930904336
+          },
+          {
+            "ID": "cf4e502f-005a-4b7c-8aa5-84e91e474fb2",
+            "adi": "deneme",
+            "liste": [],
+            "model": "deneme",
+            "createdAt": 1661931484332
           }
         ],
         "createdAt": 1661326898963,
