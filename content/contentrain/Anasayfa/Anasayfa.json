@@ -210,15 +210,15 @@
             "ID": "b36fbf24-604e-4987-b1e0-cf6b367599a5",
             "adi": "deneme ",
             "liste": [],
-            "model": "deneme",
-            "createdAt": 1661931465262
+            "createdAt": 1661931465262,
+            "modelId": "deneme"
           },
           {
             "ID": "17db2dc4-a4db-490d-b76a-2103c0101793",
             "adi": "a",
             "liste": [],
-            "model": "a",
-            "createdAt": 1661931536664
+            "createdAt": 1661931536664,
+            "modelId": "a"
           }
         ],
         "foto": {
