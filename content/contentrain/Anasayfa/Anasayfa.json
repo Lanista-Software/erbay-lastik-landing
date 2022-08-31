@@ -393,7 +393,9 @@
                 "createdAt": 1661327688892
               }
             ],
-            "createdAt": 1661326942248
+            "createdAt": 1661326942248,
+            "model": "yil",
+            "updatedAt": 1661930871229
           },
           {
             "ID": "fe41cb70-5fc5-47c1-a45c-f13e774d86f1",
