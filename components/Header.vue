@@ -3,18 +3,19 @@
     class="flex flex-col bg-gradient-to-r from-primary-400 to-primary-700 fixed top-0 w-full z-50 text-white"
   >
     <!-- {{ headerData.ustNavigasyon }} -->
-    <div
-      id="contact"
-      class="container-lg py-2 border-b-2 border-primary-200 hidden lg:block"
-    >
-      <li class="flex flex-row justify-between items-center">
-        <ul v-for="item in headerData.ustNavigasyon" :key="item">
-          <a :href="item.link" class="flex flex-row justify-start items-center"
-            ><LuiIcon :name="item.icon" line size="xl" class="pr-1"></LuiIcon>
-            {{ item.isim }}
-          </a>
-        </ul>
-      </li>
+    <div class="border-b-2 border-primary-200 hidden lg:block">
+      <div id="contact" class="container-lg py-2">
+        <li class="flex flex-row justify-between items-center">
+          <ul v-for="item in headerData.ustNavigasyon" :key="item">
+            <a
+              :href="item.link"
+              class="flex flex-row justify-start items-center"
+              ><LuiIcon :name="item.icon" line size="xl" class="pr-1"></LuiIcon>
+              {{ item.isim }}
+            </a>
+          </ul>
+        </li>
+      </div>
     </div>
     <nav
       id="navbar"

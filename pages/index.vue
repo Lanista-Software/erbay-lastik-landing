@@ -50,18 +50,19 @@
                     })
                   "
                   description=""
+                  v-model="form[item.model]"
                 />
               </div>
               <div class="all-center">
                 <img
-                  :src="homePage.hero.aramakarti.foto.src.split('public')[1]"
-                  :alt="homePage.hero.aramakarti.foto.alt"
+                  :src="homePage.hero.aramaKarti.foto.src.split('public')[1]"
+                  :alt="homePage.hero.aramaKarti.foto.alt"
                 />
               </div>
               <div class="bg-[#f3f4f6] w-full px-12 py-8 rounded-b-2xl">
                 <LuiButton variant="primary" size="lg" block rounded
-                  ><a :href="homePage.hero.aramakarti.buton.link">{{
-                    homePage.hero.aramakarti.buton.label
+                  ><a :href="homePage.hero.aramaKarti.buton.link">{{
+                    homePage.hero.aramaKarti.buton.label
                   }}</a></LuiButton
                 >
               </div>
@@ -123,10 +124,13 @@
               ></i>
             </div>
             <div id="hit-button" class="flex">
-              <LuiButton rounded size="sm" variant="primary">
-                <nuxt-link :to="item.buton.link">{{
-                  item.buton.label
-                }}</nuxt-link></LuiButton
+              <LuiButton
+                rounded
+                size="sm"
+                variant="primary"
+                @click="goTo(item.buton.link)"
+              >
+                {{ item.buton.label }}</LuiButton
               >
             </div>
           </div>
@@ -171,13 +175,8 @@
                   })
                 "
                 description=""
-              >
-              </LuiSelect>
-            </div>
-            <div class="all-center pl-3">
-              <LuiButton variant="primary" size="lg" rounded
-                >Lastik aramasi Yap</LuiButton
-              >
+                v-model="form[item.model]"
+              />
             </div>
           </div>
         </div>
@@ -186,7 +185,7 @@
           class="container-lg grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-items-center gap-16"
         >
           <div
-            v-for="item in homePage.urunler.urunKartlari"
+            v-for="item in filteredProducts"
             :key="item"
             class="rounded-2xl bg-white w-72 pt-12 border"
           >
@@ -452,7 +451,7 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="pb-24">
+    <section id="contact" class="pb-24" ref="contact">
       <div class="flex flex-col justify-center items-center">
         <div
           id="contact-title"
@@ -554,6 +553,47 @@ const { data } = await useAsyncData('anasayfa', () =>
   queryContent('contentrain', 'anasayfa').findOne()
 )
 let homePage = data.value.body[0]
+let productList = homePage.urunler.urunKartlari
+
+function goTo(refName) {
+  var element = this.$refs[refName]
+  var top = element.offsetTop
+  window.scrollTo(0, top)
+}
+
+let form = ref({
+  marka: '',
+  mevsim: '',
+  yil: '',
+  taban: '',
+  kesit: '',
+  jant: '',
+})
+
+const filteredProducts = computed(() => {
+  const avaibleKeys = Object.entries(form.value)
+    .map(([key, value]) => {
+      console.log(key, value)
+      if (value) {
+        return key
+      }
+    })
+    .filter((y) => y !== undefined)
+  console.log(avaibleKeys)
+  return productList.filter((item) => {
+    if (avaibleKeys.length > 0) {
+      const sameKeys = avaibleKeys.map((c) => {
+        if (item.lastikAdi.includes(form.value[c])) {
+          return true
+        }
+        return false
+      })
+      return sameKeys.filter((x) => x == true).length === sameKeys.length
+    }
+    return true
+  })
+})
+
 const activeCategory = ref('odeme')
 const newAcc = homePage.cokSorulanlar.soruKartlari
 
@@ -574,46 +614,4 @@ function choseSeason(season) {
 watch(filteredFaq, (to, from) => {
   console.log(to, from)
 })
-</script>
-<script>
-export default {
-  data() {
-    return {
-      selectform: {
-        marka: null,
-        mevsim: null,
-        taban: null,
-        kesit: null,
-        jant: null,
-        yil: null,
-      },
-    }
-  },
-  watch: {
-    items: {
-      deep: true,
-      handler(val) {
-        this.form.brand = val.brand
-        this.form.baseWidth = val.baseWidth
-        this.form.season = val.season
-        this.form.sectionRatio = val.sectionRatio
-        this.form.wheelDiameter = val.wheelDiameter
-        this.form.year = val.year
-        // component içi
-        this.selectform.brand = val.brand
-        this.selectform.season = val.season ? val.season.split(',')[2] : null
-        this.selectform.baseWidth = val.baseWidth
-          ? val.baseWidth.split(',')[2]
-          : null
-        this.selectform.sectionRatio = val.sectionRatio
-          ? val.sectionRatio.split(',')[2]
-          : null
-        this.selectform.wheelDiameter = val.wheelDiameter
-          ? val.wheelDiameter.split(',')[2]
-          : null
-        this.selectform.year = val.year ? val.year.split(',')[2] : null
-      },
-    },
-  },
-}
 </script>
