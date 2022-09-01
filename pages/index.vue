@@ -162,7 +162,7 @@
         <div class="pb-16">
           <div
             id="search-card-product"
-            class="container rounded-2xl mx-auto w-full flex md:flex-row flex-col justify-between px-8 py-4 border"
+            class="container rounded-2xl mx-auto w-full flex md:flex-row flex-col justify-between px-8 py-4 border bg-primary-50"
           >
             <div
               class="grid xl:grid-cols-6 grid-cols-3 gap-3 pb-3 md:pb-0 justify-center items-center"
