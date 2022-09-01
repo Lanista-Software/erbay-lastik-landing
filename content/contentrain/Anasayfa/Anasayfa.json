@@ -485,7 +485,7 @@
             "createdAt": 1661323479715
           },
           "mevsim": "KIŞ",
-          "lastikAdi": "MICHELIN 245/40R19 98H XL X-ICE XI3 2019 ÜRETİM",
+          "lastikAdi": "Michelin 245/40R19 98H XL X-ICE XI3 2019 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -494,7 +494,8 @@
             "link": "form",
             "createdAt": 1661323355644
           },
-          "createdAt": 1661323307156
+          "createdAt": 1661323307156,
+          "updatedAt": 1662015378944
         },
         {
           "ID": "cfb65238-010b-460c-8160-41a082c2f82c",
