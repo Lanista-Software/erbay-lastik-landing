@@ -225,10 +225,12 @@
                 ></i>
               </div>
               <div id="hit-button" class="flex">
-                <LuiButton rounded size="sm" variant="primary">
-                  <a :href="item.buton.link">{{
-                    item.buton.label
-                  }}</a></LuiButton
+                <LuiButton
+                  size="sm"
+                  variant="primary"
+                  rounded
+                  @click.prevent="scrollDown(item.buton.link)"
+                  >{{ item.buton.label }}</LuiButton
                 >
               </div>
             </div>
