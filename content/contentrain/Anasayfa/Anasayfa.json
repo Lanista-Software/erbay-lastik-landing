@@ -45,9 +45,9 @@
           "buton": {
             "ID": "4bd66b63-7e11-461e-a7c9-0d6f42e9f10a",
             "label": "İletişime Geç",
-            "link": "#contact",
+            "link": "form",
             "createdAt": 1661321608260,
-            "updatedAt": 1661952682441
+            "updatedAt": 1662014389216
           },
           "createdAt": 1661321400444
         },
@@ -66,9 +66,9 @@
           "buton": {
             "ID": "8c6d614a-f71e-4b4d-9cd4-03f9773bd2b8",
             "label": "İletişime Geç",
-            "link": "#contact",
+            "link": "form",
             "createdAt": 1661321620340,
-            "updatedAt": 1661952674400
+            "updatedAt": 1662014399645
           },
           "createdAt": 1661321448471
         },
@@ -87,9 +87,9 @@
           "buton": {
             "ID": "cfe37273-c4dc-494e-b1a0-aa0ef7e7323d",
             "label": "İletişime Geç",
-            "link": "#contact",
+            "link": "form",
             "createdAt": 1661321700597,
-            "updatedAt": 1661952665388
+            "updatedAt": 1662014411905
           },
           "createdAt": 1661321493810
         },
@@ -108,9 +108,9 @@
           "buton": {
             "ID": "27802074-9da7-471c-aac5-a00ae5f4632c",
             "label": "İletişime Geç",
-            "link": "#contact",
+            "link": "form",
             "createdAt": 1661321710484,
-            "updatedAt": 1661952655135
+            "updatedAt": 1662014421515
           },
           "createdAt": 1661321522484
         }
