@@ -609,7 +609,7 @@
             "createdAt": 1661324421220
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 215/55R17 94V PRIMACY4 S1 YAZ LASTİĞİ 2020 ÜRETİM",
+          "lastikAdi": "Michelin 215/55R17 94V PRIMACY4 S1 YAZ LASTİĞİ 2020 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -618,7 +618,8 @@
             "link": "form",
             "createdAt": 1661324352819
           },
-          "createdAt": 1661324128373
+          "createdAt": 1661324128373,
+          "updatedAt": 1662015943817
         },
         {
           "ID": "9759c25a-d551-4591-8dee-93192c8f9a8d",
