@@ -87,9 +87,9 @@
           "buton": {
             "ID": "cfe37273-c4dc-494e-b1a0-aa0ef7e7323d",
             "label": "İletişime Geç",
-            "link": "#contact",
+            "link": "form",
             "createdAt": 1661321700597,
-            "updatedAt": 1661952665388
+            "updatedAt": 1662014411905
           },
           "createdAt": 1661321493810
         },
