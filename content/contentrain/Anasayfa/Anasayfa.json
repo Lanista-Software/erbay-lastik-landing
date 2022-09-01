@@ -568,7 +568,7 @@
             "createdAt": 1661323936381
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 185/60R15 84H ENERGY XM2 YAZ LASTİĞİ 2017 ÜRETİM",
+          "lastikAdi": "Michelin 185/60R15 84H ENERGY XM2 YAZ LASTİĞİ 2017 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -577,7 +577,8 @@
             "link": "form",
             "createdAt": 1661323821555
           },
-          "createdAt": 1661323707996
+          "createdAt": 1661323707996,
+          "updatedAt": 1662015934823
         },
         {
           "ID": "324bc80c-5425-4ceb-85e3-c9d17027b08b",
