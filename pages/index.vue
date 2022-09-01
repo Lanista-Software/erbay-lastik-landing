@@ -279,7 +279,7 @@
         </div>
         <div
           id="services-cards"
-          class="container-lg grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-3 justify-items-center"
+          class="container-lg grid 2xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 justify-items-center"
         >
           <div
             v-for="(item, i) in homePage.hizmetler.hizmetKartlari"
