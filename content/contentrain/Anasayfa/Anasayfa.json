@@ -1041,7 +1041,7 @@
             "createdAt": 1661326601292
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 245/45R17 XL 99Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 245/45R17 XL 99Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -1050,7 +1050,8 @@
             "link": "form",
             "createdAt": 1661326512547
           },
-          "createdAt": 1661326385436
+          "createdAt": 1661326385436,
+          "updatedAt": 1662016172148
         },
         {
           "ID": "c483f49c-d09d-4d20-8e7f-10593cd61092",
