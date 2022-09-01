@@ -630,7 +630,7 @@
             "createdAt": 1661324444180
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 245/40R18 97Y XL PİLOT SPORT4 2021 ÜRETİM",
+          "lastikAdi": "Michelin 245/40R18 97Y XL PİLOT SPORT4 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -639,7 +639,8 @@
             "link": "form",
             "createdAt": 1661324364277
           },
-          "createdAt": 1661324161924
+          "createdAt": 1661324161924,
+          "updatedAt": 1662015951574
         },
         {
           "ID": "f5aaf985-5e2c-4243-b081-18d26ee99e45",
