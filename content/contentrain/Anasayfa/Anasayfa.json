@@ -752,7 +752,7 @@
             "createdAt": 1661325138475
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELİN 225/55R17 97Y PRIMACY 4 YAZ LASTİĞİ  2021 ÜRETİM",
+          "lastikAdi": "Michelin 225/55R17 97Y PRIMACY 4 YAZ LASTİĞİ  2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -761,7 +761,8 @@
             "link": "form",
             "createdAt": 1661325081980
           },
-          "createdAt": 1661324956564
+          "createdAt": 1661324956564,
+          "updatedAt": 1662015969461
         },
         {
           "ID": "5b96d23a-b2be-4b44-9ce1-4c43db34b1e2",
