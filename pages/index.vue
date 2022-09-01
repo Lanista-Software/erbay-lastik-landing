@@ -7,6 +7,7 @@
         background-image: url('/images/hero.png');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
       "
     >
       <div
@@ -14,9 +15,11 @@
         style="background: rgba(4, 31, 69, 0.8)"
       >
         <div
-          class="container-lg mx-auto flex lg:flex-row flex-col justify-between items-center"
+          class="container-lg mx-auto flex lg:flex-row flex-col justify-between items-center space-y-4"
         >
-          <div class="text-side flex flex-col lg:w-1/2 text-white">
+          <div
+            class="text-side flex flex-col lg:w-1/2 text-white text-center lg:text-left"
+          >
             <LuiHeading
               level="1"
               size="xs"
@@ -24,8 +27,10 @@
               class="font-semibold pb-4"
               >{{ homePage.hero.baslik }}</LuiHeading
             >
-            <LuiText class="pb-6">{{ homePage.hero.aciklama }}</LuiText>
-            <div>
+            <LuiText class="pb-6 hidden lg:flex">{{
+              homePage.hero.aciklama
+            }}</LuiText>
+            <div class="hidden lg:flex">
               <a :href="homePage.hero.buton.link">
                 <LuiButton variant="primary" rounded size="lg">
                   {{ homePage.hero.buton.label }}
@@ -33,7 +38,7 @@
               >
             </div>
           </div>
-          <div class="card-side lg:flex flex-col lg:items-end hidden">
+          <div class="card-side flex flex-col lg:items-end">
             <div id="search-card" class="rounded-2xl bg-white mx-auto">
               <div
                 class="rounded-t-2xl grid grid-cols-3 gap-3 p-6 bg-[#f3f4f6] justify-between"
@@ -314,7 +319,7 @@
           <LuiHeading
             level="3"
             size="xl"
-            class="pb-8 text-black font-semibold"
+            class="pb-8 text-black font-semibold w-3/4"
             >{{ homePage.markalar.baslik }}</LuiHeading
           >
           <LuiText class="text-slate-500 pb-8">{{
@@ -474,11 +479,14 @@
           >
             <div class="md:col-span-1 col-span-2">
               <div>
-                <LuiLabel size="lg" class="pb-2">{{
-                  homePage.mesaj.bilgiler[0].label
-                }}</LuiLabel>
+                <LuiLabel
+                  size="lg"
+                  class="pb-2"
+                  :for="homePage.mesaj.bilgiler[0].label"
+                  >{{ homePage.mesaj.bilgiler[0].label }}</LuiLabel
+                >
                 <LuiInput
-                  for="item.label"
+                  :id="homePage.mesaj.bilgiler[0].label"
                   size="lg"
                   class="w-full"
                   :placeholder="homePage.mesaj.bilgiler[0].placeholder"
@@ -487,11 +495,14 @@
             </div>
             <div class="md:col-span-1 col-span-2">
               <div>
-                <LuiLabel size="lg" class="pb-2">{{
-                  homePage.mesaj.bilgiler[1].label
-                }}</LuiLabel>
+                <LuiLabel
+                  size="lg"
+                  class="pb-2"
+                  :for="homePage.mesaj.bilgiler[1].label"
+                  >{{ homePage.mesaj.bilgiler[1].label }}</LuiLabel
+                >
                 <LuiInput
-                  for="item.label"
+                  :id="homePage.mesaj.bilgiler[1].label"
                   size="lg"
                   class="w-full"
                   :placeholder="homePage.mesaj.bilgiler[1].placeholder"
@@ -499,38 +510,49 @@
               </div>
             </div>
             <div class="col-span-2">
-              <LuiLabel size="lg" class="pb-2">{{
-                homePage.mesaj.bilgiler[2].label
-              }}</LuiLabel>
+              <LuiLabel
+                size="lg"
+                class="pb-2"
+                :for="homePage.mesaj.bilgiler[2].label"
+                >{{ homePage.mesaj.bilgiler[2].label }}</LuiLabel
+              >
               <LuiInput
-                for="item.label"
+                :id="homePage.mesaj.bilgiler[2].label"
                 size="lg"
                 class="w-full"
                 :placeholder="homePage.mesaj.bilgiler[2].placeholder"
               ></LuiInput>
             </div>
             <div class="col-span-2">
-              <LuiLabel size="lg" class="pb-2">{{
-                homePage.mesaj.bilgiler[3].label
-              }}</LuiLabel>
+              <LuiLabel
+                size="lg"
+                class="pb-2"
+                :for="homePage.mesaj.bilgiler[3].label"
+                >{{ homePage.mesaj.bilgiler[3].label }}</LuiLabel
+              >
               <LuiInput
-                for="item.label"
+                :id="homePage.mesaj.bilgiler[3].label"
                 size="lg"
                 class="w-full"
                 :placeholder="homePage.mesaj.bilgiler[3].placeholder"
               ></LuiInput>
             </div>
             <div class="col-span-2">
-              <LuiLabel size="lg" class="pb-2">{{
-                homePage.mesaj.bilgiler[4].label
-              }}</LuiLabel>
+              <LuiLabel
+                size="lg"
+                class="pb-2"
+                :for="homePage.mesaj.bilgiler[4].label"
+                >{{ homePage.mesaj.bilgiler[4].label }}</LuiLabel
+              >
               <LuiTextarea
-                for="item.label"
+                :id="homePage.mesaj.bilgiler[4].label"
                 size="lg"
                 class="w-full h-32"
                 :placeholder="homePage.mesaj.bilgiler[4].placeholder"
-              ></LuiTextarea>
+                v-model="test"
+              />
             </div>
+            {{ test }}
             <div class="col-span-2 flex justify-end items-end">
               <LuiButton size="lg" rounded>{{
                 homePage.mesaj.buton
@@ -560,7 +582,7 @@ function scrollDown(id) {
   const el = document.getElementById(id)
   el.scrollIntoView()
 }
-
+let test = ref('')
 const sections = ['main', 'hit', 'products', 'brands', 'about', 'faq']
 onMounted(() => {
   let el

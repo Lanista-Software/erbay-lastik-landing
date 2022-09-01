@@ -3,12 +3,9 @@
     <textarea
       v-bind="$attrs"
       :class="computedClasses"
-      :value="value"
-      @input="$emit('input', $event.target.value)"
-    >
-    <slot />
-  </textarea
-    >
+      :value="modelValue"
+      @input="handleInput"
+    ></textarea>
     <lui-icon
       v-if="state !== null"
       :name="iconClasses.name"
@@ -31,6 +28,7 @@ export default {
     prop.boolean('resizeX', false),
     prop.boolean('resizeY', false),
   ],
+  inheritAttrs: false,
   props: {
     state: {
       type: [String, Boolean, null],
@@ -39,11 +37,12 @@ export default {
         return [null, 'warning', true, false].includes(value)
       },
     },
-    value: {
+    modelValue: {
       type: String,
       default: '',
     },
   },
+  emits: ['update:modelValue', 'input'],
   computed: {
     computedClasses() {
       const classes = {
@@ -150,6 +149,12 @@ export default {
             ? 'right-9'
             : 'right-8',
       }
+    },
+  },
+  methods: {
+    handleInput(e) {
+      console.log(e.target.value)
+      this.$emit('update:modelValue', e.target.value)
     },
   },
 }
