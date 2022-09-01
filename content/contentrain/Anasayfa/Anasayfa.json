@@ -958,7 +958,7 @@
             "createdAt": 1661326142852
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 215/60R17 96V PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 215/60R17 96V PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -967,7 +967,8 @@
             "link": "form",
             "createdAt": 1661326032156
           },
-          "createdAt": 1661325939204
+          "createdAt": 1661325939204,
+          "updatedAt": 1662016148556
         },
         {
           "ID": "69ac9c34-aeca-4b17-9243-9b976934f711",
