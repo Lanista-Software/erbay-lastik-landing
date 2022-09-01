@@ -124,10 +124,12 @@
               ></i>
             </div>
             <div id="hit-button" class="flex">
-              <a :href="item.buton.link">
-                <LuiButton size="sm" variant="primary" rounded>
-                  {{ item.buton.label }}</LuiButton
-                ></a
+              <LuiButton
+                size="sm"
+                variant="primary"
+                rounded
+                @click.prevent="scrollDown(item.buton.link)"
+                >{{ item.buton.label }}</LuiButton
               >
             </div>
           </div>
@@ -448,7 +450,7 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="pb-24" ref="contact">
+    <section id="form" class="pb-24">
       <div class="flex flex-col justify-center items-center">
         <div
           id="contact-title"
@@ -552,10 +554,9 @@ const { data } = await useAsyncData('anasayfa', () =>
 let homePage = data.value.body[0]
 let productList = homePage.urunler.urunKartlari
 
-function goTo(refName) {
-  var element = this.$refs[refName]
-  var top = element.offsetTop
-  window.scrollTo(0, top)
+function scrollDown(id) {
+  const el = document.getElementById(id)
+  el.scrollIntoView()
 }
 
 let form = ref({
@@ -570,13 +571,11 @@ let form = ref({
 const filteredProducts = computed(() => {
   const avaibleKeys = Object.entries(form.value)
     .map(([key, value]) => {
-      console.log(key, value)
       if (value) {
         return key
       }
     })
     .filter((y) => y !== undefined)
-  console.log(avaibleKeys)
   return productList.filter((item) => {
     if (avaibleKeys.length > 0) {
       const sameKeys = avaibleKeys.map((c) => {

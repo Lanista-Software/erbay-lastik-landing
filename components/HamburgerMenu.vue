@@ -22,16 +22,12 @@
       </div>
       <nav class="mt-8 space-y-4 w-max" @click="$emit('closeMenu')">
         <template v-for="navItem in navList" :key="navItem.link">
-          <nuxt-link
-            exact-active-class="text-primary font-semibold"
-            :to="navItem.link"
-            class="lanista-header-nav-item block"
-            :class="{
-              'text-info-800': $route.path != navItem.link,
-            }"
+          <a
+            :href="navItem.link"
+            class="lanista-header-nav-item block text-primary"
           >
             <span>{{ navItem.name }}</span>
-          </nuxt-link>
+          </a>
         </template>
       </nav>
     </div>
