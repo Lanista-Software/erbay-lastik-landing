@@ -1103,7 +1103,7 @@
             "createdAt": 1661326855020
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 235/45R18 XL 98Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 235/45R18 XL 98Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -1112,7 +1112,8 @@
             "link": "form",
             "createdAt": 1661326782340
           },
-          "createdAt": 1661326696516
+          "createdAt": 1661326696516,
+          "updatedAt": 1662016194230
         },
         {
           "ID": "a5e011aa-9794-46b7-8661-36cd2bf1af31",
