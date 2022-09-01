@@ -165,7 +165,7 @@
             class="container rounded-2xl mx-auto w-full flex md:flex-row flex-col justify-between px-8 py-4 border"
           >
             <div
-              class="grid xl:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-3 pb-3 md:pb-0 justify-center items-center"
+              class="grid xl:grid-cols-6 grid-cols-3 gap-3 pb-3 md:pb-0 justify-center items-center"
             >
               <LuiSelect
                 v-for="item in homePage.urunler.aramaKarti.secenekler"
@@ -279,7 +279,7 @@
         </div>
         <div
           id="services-cards"
-          class="container-lg grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 justify-items-center"
+          class="container-lg grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-3 justify-items-center"
         >
           <div
             v-for="(item, i) in homePage.hizmetler.hizmetKartlari"
