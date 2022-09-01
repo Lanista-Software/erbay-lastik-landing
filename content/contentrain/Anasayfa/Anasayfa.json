@@ -527,7 +527,7 @@
             "createdAt": 1661323891988
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 215/55R17 98W PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 215/55R17 98W PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -536,7 +536,8 @@
             "link": "form",
             "createdAt": 1661323796990
           },
-          "createdAt": 1661323614829
+          "createdAt": 1661323614829,
+          "updatedAt": 1662015400033
         },
         {
           "ID": "49a83ab1-90b9-41c4-93b0-641c31cbee2f",
