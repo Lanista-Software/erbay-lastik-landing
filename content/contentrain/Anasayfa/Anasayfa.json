@@ -45,9 +45,9 @@
           "buton": {
             "ID": "4bd66b63-7e11-461e-a7c9-0d6f42e9f10a",
             "label": "İletişime Geç",
-            "link": "#contact",
+            "link": "form",
             "createdAt": 1661321608260,
-            "updatedAt": 1661952682441
+            "updatedAt": 1662014389216
           },
           "createdAt": 1661321400444
         },
