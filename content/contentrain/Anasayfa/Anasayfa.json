@@ -856,7 +856,7 @@
             "createdAt": 1661325709933
           },
           "mevsim": "YAZ",
-          "lastikAdi": "Mıchelın 215/60/17 96v Prımcy 4",
+          "lastikAdi": "Michelin 215/60/17 96v Prımcy 4 Yaz Lastiği",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -865,7 +865,8 @@
             "link": "form",
             "createdAt": 1661325582165
           },
-          "createdAt": 1661325346356
+          "createdAt": 1661325346356,
+          "updatedAt": 1662016013734
         },
         {
           "ID": "6f10b946-021a-4cba-a8f6-ee2350c0cda9",
