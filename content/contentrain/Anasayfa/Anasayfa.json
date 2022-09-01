@@ -999,7 +999,7 @@
             "createdAt": 1661326555211
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELİN 225/40R18 92Y XL S1 PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 225/40R18 92Y XL S1 PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -1008,7 +1008,8 @@
             "link": "form",
             "createdAt": 1661326487827
           },
-          "createdAt": 1661326337630
+          "createdAt": 1661326337630,
+          "updatedAt": 1662016157792
         },
         {
           "ID": "201c4c32-0bac-4c00-883a-1bb375245678",
