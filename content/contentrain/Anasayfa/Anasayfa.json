@@ -506,7 +506,7 @@
             "createdAt": 1661323855060
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 195/65R15 91H PRIMACY4 S2 YAZ LASTİĞİ 2020 ÜRETİM YOL TUTUŞ:A-YAKIT:A SES:68",
+          "lastikAdi": "Michelin 195/65R15 91H PRIMACY4 S2 YAZ LASTİĞİ 2020 ÜRETİM YOL TUTUŞ:A-YAKIT:A SES:68",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -515,7 +515,8 @@
             "link": "form",
             "createdAt": 1661323785837
           },
-          "createdAt": 1661323585140
+          "createdAt": 1661323585140,
+          "updatedAt": 1662015390384
         },
         {
           "ID": "cbcf8212-cc74-4a62-8c08-ef7760d70142",
