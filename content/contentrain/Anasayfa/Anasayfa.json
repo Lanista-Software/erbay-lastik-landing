@@ -382,7 +382,7 @@
             "createdAt": 1661323125756
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 245/40R18 97Y XL  PRIMACY3 MOE ZP(Run Flat) 2021 ÜRETİM",
+          "lastikAdi": "Michelin 245/40R18 97Y XL  PRIMACY3 MOE ZP(Run Flat) 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -391,7 +391,8 @@
             "link": "form",
             "createdAt": 1661322932363
           },
-          "createdAt": 1661322853924
+          "createdAt": 1661322853924,
+          "updatedAt": 1662015323099
         },
         {
           "ID": "b14a9f3b-c6da-47f8-9913-9081fbbb2000",
@@ -442,7 +443,7 @@
             "createdAt": 1661323416068
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 205/55R16 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 205/55R16 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -451,7 +452,8 @@
             "link": "form",
             "createdAt": 1661323332788
           },
-          "createdAt": 1661323253308
+          "createdAt": 1661323253308,
+          "updatedAt": 1662015334139
         },
         {
           "ID": "4522f91e-6dad-4d77-8565-8aa19aafd8ce",
@@ -462,7 +464,7 @@
             "createdAt": 1661323445853
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 225/50R17 98Y XL PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
+          "lastikAdi": "Michelin 225/50R17 98Y XL PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -471,7 +473,8 @@
             "link": "form",
             "createdAt": 1661323345004
           },
-          "createdAt": 1661323276364
+          "createdAt": 1661323276364,
+          "updatedAt": 1662015347044
         },
         {
           "ID": "82977f85-0544-48b8-99c9-09435d41551b",
@@ -482,7 +485,7 @@
             "createdAt": 1661323479715
           },
           "mevsim": "KIŞ",
-          "lastikAdi": "MICHELIN 245/40R19 98H XL X-ICE XI3 2019 ÜRETİM",
+          "lastikAdi": "Michelin 245/40R19 98H XL X-ICE XI3 Kış Lastiği 2019 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -491,7 +494,8 @@
             "link": "form",
             "createdAt": 1661323355644
           },
-          "createdAt": 1661323307156
+          "createdAt": 1661323307156,
+          "updatedAt": 1662015431999
         },
         {
           "ID": "cfb65238-010b-460c-8160-41a082c2f82c",
@@ -502,7 +506,7 @@
             "createdAt": 1661323855060
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 195/65R15 91H PRIMACY4 S2 YAZ LASTİĞİ 2020 ÜRETİM YOL TUTUŞ:A-YAKIT:A SES:68",
+          "lastikAdi": "Michelin 195/65R15 91H PRIMACY4 S2 YAZ LASTİĞİ 2020 ÜRETİM YOL TUTUŞ:A-YAKIT:A SES:68",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -511,7 +515,8 @@
             "link": "form",
             "createdAt": 1661323785837
           },
-          "createdAt": 1661323585140
+          "createdAt": 1661323585140,
+          "updatedAt": 1662015390384
         },
         {
           "ID": "cbcf8212-cc74-4a62-8c08-ef7760d70142",
@@ -522,7 +527,7 @@
             "createdAt": 1661323891988
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 215/55R17 98W PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 215/55R17 98W PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -531,7 +536,8 @@
             "link": "form",
             "createdAt": 1661323796990
           },
-          "createdAt": 1661323614829
+          "createdAt": 1661323614829,
+          "updatedAt": 1662015400033
         },
         {
           "ID": "49a83ab1-90b9-41c4-93b0-641c31cbee2f",
@@ -562,7 +568,7 @@
             "createdAt": 1661323936381
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 185/60R15 84H ENERGY XM2 YAZ LASTİĞİ 2017 ÜRETİM",
+          "lastikAdi": "Michelin 185/60R15 84H ENERGY XM2 YAZ LASTİĞİ 2017 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -571,7 +577,8 @@
             "link": "form",
             "createdAt": 1661323821555
           },
-          "createdAt": 1661323707996
+          "createdAt": 1661323707996,
+          "updatedAt": 1662015934823
         },
         {
           "ID": "324bc80c-5425-4ceb-85e3-c9d17027b08b",
@@ -602,7 +609,7 @@
             "createdAt": 1661324421220
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 215/55R17 94V PRIMACY4 S1 YAZ LASTİĞİ 2020 ÜRETİM",
+          "lastikAdi": "Michelin 215/55R17 94V PRIMACY4 S1 YAZ LASTİĞİ 2020 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -611,7 +618,8 @@
             "link": "form",
             "createdAt": 1661324352819
           },
-          "createdAt": 1661324128373
+          "createdAt": 1661324128373,
+          "updatedAt": 1662015943817
         },
         {
           "ID": "9759c25a-d551-4591-8dee-93192c8f9a8d",
@@ -622,7 +630,7 @@
             "createdAt": 1661324444180
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 245/40R18 97Y XL PİLOT SPORT4 2021 ÜRETİM",
+          "lastikAdi": "Michelin 245/40R18 97Y XL PİLOT SPORT4 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -631,7 +639,8 @@
             "link": "form",
             "createdAt": 1661324364277
           },
-          "createdAt": 1661324161924
+          "createdAt": 1661324161924,
+          "updatedAt": 1662015951574
         },
         {
           "ID": "f5aaf985-5e2c-4243-b081-18d26ee99e45",
@@ -682,7 +691,7 @@
             "createdAt": 1661324772004
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 225/45R17 91V  PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 225/45R17 91V  PRIMACY4  YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -691,7 +700,8 @@
             "link": "form",
             "createdAt": 1661324691292
           },
-          "createdAt": 1661324544764
+          "createdAt": 1661324544764,
+          "updatedAt": 1662015960873
         },
         {
           "ID": "6872b00e-ae5f-4d36-8156-2eadc3b6afcf",
@@ -742,7 +752,7 @@
             "createdAt": 1661325138475
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELİN 225/55R17 97Y PRIMACY 4 YAZ LASTİĞİ  2021 ÜRETİM",
+          "lastikAdi": "Michelin 225/55R17 97Y PRIMACY 4 YAZ LASTİĞİ  2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -751,7 +761,8 @@
             "link": "form",
             "createdAt": 1661325081980
           },
-          "createdAt": 1661324956564
+          "createdAt": 1661324956564,
+          "updatedAt": 1662015969461
         },
         {
           "ID": "5b96d23a-b2be-4b44-9ce1-4c43db34b1e2",
@@ -762,7 +773,7 @@
             "createdAt": 1661325161317
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 195/65R15 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 195/65R15 91H PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -771,7 +782,8 @@
             "link": "form",
             "createdAt": 1661325093108
           },
-          "createdAt": 1661324981596
+          "createdAt": 1661324981596,
+          "updatedAt": 1662015977673
         },
         {
           "ID": "677a029a-462e-40af-b116-e53dcbba61ec",
@@ -802,7 +814,7 @@
             "createdAt": 1661325248204
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 225/45R17 91W PRIMACY4 S2 2021 ÜRETİM",
+          "lastikAdi": "Michelin 225/45R17 91W PRIMACY4 S2 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -812,7 +824,7 @@
             "createdAt": 1661325116156
           },
           "createdAt": 1661325037140,
-          "updatedAt": 1661325220812
+          "updatedAt": 1662015986455
         },
         {
           "ID": "00692ad8-34ca-4b23-b272-0844fe82998b",
@@ -823,7 +835,7 @@
             "createdAt": 1661325678243
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 225/55R17 97W PRIMACY3 ZP (RFT) YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 225/55R17 97W PRIMACY3 ZP (RFT) YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -832,7 +844,8 @@
             "link": "form",
             "createdAt": 1661325567548
           },
-          "createdAt": 1661325318013
+          "createdAt": 1661325318013,
+          "updatedAt": 1662015994628
         },
         {
           "ID": "95f1a2cd-97f9-4a6f-b3bc-cd3b4ba58770",
@@ -843,7 +856,7 @@
             "createdAt": 1661325709933
           },
           "mevsim": "YAZ",
-          "lastikAdi": "Mıchelın 215/60/17 96v Prımcy 4",
+          "lastikAdi": "Michelin 215/60/17 96v Prımcy 4 Yaz Lastiği",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -852,7 +865,8 @@
             "link": "form",
             "createdAt": 1661325582165
           },
-          "createdAt": 1661325346356
+          "createdAt": 1661325346356,
+          "updatedAt": 1662016013734
         },
         {
           "ID": "6f10b946-021a-4cba-a8f6-ee2350c0cda9",
@@ -863,7 +877,7 @@
             "createdAt": 1661325737860
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELİN 225/40R18 92Y XL PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 225/40R18 92Y XL PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -872,7 +886,8 @@
             "link": "form",
             "createdAt": 1661325598925
           },
-          "createdAt": 1661325412452
+          "createdAt": 1661325412452,
+          "updatedAt": 1662016024071
         },
         {
           "ID": "4ae6d74b-9165-4472-b759-e00267fd5a41",
@@ -943,7 +958,7 @@
             "createdAt": 1661326142852
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 215/60R17 96V PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 215/60R17 96V PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -952,7 +967,8 @@
             "link": "form",
             "createdAt": 1661326032156
           },
-          "createdAt": 1661325939204
+          "createdAt": 1661325939204,
+          "updatedAt": 1662016148556
         },
         {
           "ID": "69ac9c34-aeca-4b17-9243-9b976934f711",
@@ -983,7 +999,7 @@
             "createdAt": 1661326555211
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELİN 225/40R18 92Y XL S1 PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 225/40R18 92Y XL S1 PRİMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -992,7 +1008,8 @@
             "link": "form",
             "createdAt": 1661326487827
           },
-          "createdAt": 1661326337630
+          "createdAt": 1661326337630,
+          "updatedAt": 1662016157792
         },
         {
           "ID": "201c4c32-0bac-4c00-883a-1bb375245678",
@@ -1003,7 +1020,7 @@
             "createdAt": 1661326580315
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 215/55R17 94V PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
+          "lastikAdi": "Michelin 215/55R17 94V PRIMACY4 YAZ LASTİĞİ 2020 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -1012,7 +1029,8 @@
             "link": "form",
             "createdAt": 1661326498963
           },
-          "createdAt": 1661326357636
+          "createdAt": 1661326357636,
+          "updatedAt": 1662016164956
         },
         {
           "ID": "a2c16e3e-2152-4cfb-8467-7104c82f8107",
@@ -1023,7 +1041,7 @@
             "createdAt": 1661326601292
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 245/45R17 XL 99Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 245/45R17 XL 99Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -1032,7 +1050,8 @@
             "link": "form",
             "createdAt": 1661326512547
           },
-          "createdAt": 1661326385436
+          "createdAt": 1661326385436,
+          "updatedAt": 1662016172148
         },
         {
           "ID": "c483f49c-d09d-4d20-8e7f-10593cd61092",
@@ -1043,7 +1062,7 @@
             "createdAt": 1661326626244
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 245/45 R18 100Y XL Primacy 3 MOE ZP (Run Flat)Yaz Lastiği 2021 Üretim",
+          "lastikAdi": "Michelin 245/45 R18 100Y XL Primacy 3 MOE ZP (Run Flat)Yaz Lastiği 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -1052,7 +1071,8 @@
             "link": "form",
             "createdAt": 1661326527565
           },
-          "createdAt": 1661326410932
+          "createdAt": 1661326410932,
+          "updatedAt": 1662016181464
         },
         {
           "ID": "f39418fe-5a64-4f18-9441-5db5213a4746",
@@ -1083,7 +1103,7 @@
             "createdAt": 1661326855020
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 235/45R18 XL 98Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
+          "lastikAdi": "Michelin 235/45R18 XL 98Y PRIMACY4 YAZ LASTİĞİ 2021 ÜRETİM",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -1092,7 +1112,8 @@
             "link": "form",
             "createdAt": 1661326782340
           },
-          "createdAt": 1661326696516
+          "createdAt": 1661326696516,
+          "updatedAt": 1662016194230
         },
         {
           "ID": "a5e011aa-9794-46b7-8661-36cd2bf1af31",
