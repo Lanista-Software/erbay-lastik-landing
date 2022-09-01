@@ -1062,7 +1062,7 @@
             "createdAt": 1661326626244
           },
           "mevsim": "YAZ",
-          "lastikAdi": "MICHELIN 245/45 R18 100Y XL Primacy 3 MOE ZP (Run Flat)Yaz Lastiği 2021 Üretim",
+          "lastikAdi": "Michelin 245/45 R18 100Y XL Primacy 3 MOE ZP (Run Flat)Yaz Lastiği 2021 Üretim",
           "kisaBilgi": "AMBALAJLI KARGO - 2 YIL GARANTİ",
           "yildiz": 5,
           "buton": {
@@ -1071,7 +1071,8 @@
             "link": "form",
             "createdAt": 1661326527565
           },
-          "createdAt": 1661326410932
+          "createdAt": 1661326410932,
+          "updatedAt": 1662016181464
         },
         {
           "ID": "f39418fe-5a64-4f18-9441-5db5213a4746",
