@@ -1,7 +1,7 @@
 <template>
   <div class="lg:pt-32 pt-20 overflow-hidden">
     <section
-      id="home"
+      id="main"
       class="w-full xl:h-[793px] lg:h-[1000px]"
       style="
         background-image: url('/images/hero.png');
@@ -561,6 +561,40 @@ function scrollDown(id) {
   el.scrollIntoView()
 }
 
+const sections = ['main', 'hit', 'products', 'brands', 'about', 'faq']
+onMounted(() => {
+  let el
+  let observer
+  sections.forEach((section) => {
+    el = document.getElementById(section)
+    observer = new IntersectionObserver(callback, {
+      threshold: 0.1,
+    })
+    observer.observe(el)
+  })
+})
+function callback(entries) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      setNavActiveClass(entry.target.id)
+    }
+  })
+}
+function setNavActiveClass(id) {
+  sections.forEach((section) => {
+    console.log(section)
+    const el = document.getElementById(`nav-${section}`)
+    console.log(el)
+    if (id === section) {
+      el.classList.add(...['border-b-2', 'border-warning', 'left-0', 'right-2'])
+    } else {
+      el.classList.remove(
+        ...['border-b-2', 'border-warning', 'left-0', 'right-2']
+      )
+    }
+  })
+}
+
 let form = ref({
   marka: '',
   mevsim: '',
@@ -613,3 +647,11 @@ watch(filteredFaq, (to, from) => {
   console.log(to, from)
 })
 </script>
+<style scoped>
+.border-bottom {
+  border-bottom: 2px solid #fce500;
+  position: absolute;
+  right: 50%;
+  left: 0;
+}
+</style>
