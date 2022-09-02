@@ -215,7 +215,12 @@ export default {
         // code block
       }
     }
-
+    watch(
+      () => props.modelValue,
+      (first, second) => {
+        selectOption(first)
+      }
+    )
     const computedClasses = computed(() => {
       const classes = {
         wrapper: {

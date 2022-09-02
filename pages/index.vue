@@ -41,21 +41,18 @@
           <div class="card-side flex flex-col lg:items-end">
             <div id="search-card" class="rounded-2xl bg-white mx-auto">
               <div
-                class="rounded-t-2xl grid grid-cols-3 gap-3 p-6 bg-[#f3f4f6] justify-between"
+                class="rounded-t-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 p-6 bg-[#f3f4f6] justify-between"
               >
                 <LuiSelect
                   v-for="item in homePage.urunler.aramaKarti.secenekler"
                   :key="item"
                   size="md"
                   rounded
-                  :placeholder="item.adi"
-                  :options="
-                    item.liste.map((obj) => {
-                      return obj.secenek
-                    })
-                  "
+                  placeholder=""
+                  :options="sendOptions(item)"
                   description=""
                   v-model="form[item.model]"
+                  class="min-w-[155px]"
                 />
               </div>
               <div class="all-center">
@@ -65,7 +62,12 @@
                 />
               </div>
               <div class="bg-[#f3f4f6] w-full px-12 py-8 rounded-b-2xl">
-                <LuiButton variant="primary" size="lg" block rounded
+                <LuiButton
+                  variant="primary"
+                  size="lg"
+                  block
+                  rounded
+                  @click="clearSearch"
                   ><a :href="homePage.hero.aramaKarti.buton.link">{{
                     homePage.hero.aramaKarti.buton.label
                   }}</a></LuiButton
@@ -172,15 +174,20 @@
                 :key="item"
                 size="md"
                 rounded
-                :placeholder="item.adi"
-                :options="
-                  item.liste.map((obj) => {
-                    return obj.secenek
-                  })
-                "
+                placeholder=""
+                :options="sendOptions(item)"
                 description=""
                 v-model="form[item.model]"
               />
+            </div>
+            <div class="p-2">
+              <LuiButton
+                variant="primary"
+                size="md"
+                rounded
+                @click="clearSearch"
+                >Aramayı Temizle</LuiButton
+              >
             </div>
           </div>
         </div>
@@ -549,10 +556,8 @@
                 size="lg"
                 class="w-full h-32"
                 :placeholder="homePage.mesaj.bilgiler[4].placeholder"
-                v-model="test"
               />
             </div>
-            {{ test }}
             <div class="col-span-2 flex justify-end items-end">
               <LuiButton size="lg" rounded>{{
                 homePage.mesaj.buton
@@ -578,11 +583,30 @@ const { data } = await useAsyncData('anasayfa', () =>
 let homePage = data.value.body[0]
 let productList = homePage.urunler.urunKartlari
 
+function sendOptions(obj) {
+  const list = obj.liste.map((e) => {
+    return e.secenek
+  })
+  list.unshift(obj.adi)
+  return list
+}
+
+function clearSearch() {
+  form.value = {
+    marka: 'Marka',
+    mevsim: 'Mevsim',
+    yil: 'Yıl',
+    taban: 'Taban Genişliği',
+    kesit: 'Kesit Alanı',
+    jant: 'Jant Çapı',
+  }
+}
+
 function scrollDown(id) {
   const el = document.getElementById(id)
   el.scrollIntoView()
 }
-let test = ref('')
+
 const sections = ['main', 'hit', 'products', 'brands', 'about', 'faq']
 onMounted(() => {
   let el
@@ -604,9 +628,7 @@ function callback(entries) {
 }
 function setNavActiveClass(id) {
   sections.forEach((section) => {
-    console.log(section)
     const el = document.getElementById(`nav-${section}`)
-    console.log(el)
     if (id === section) {
       el.classList.add(...['border-b-2', 'border-warning', 'left-0', 'right-2'])
     } else {
