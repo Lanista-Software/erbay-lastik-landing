@@ -178,6 +178,7 @@
                 :options="sendOptions(item)"
                 description=""
                 v-model="form[item.model]"
+                class="min-w-[155px]"
               />
             </div>
             <div class="p-2">
