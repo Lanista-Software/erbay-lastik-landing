@@ -4,7 +4,7 @@
     :class="[
       $attrs.class,
       computedClasses.wrapper,
-      optionsActive ? 'z-50' : 'z-10',
+      optionsActive ? 'z-40' : 'z-10',
     ]"
     :style="$attrs.style"
   >

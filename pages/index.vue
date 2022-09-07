@@ -641,16 +641,16 @@ function setNavActiveClass(id) {
 }
 
 let form = ref({
-  marka: '',
-  mevsim: '',
-  yil: '',
-  taban: '',
-  kesit: '',
-  jant: '',
+  marka: 'Marka',
+  mevsim: 'Mevsim',
+  yil: 'Yıl',
+  taban: 'Taban Genişliği',
+  kesit: 'Kesit Alanı',
+  jant: 'Jant Çapı',
 })
 
 const filteredProducts = computed(() => {
-  const avaibleKeys = Object.entries(form.value)
+  const availableKeys = Object.entries(form.value)
     .map(([key, value]) => {
       if (value) {
         return key
@@ -658,8 +658,8 @@ const filteredProducts = computed(() => {
     })
     .filter((y) => y !== undefined)
   return productList.filter((item) => {
-    if (avaibleKeys.length > 0) {
-      const sameKeys = avaibleKeys.map((c) => {
+    if (availableKeys.length > 0) {
+      const sameKeys = availableKeys.map((c) => {
         if (item.lastikAdi.includes(form.value[c])) {
           return true
         }
