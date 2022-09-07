@@ -41,7 +41,7 @@
           <div class="card-side flex flex-col lg:items-end">
             <div id="search-card" class="rounded-2xl bg-white mx-auto">
               <div
-                class="rounded-t-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 p-6 bg-[#f3f4f6] justify-between"
+                class="rounded-t-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 md:p-6 py-6 px-2 bg-[#f3f4f6] justify-between"
                 :key="renderCount"
               >
                 <LuiSelect
@@ -53,7 +53,7 @@
                   :options="sendOptions(item)"
                   description=""
                   v-model="form[item.model]"
-                  class="min-w-[155px]"
+                  class="md:min-w-[155px] min-w-auto"
                 />
               </div>
               <div class="all-center">
@@ -111,7 +111,7 @@
           </div>
           <div id="hit-name" class="overflow-hidden pb-4">
             <LuiText
-              class="!text-sm text-black px-4 overflow-hidden whitespace-nowrap overflow-ellipsis"
+              class="!text-sm px-4 overflow-hidden whitespace-nowrap overflow-ellipsis"
               >{{ item.lastikAdi }}</LuiText
             >
           </div>
@@ -153,11 +153,11 @@
           <LuiHeading
             level="3"
             size="xl"
-            class="text-black font-semibold pb-2"
+            class="font-semibold pb-2 text-secondary-800"
             >{{ homePage.urunler.baslik }}</LuiHeading
           >
           <div>
-            <LuiText class="text-slate-700">{{
+            <LuiText class="text-secondary-700">{{
               homePage.urunler.aciklama
             }}</LuiText>
           </div>
@@ -165,7 +165,7 @@
         <div class="pb-16">
           <div
             id="search-card-product"
-            class="container rounded-2xl mx-auto w-full flex md:flex-row flex-col justify-between px-8 py-4 border bg-[#f3f4f6]"
+            class="container rounded-2xl mx-auto w-full flex md:flex-row flex-col justify-between lg:px-8 py-4 px-2 border bg-[#f3f4f6]"
           >
             <div
               class="grid xl:grid-cols-6 grid-cols-3 gap-3 pb-3 md:pb-0 justify-center items-center"
@@ -180,10 +180,10 @@
                 :options="sendOptions(item)"
                 description=""
                 v-model="form[item.model]"
-                class="min-w-[155px]"
+                class="lg:min-w-[155px] min-w-[110px]"
               />
             </div>
-            <div class="p-2">
+            <div class="p-2 flex justify-center items-center">
               <LuiButton
                 variant="primary"
                 size="md"
@@ -219,7 +219,7 @@
             </div>
             <div id="hit-name" class="overflow-hidden pb-4">
               <LuiText
-                class="!text-sm text-black px-4 overflow-hidden whitespace-nowrap overflow-ellipsis hover:overflow-visible"
+                class="!text-sm px-4 overflow-hidden whitespace-nowrap overflow-ellipsis hover:overflow-visible"
                 >{{ item.lastikAdi }}</LuiText
               >
             </div>
@@ -279,13 +279,16 @@
     </section>
     <section id="services" class="pt-24 pb-36">
       <div class="flex flex-col justify-center items-center">
-        <div
-          class="container-description mx-auto text-center text-black center-col pb-8"
-        >
-          <LuiHeading level="3" size="xl" class="pb-4 font-semibold">{{
-            homePage.hizmetler.baslik
-          }}</LuiHeading>
-          <LuiText class=" ">{{ homePage.hizmetler.aciklama }}</LuiText>
+        <div class="container-description mx-auto text-center center-col pb-8">
+          <LuiHeading
+            level="3"
+            size="xl"
+            class="pb-4 font-semibold text-secondary-800"
+            >{{ homePage.hizmetler.baslik }}</LuiHeading
+          >
+          <LuiText class="text-secondary-700">{{
+            homePage.hizmetler.aciklama
+          }}</LuiText>
         </div>
         <div
           id="services-cards"
@@ -329,7 +332,7 @@
           <LuiHeading
             level="3"
             size="xl"
-            class="pb-8 text-black font-semibold w-3/4"
+            class="pb-8 font-semibold w-3/4 text-secondary-800"
             >{{ homePage.markalar.baslik }}</LuiHeading
           >
           <LuiText class="text-slate-500 pb-8">{{
@@ -390,10 +393,10 @@
           <LuiHeading
             level="3"
             size="xl"
-            class="pb-8 text-black font-semibold"
+            class="pb-8 font-semibold text-secondary-800"
             >{{ homePage.cokSorulanlar.baslik }}</LuiHeading
           >
-          <LuiText class="pb-8 text-center">{{
+          <LuiText class="pb-8 text-center text-secondary-700">{{
             homePage.cokSorulanlar.aciklama
           }}</LuiText>
         </div>
@@ -413,7 +416,7 @@
             v-for="(accordion, index) in filteredFaq"
             :key="index"
             :title="accordion.soru"
-            class="bg-white text-black"
+            class="bg-white"
           >
             <div class="text-info-600 mb-6">{{ accordion.cevap }}</div>
           </lui-accordion>
@@ -424,10 +427,13 @@
       <div
         class="section-header container-description all-center text-center flex-col"
       >
-        <LuiHeading level="3" size="xl" class="font-bold pb-4">{{
-          homePage.harita.baslik
-        }}</LuiHeading>
-        <LuiText class="pb-8 text-center">{{
+        <LuiHeading
+          level="3"
+          size="xl"
+          class="font-bold pb-4 text-secondary-800"
+          >{{ homePage.harita.baslik }}</LuiHeading
+        >
+        <LuiText class="pb-8 text-center text-secondary-700">{{
           homePage.harita.aciklama
         }}</LuiText>
         <div class="pb-14">
@@ -471,13 +477,18 @@
       <div class="flex flex-col justify-center items-center">
         <div
           id="contact-title"
-          class="container-lg mx-auto text-center text-black center-col pb-12"
+          class="container-lg mx-auto text-center center-col pb-12"
         >
           <div class="container-description">
-            <LuiHeading level="3" size="xl" class="pb-4 font-semibold">{{
-              homePage.mesaj.baslik
-            }}</LuiHeading>
-            <LuiText class=" ">{{ homePage.mesaj.aciklama }}</LuiText>
+            <LuiHeading
+              level="3"
+              size="xl"
+              class="pb-4 font-semibold text-secondary-800"
+              >{{ homePage.mesaj.baslik }}</LuiHeading
+            >
+            <LuiText class="text-secondary-700">{{
+              homePage.mesaj.aciklama
+            }}</LuiText>
           </div>
         </div>
         <div
