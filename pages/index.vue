@@ -492,11 +492,11 @@
           </div>
         </div>
         <div
-          class="border-2 border-blue-900 rounded-2xl flex lg:flex-row flex-col"
+          class="md:border-2 border-blue-900 rounded-2xl flex lg:flex-row flex-col w-full md:w-auto px-2 md:px-0"
         >
           <div
             id="contact-input-side"
-            class="grid lg:grid-cols-2 grid-cols-1 gap-8 p-8"
+            class="grid lg:grid-cols-2 grid-cols-1 gap-8 md:p-8"
           >
             <div class="md:col-span-1 col-span-2">
               <div>
