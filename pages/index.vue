@@ -42,13 +42,14 @@
             <div id="search-card" class="rounded-2xl bg-white mx-auto">
               <div
                 class="rounded-t-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 p-6 bg-[#f3f4f6] justify-between"
+                :key="renderCount"
               >
                 <LuiSelect
                   v-for="item in homePage.urunler.aramaKarti.secenekler"
                   :key="item"
                   size="md"
                   rounded
-                  placeholder=""
+                  :placeholder="item.adi"
                   :options="sendOptions(item)"
                   description=""
                   v-model="form[item.model]"
@@ -168,13 +169,14 @@
           >
             <div
               class="grid xl:grid-cols-6 grid-cols-3 gap-3 pb-3 md:pb-0 justify-center items-center"
+              :key="renderCount"
             >
               <LuiSelect
                 v-for="item in homePage.urunler.aramaKarti.secenekler"
                 :key="item"
                 size="md"
                 rounded
-                placeholder=""
+                :placeholder="item.adi"
                 :options="sendOptions(item)"
                 description=""
                 v-model="form[item.model]"
@@ -583,24 +585,25 @@ const { data } = await useAsyncData('anasayfa', () =>
 )
 let homePage = data.value.body[0]
 let productList = homePage.urunler.urunKartlari
+const renderCount = ref(0)
 
 function sendOptions(obj) {
   const list = obj.liste.map((e) => {
     return e.secenek
   })
-  list.unshift(obj.adi)
   return list
 }
 
 function clearSearch() {
   form.value = {
-    marka: 'Marka',
-    mevsim: 'Mevsim',
-    yil: 'Yıl',
-    taban: 'Taban Genişliği',
-    kesit: 'Kesit Alanı',
-    jant: 'Jant Çapı',
+    marka: '',
+    mevsim: '',
+    yil: '',
+    taban: '',
+    kesit: '',
+    jant: '',
   }
+  renderCount.value += 1
 }
 
 function scrollDown(id) {
@@ -641,12 +644,12 @@ function setNavActiveClass(id) {
 }
 
 let form = ref({
-  marka: 'Marka',
-  mevsim: 'Mevsim',
-  yil: 'Yıl',
-  taban: 'Taban Genişliği',
-  kesit: 'Kesit Alanı',
-  jant: 'Jant Çapı',
+  marka: '',
+  mevsim: '',
+  yil: '',
+  taban: '',
+  kesit: '',
+  jant: '',
 })
 
 const filteredProducts = computed(() => {

@@ -33,7 +33,13 @@
       :class="[computedClasses.options, optionsActive ? 'z-50' : '']"
       @keydown.stop="handleOptionsKeyEvents($event)"
     >
-      <lui-option v-if="placeholder" tabindex="-1" role="option" disabled>
+      <lui-option
+        value=""
+        v-if="placeholder"
+        tabindex="-1"
+        role="option"
+        disabled
+      >
         {{ placeholder }}
       </lui-option>
       <lui-option
