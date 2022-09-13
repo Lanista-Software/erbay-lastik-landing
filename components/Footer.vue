@@ -45,11 +45,13 @@
           </p>
         </div>
         <div>
-          <img
-            :src="footerData.footerAlt.logo[1].src.split('public')[1]"
-            :alt="footerData.footerAlt.logo[1].alt"
-            class="w-32"
-          />
+          <a href="https://lanista.com.tr" target="_blank">
+            <img
+              :src="footerData.footerAlt.logo[1].src.split('public')[1]"
+              :alt="footerData.footerAlt.logo[1].alt"
+              class="w-32"
+            />
+          </a>
         </div>
       </div>
     </div>

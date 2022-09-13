@@ -622,7 +622,7 @@ function scrollDown(id) {
   el.scrollIntoView()
 }
 
-const sections = ['main', 'hit', 'products', 'brands', 'about', 'faq']
+const sections = ['main', 'products', 'brands', 'about', 'faq']
 onMounted(() => {
   let el
   let observer
