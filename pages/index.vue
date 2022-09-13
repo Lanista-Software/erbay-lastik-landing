@@ -108,7 +108,7 @@
             class="flex flex-row justify-between items-center px-4 py-6"
           >
             <span class="text-primary-300">{{ item.mevsim }} LASTİĞİ</span>
-            <nuxt-img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
+            <img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
           </div>
           <div id="hit-name" class="overflow-hidden pb-4">
             <LuiText
@@ -217,7 +217,7 @@
               class="flex flex-row justify-between items-center px-4 py-6"
             >
               <span class="text-primary-300">{{ item.mevsim }} LASTİĞİ</span>
-              <nuxt-img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
+              <img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
             </div>
             <div id="hit-name" class="overflow-hidden pb-4">
               <LuiText
