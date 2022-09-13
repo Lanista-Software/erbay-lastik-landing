@@ -36,7 +36,7 @@
       <div id="navigation" class="hidden lg:block">
         <ul class="flex flex-row justify-between items-center space-x-4">
           <li v-for="nav in headerData.navigasyon" :key="nav.ID">
-            <a :href="nav.link" :id="nav.navId" class="navLink">
+            <a :href="scrollDown(nav.link)" :id="nav.navId" class="navLink">
               {{ nav.name }}
             </a>
           </li>
@@ -101,8 +101,15 @@ export default {
       this.hamburgerMenu = !this.hamburgerMenu
     },
     scrollDown(id) {
-      const el = document.getElementById(id)
-      el.scrollIntoView()
+      var element = document.getElementById(id)
+      var headerOffset = 140
+      var elementPosition = element.getBoundingClientRect().top
+      var offsetPosition = elementPosition + window.pageYOffset - headerOffset
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      })
     },
   },
 }

@@ -96,7 +96,7 @@
             >
           </div>
           <div id="hit-image" class="all-center">
-            <nuxt-img
+            <img
               :src="item.foto.src"
               :alt="item.foto.alt"
               class="max-h-40 max-w-40"
@@ -618,8 +618,15 @@ function clearSearch() {
 }
 
 function scrollDown(id) {
-  const el = document.getElementById(id)
-  el.scrollIntoView()
+  var element = document.getElementById(id)
+  var headerOffset = 140
+  var elementPosition = element.getBoundingClientRect().top
+  var offsetPosition = elementPosition + window.pageYOffset - headerOffset
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: 'smooth',
+  })
 }
 
 const sections = ['main', 'products', 'brands', 'about', 'faq']
