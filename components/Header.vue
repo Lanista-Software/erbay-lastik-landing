@@ -100,6 +100,10 @@ export default {
     handleCloseMenu() {
       this.hamburgerMenu = !this.hamburgerMenu
     },
+    scrollDown(id) {
+      const el = document.getElementById(id)
+      el.scrollIntoView()
+    },
   },
 }
 </script>
