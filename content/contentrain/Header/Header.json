@@ -48,10 +48,11 @@
       },
       {
         "ID": "21208780-6ae3-4780-8d3e-61946f23721c",
-        "link": "#faq",
+        "link": "faq",
         "name": "Sık Sorulanlar",
         "navId": "nav-faq",
-        "createdAt": 1661161894881
+        "createdAt": 1661161894881,
+        "updatedAt": 1663055062295
       }
     ],
     "buton": {
