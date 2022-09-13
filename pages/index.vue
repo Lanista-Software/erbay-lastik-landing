@@ -58,7 +58,7 @@
               </div>
               <div class="all-center">
                 <nuxt-img
-                  :src="homePage.hero.aramaKarti.foto.src.split('public')[1]"
+                  :src="homePage.hero.aramaKarti.foto.src"
                   :alt="homePage.hero.aramaKarti.foto.alt"
                 />
               </div>
@@ -300,7 +300,7 @@
             class="section-services-container-item"
           >
             <ServiceCard
-              :bg-url="item.foto.src.split('public')[1]"
+              :bg-url="item.foto.src"
               :title="item.baslik"
               :description="item.aciklama"
               :button="item.buton"
@@ -352,11 +352,7 @@
             :key="index"
             class="bg-white rounded-2xl md:h-44 md:w-52 h-[88px] w-[104px] all-center border"
           >
-            <nuxt-img
-              :src="item.src.split('public')[1]"
-              :alt="item.alt"
-              class="rounded-xl p-3"
-            />
+            <nuxt-img :src="item.src" :alt="item.alt" class="rounded-xl p-3" />
           </div>
         </div>
       </div>
@@ -379,7 +375,7 @@
           </div>
           <div class="img-side lg:flex justify-end items-end hidden">
             <nuxt-img
-              :src="homePage.hakkimizda.logo.src.split('public')[1]"
+              :src="homePage.hakkimizda.logo.src"
               :alt="homePage.hakkimizda.logo.alt"
               class="flex justify-end items-end w-16"
             />
@@ -583,7 +579,7 @@
             class="hidden lg:block h-[667px] w-[574px]"
           >
             <nuxt-img
-              :src="homePage.mesaj.foto.src.split('public')[1]"
+              :src="homePage.mesaj.foto.src"
               :alt="homePage.mesaj.foto.alt"
               class="rounded-b-2xl h-full w-full lg:rounded-b-none lg:rounded-r-2xl"
             />
