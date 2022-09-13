@@ -17,10 +17,11 @@
     "navigasyon": [
       {
         "ID": "fbea2a2e-1de1-4026-a194-b7eb5a977fca",
-        "link": "/",
+        "link": "main",
         "name": "Anasayfa",
         "navId": "nav-main",
-        "createdAt": 1661161743130
+        "createdAt": 1661161743130,
+        "updatedAt": 1663055329272
       },
       {
         "ID": "f1e92c07-448f-4095-b8db-536ebbff5bae",
