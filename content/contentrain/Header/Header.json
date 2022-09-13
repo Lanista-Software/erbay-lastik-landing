@@ -32,10 +32,11 @@
       },
       {
         "ID": "94105c69-6996-44c7-a27e-710d3e80a050",
-        "link": "#brands",
+        "link": "brands",
         "name": "Markalar",
         "navId": "nav-brands",
-        "createdAt": 1661161858841
+        "createdAt": 1661161858841,
+        "updatedAt": 1663055050447
       },
       {
         "ID": "2c7b5d44-a761-4cd7-9f81-c50cddff27df",
