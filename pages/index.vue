@@ -578,11 +578,14 @@
               }}</LuiButton>
             </div>
           </div>
-          <div id="contact-image-side" class="hidden lg:block">
+          <div
+            id="contact-image-side"
+            class="hidden lg:block h-[667px] w-[574px]"
+          >
             <nuxt-img
               :src="homePage.mesaj.foto.src.split('public')[1]"
               :alt="homePage.mesaj.foto.alt"
-              class="rounded-b-2xl h-full lg:rounded-b-none lg:rounded-r-2xl"
+              class="rounded-b-2xl h-full w-full lg:rounded-b-none lg:rounded-r-2xl"
             />
           </div>
         </div>
