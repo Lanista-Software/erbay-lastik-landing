@@ -23,9 +23,9 @@
             size="xl"
             class="top-0"
           />
-          <a :href="item.url"
-            ><LuiText>{{ item.name }}</LuiText></a
-          >
+          <button @click="scrollDown(item.url)">
+            <LuiText>{{ item.name }}</LuiText>
+          </button>
         </div>
       </div>
     </div>
@@ -159,6 +159,17 @@ export default {
     startWith(link) {
       const sectionName = link
       return sectionName.startsWith('#')
+    },
+    scrollDown(id) {
+      var element = document.getElementById(id)
+      var headerOffset = 140
+      var elementPosition = element.getBoundingClientRect().top
+      var offsetPosition = elementPosition + window.pageYOffset - headerOffset
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      })
     },
   },
 }
