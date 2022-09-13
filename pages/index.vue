@@ -97,6 +97,7 @@
           </div>
           <div id="hit-image" class="all-center">
             <nuxt-img
+              format="webp"
               :src="item.foto.src"
               :alt="item.foto.alt"
               class="max-h-40 max-w-40"
@@ -205,6 +206,7 @@
           >
             <div id="hit-image" class="all-center">
               <nuxt-img
+                format="webp"
                 :src="item.foto.src"
                 :alt="item.foto.alt"
                 class="max-h-40 max-w-40"
