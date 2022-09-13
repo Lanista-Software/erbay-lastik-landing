@@ -40,10 +40,11 @@
       },
       {
         "ID": "2c7b5d44-a761-4cd7-9f81-c50cddff27df",
-        "link": "#about",
+        "link": "about",
         "name": "Hakkımızda",
         "navId": "nav-about",
-        "createdAt": 1661161877516
+        "createdAt": 1661161877516,
+        "updatedAt": 1663055055996
       },
       {
         "ID": "21208780-6ae3-4780-8d3e-61946f23721c",
