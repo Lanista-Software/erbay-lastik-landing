@@ -1,7 +1,7 @@
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxt/image-edge'],
   css: ['@/assets/tailwind.css', 'remixicon/fonts/remixicon.css'],
   head: {
     title: 'Erbay Lastik',
