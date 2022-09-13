@@ -23,13 +23,6 @@
         "createdAt": 1661161743130
       },
       {
-        "ID": "e04c6231-512a-433a-81b8-b70dd461f3bd",
-        "link": "#hit",
-        "name": "Öne Çıkanlar",
-        "navId": "nav-hit",
-        "createdAt": 1661161803833
-      },
-      {
         "ID": "f1e92c07-448f-4095-b8db-536ebbff5bae",
         "link": "#products",
         "name": "Ürünler",
