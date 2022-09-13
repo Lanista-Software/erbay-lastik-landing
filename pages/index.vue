@@ -57,7 +57,7 @@
                 />
               </div>
               <div class="all-center">
-                <nuxt-img
+                <img
                   :src="homePage.hero.aramaKarti.foto.src.split('public')[1]"
                   :alt="homePage.hero.aramaKarti.foto.alt"
                 />
@@ -310,7 +310,7 @@
         </div>
       </div>
     </section>
-    <section id="brands" class="pb-24">
+    <section id="brands" class="pb-36">
       <div
         class="container-lg flex xl:flex-row flex-col space-y-8 xl:space-y-0 justify-between items-start"
       >
@@ -352,7 +352,7 @@
             :key="index"
             class="bg-white rounded-2xl md:h-44 md:w-52 h-[88px] w-[104px] all-center border"
           >
-            <nuxt-img
+            <img
               :src="item.src.split('public')[1]"
               :alt="item.alt"
               class="rounded-xl p-3"
@@ -378,7 +378,7 @@
             }}</LuiText>
           </div>
           <div class="img-side lg:flex justify-end items-end hidden">
-            <nuxt-img
+            <img
               :src="homePage.hakkimizda.logo.src.split('public')[1]"
               :alt="homePage.hakkimizda.logo.alt"
               class="flex justify-end items-end w-16"
@@ -582,7 +582,7 @@
             id="contact-image-side"
             class="hidden lg:block h-[667px] w-[574px]"
           >
-            <nuxt-img
+            <img
               :src="homePage.mesaj.foto.src.split('public')[1]"
               :alt="homePage.mesaj.foto.alt"
               class="rounded-b-2xl h-full w-full lg:rounded-b-none lg:rounded-r-2xl"
