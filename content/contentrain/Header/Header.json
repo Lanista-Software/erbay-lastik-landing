@@ -24,11 +24,11 @@
       },
       {
         "ID": "f1e92c07-448f-4095-b8db-536ebbff5bae",
-        "link": "#products",
+        "link": "products",
         "name": "Ürünler",
         "navId": "nav-products",
         "createdAt": 1661161832682,
-        "updatedAt": 1663055021959
+        "updatedAt": 1663055045497
       },
       {
         "ID": "94105c69-6996-44c7-a27e-710d3e80a050",
