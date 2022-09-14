@@ -101,6 +101,7 @@
               :src="item.foto.src"
               :alt="item.foto.alt"
               class="max-h-40 max-w-40 h-auto w-auto"
+              sizes="h-40"
             />
           </div>
           <div
@@ -210,6 +211,7 @@
                 :src="item.foto.src"
                 :alt="item.foto.alt"
                 class="max-h-40 max-w-40 h-auto w-auto"
+                sizes="h-40"
               />
             </div>
             <div
