@@ -100,7 +100,7 @@
               format="webp"
               :src="item.foto.src"
               :alt="item.foto.alt"
-              class="max-h-40 max-w-40"
+              class="max-h-40 max-w-40 h-auto w-auto"
             />
           </div>
           <div
@@ -209,7 +209,7 @@
                 format="webp"
                 :src="item.foto.src"
                 :alt="item.foto.alt"
-                class="max-h-40 max-w-40"
+                class="max-h-40 max-w-40 h-auto w-auto"
               />
             </div>
             <div
