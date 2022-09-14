@@ -4,16 +4,16 @@
   >
     <div class="border-b-2 border-primary-200 hidden lg:block">
       <div id="contact" class="container-lg py-2">
-        <li class="flex flex-row justify-between items-center">
-          <ul v-for="item in headerData.ustNavigasyon" :key="item">
+        <ul class="flex flex-row justify-between items-center">
+          <li v-for="item in headerData.ustNavigasyon" :key="item">
             <a
               :href="item.link"
               class="flex flex-row justify-start items-center"
               ><LuiIcon :name="item.icon" line size="xl" class="pr-1"></LuiIcon>
               {{ item.isim }}
             </a>
-          </ul>
-        </li>
+          </li>
+        </ul>
       </div>
     </div>
     <nav

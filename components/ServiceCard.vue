@@ -1,9 +1,9 @@
 <template>
   <div class="service-hover-card radius-10" :style="bgStyle">
     <div class="bg-dark_08 service-hover-card-abs">
-      <h5 class="text-white fw-100">
+      <h4 class="text-white fw-100">
         {{ title }}
-      </h5>
+      </h4>
       <p class="text-white fw-400">
         {{ description }}
       </p>
