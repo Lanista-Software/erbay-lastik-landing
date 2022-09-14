@@ -57,7 +57,7 @@
                 />
               </div>
               <div class="all-center">
-                <img
+                <nuxt-img
                   :src="homePage.hero.aramaKarti.foto.src.split('public')[1]"
                   :alt="homePage.hero.aramaKarti.foto.alt"
                 />
@@ -100,7 +100,7 @@
               format="webp"
               :src="item.foto.src"
               :alt="item.foto.alt"
-              class="max-h-40 max-w-40"
+              class="max-h-40 max-w-40 h-40 w-40"
             />
           </div>
           <div
@@ -108,7 +108,7 @@
             class="flex flex-row justify-between items-center px-4 py-6"
           >
             <span class="text-primary-300">{{ item.mevsim }} LASTİĞİ</span>
-            <img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
+            <nuxt-img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
           </div>
           <div id="hit-name" class="overflow-hidden pb-4">
             <LuiText
@@ -209,7 +209,7 @@
                 format="webp"
                 :src="item.foto.src"
                 :alt="item.foto.alt"
-                class="max-h-40 max-w-40"
+                class="max-h-40 max-w-40 h-40 w-40"
               />
             </div>
             <div
@@ -217,7 +217,7 @@
               class="flex flex-row justify-between items-center px-4 py-6"
             >
               <span class="text-primary-300">{{ item.mevsim }} LASTİĞİ</span>
-              <img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
+              <nuxt-img :src="choseSeason(item.mevsim)" alt="lastik tipi" />
             </div>
             <div id="hit-name" class="overflow-hidden pb-4">
               <LuiText
@@ -354,7 +354,7 @@
             :key="index"
             class="bg-white rounded-2xl md:h-44 md:w-52 h-[88px] w-[104px] all-center border"
           >
-            <img
+            <nuxt-img
               :src="item.src.split('public')[1]"
               :alt="item.alt"
               class="rounded-xl p-3"
@@ -380,7 +380,7 @@
             }}</LuiText>
           </div>
           <div class="img-side lg:flex justify-end items-end hidden">
-            <img
+            <nuxt-img
               :src="homePage.hakkimizda.logo.src.split('public')[1]"
               :alt="homePage.hakkimizda.logo.alt"
               class="flex justify-end items-end w-16"
@@ -584,7 +584,7 @@
             id="contact-image-side"
             class="hidden lg:block h-[667px] w-[574px]"
           >
-            <img
+            <nuxt-img
               :src="homePage.mesaj.foto.src.split('public')[1]"
               :alt="homePage.mesaj.foto.alt"
               class="rounded-b-2xl h-full w-full lg:rounded-b-none lg:rounded-r-2xl"
