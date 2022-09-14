@@ -101,6 +101,7 @@
               :src="item.foto.src"
               :alt="item.foto.alt"
               class="max-h-40 max-w-40 h-auto w-auto"
+              sizes="max-h-40 max-w-40 h-auto w-auto"
             />
           </div>
           <div
@@ -152,7 +153,7 @@
           class="container-description all-center flex-col pb-8 text-center"
         >
           <LuiHeading
-            level="3"
+            level="2"
             size="xl"
             class="font-semibold pb-2 text-secondary-800"
             >{{ homePage.urunler.baslik }}</LuiHeading
@@ -210,6 +211,7 @@
                 :src="item.foto.src"
                 :alt="item.foto.alt"
                 class="max-h-40 max-w-40 h-auto w-auto"
+                sizes="max-h-40 max-w-40 h-auto w-auto"
               />
             </div>
             <div
