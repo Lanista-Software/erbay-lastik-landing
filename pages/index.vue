@@ -355,7 +355,7 @@
             :key="index"
             class="bg-white rounded-2xl md:h-44 md:w-52 h-[88px] w-[104px] all-center border"
           >
-            <nuxt-img
+            <img
               :src="item.src.split('public')[1]"
               :alt="item.alt"
               class="rounded-xl p-3"
