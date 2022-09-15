@@ -210,6 +210,7 @@
                 :src="item.foto.src"
                 :alt="item.foto.alt"
                 class="max-h-40 max-w-40 h-auto w-auto"
+                sizes="sm:160px md:160px lg:160px"
               />
             </div>
             <div
@@ -354,7 +355,7 @@
             :key="index"
             class="bg-white rounded-2xl md:h-44 md:w-52 h-[88px] w-[104px] all-center border"
           >
-            <img
+            <nuxt-img
               :src="item.src.split('public')[1]"
               :alt="item.alt"
               class="rounded-xl p-3"
