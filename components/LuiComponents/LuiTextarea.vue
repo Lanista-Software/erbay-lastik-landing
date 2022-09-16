@@ -4,7 +4,7 @@
       v-bind="$attrs"
       :class="computedClasses"
       :value="modelValue"
-      @input="handleInput"
+      @input="$emit('update:modelValue', $event.target.value)"
     ></textarea>
     <lui-icon
       v-if="state !== null"
@@ -42,7 +42,7 @@ export default {
       default: '',
     },
   },
-  emits: ['update:modelValue', 'input'],
+  // emits: ['update:modelValue'],
   computed: {
     computedClasses() {
       const classes = {
@@ -152,10 +152,10 @@ export default {
     },
   },
   methods: {
-    handleInput(e) {
-      console.log(e.target.value)
-      this.$emit('update:modelValue', e.target.value)
-    },
+    // handleInput(e) {
+    //   console.log(e.target.value)
+    //   this.$emit('update:modelValue', e.target.value)
+    // },
   },
 }
 </script>

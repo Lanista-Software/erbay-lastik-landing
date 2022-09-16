@@ -11,8 +11,8 @@
         ref="Linput"
         v-bind="$attrs"
         :class="computedClasses"
-        :value="value"
-        @input="$emit('input', $event.target.value)"
+        :value="modelValue"
+        @input="$emit('update:modelValue', $event.target.value)"
       />
       <lui-button
         v-if="clear && !$attrs.disabled"
@@ -67,7 +67,7 @@ export default {
         return [null, 'warning', true, false].includes(value)
       },
     },
-    value: {
+    modelValue: {
       type: String,
       default: '',
     },

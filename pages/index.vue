@@ -514,6 +514,7 @@
                   size="lg"
                   class="w-full"
                   :placeholder="homePage.mesaj.bilgiler[0].placeholder"
+                  v-model="request.name"
                 ></LuiInput>
               </div>
             </div>
@@ -530,6 +531,7 @@
                   size="lg"
                   class="w-full"
                   :placeholder="homePage.mesaj.bilgiler[1].placeholder"
+                  v-model="request.surname"
                 ></LuiInput>
               </div>
             </div>
@@ -545,6 +547,8 @@
                 size="lg"
                 class="w-full"
                 :placeholder="homePage.mesaj.bilgiler[2].placeholder"
+                v-model="request.phone"
+                type="phone"
               ></LuiInput>
             </div>
             <div class="col-span-2">
@@ -559,6 +563,8 @@
                 size="lg"
                 class="w-full"
                 :placeholder="homePage.mesaj.bilgiler[3].placeholder"
+                v-model="request.email"
+                type="email"
               ></LuiInput>
             </div>
             <div class="col-span-2">
@@ -568,15 +574,16 @@
                 :for="homePage.mesaj.bilgiler[4].label"
                 >{{ homePage.mesaj.bilgiler[4].label }}</LuiLabel
               >
-              <LuiTextarea
+              <LuiInput
                 :id="homePage.mesaj.bilgiler[4].label"
                 size="lg"
                 class="w-full h-32"
                 :placeholder="homePage.mesaj.bilgiler[4].placeholder"
-              />
+                v-model="request.message"
+              ></LuiInput>
             </div>
             <div class="col-span-2 flex justify-end items-end">
-              <LuiButton size="lg" rounded>{{
+              <LuiButton size="lg" rounded @click.prevent="sendEmail">{{
                 homePage.mesaj.buton
               }}</LuiButton>
             </div>
@@ -597,12 +604,21 @@
   </div>
 </template>
 <script setup>
+import emailjs from '@emailjs/browser'
 const { data } = await useAsyncData('anasayfa', () =>
   queryContent('contentrain', 'anasayfa').findOne()
 )
 let homePage = data.value.body[0]
 let productList = homePage.urunler.urunKartlari
 const renderCount = ref(0)
+
+const request = ref({
+  name: '',
+  surname: '',
+  phone: '',
+  email: '',
+  message: '',
+})
 
 function sendOptions(obj) {
   const list = obj.liste.map((e) => {
@@ -633,6 +649,40 @@ function scrollDown(id) {
     top: offsetPosition,
     behavior: 'smooth',
   })
+}
+
+const event = new Date(Date.now())
+const options = {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}
+
+const tarih = event.toLocaleDateString('tr-TR', options)
+function sendEmail() {
+  emailjs
+    .send(
+      'service_izz8hhx',
+      'template_g2o3nog',
+      { ...request.value, date: tarih },
+      'user_peFrv1kz8ZeqVfNRiSaMv'
+    )
+    .then(
+      () => {
+        alert('Mailiniz alınmıştır!!')
+      },
+      () => {
+        alert('Mail gönderilemedi')
+      }
+    )
+  request.value = {
+    name: '',
+    surname: '',
+    phone: '',
+    email: '',
+    message: '',
+  }
 }
 
 const sections = ['main', 'products', 'brands', 'about', 'faq']
